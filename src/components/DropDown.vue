@@ -1,6 +1,5 @@
 <template>
     <div>
-        <v-i
         <v-icon size="large" color="black" icon="mdi-chevron-down"></v-icon>
         <div class="dropdown-select" @click="handleSelection">
             <div v-if="this.selectedOption === null">Select Keyforge Set</div>

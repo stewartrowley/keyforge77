@@ -1,0 +1,132 @@
+[
+  {
+    "id": "001",
+    "title": "1-2 Punch",
+    "imageUri": "https://archonarcana.com/images/2/2c/435-001.png",
+    "house": "Brobnar",
+    "houseColor": "#C01E21",
+    "houseIcon": "https://keyforging.com/wp-content/uploads/2022/06/kf01_brobnar_faction_icon.png",
+    "bonusIcons": [
+      {
+        "amber": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      }
+    ],
+    "rarity": "Common",
+    "type": "Action",
+	  "creatureType": null,
+    "power": null,
+	  "armor": null,
+	  "abilityType": ["Play"],
+    "ability": ["stun"],
+    "abilityDescription": ["Stun an enemy creature. If that creature was already stunned, destroy it instead."],
+    "set": ["AoA"],
+    "setId": ["001"]
+  },
+  {
+    "id": "002",
+    "title": "Bingle Bangbang",
+    "imageUri": "https://archonarcana.com/images/f/fa/435-002.png",
+    "house": "Brobnar",
+    "houseColor": "#C01E21",
+    "houseIcon": "https://keyforging.com/wp-content/uploads/2022/06/kf01_brobnar_faction_icon.png",
+    "bonusIcons": [
+      {
+        "amber": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      }
+    ],
+    "rarity": "Common",
+    "type": "Creature",
+	  "creatureType": ["Goblin"],
+    "power": 2,
+	  "armor": 0,
+	  "abilityType": ["Before Fight"],
+    "ability": ["splash"],
+    "abilityDescription": ["Deal 5 damage to each neighbor of the creature Bingle Bangbang fights."],
+    "set": ["AoA", "VM2023"],
+    "setId": ["002", "040"]
+  },
+  {
+    "id": "003",
+    "title": "Brammo",
+    "imageUri": "https://archonarcana.com/images/6/6b/435-003.png",
+    "house": "Brobnar",
+    "houseColor": "#C01E21",
+    "houseIcon": "https://keyforging.com/wp-content/uploads/2022/06/kf01_brobnar_faction_icon.png",
+    "bonusIcons": [
+      {
+        "amber": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      }
+    ],
+    "rarity": "Common",
+    "type": "Creature",
+	  "creatureType": ["Giant", "Knight"],
+    "power": 4,
+	  "armor": 1,
+	  "abilityType": ["Play"],
+    "ability": ["damage"],
+    "abilityDescription": ["Deal 2 damage to each enemy flank creature."],
+    "set": [""],
+    "setId": [""]
+  },
+  {
+    "id": "004",
+    "title": "Coward's End",
+    "imageUri": "https://archonarcana.com/images/a/a7/435-004.png",
+    "house": "Brobnar",
+    "houseColor": "#C01E21",
+    "houseIcon": "https://keyforging.com/wp-content/uploads/2022/06/kf01_brobnar_faction_icon.png",
+    "bonusIcons": [
+      {
+        "amber": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      }
+    ],
+    "rarity": "Common",
+    "type": "Action",
+	  "creatureType": null,
+    "power": null,
+	  "armor": null,
+	  "abilityType": ["Play"],
+    "ability": ["wipe"],
+    "abilityDescription": ["Destroy each undamaged creature. Gain 3 chains."],
+    "set": ["CotA", "AoA"],
+    "setId": ["007", "004"]
+  },
+  {
+    "id": "005",
+    "title": "Cowfyne",
+    "imageUri": "https://archonarcana.com/images/5/53/452-006.png",
+    "house": "Brobnar",
+    "houseColor": "#C01E21",
+    "houseIcon": "https://keyforging.com/wp-content/uploads/2022/06/kf01_brobnar_faction_icon.png",
+    "bonusIcons": [
+      {
+        "amber": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      }
+    ],
+    "rarity": "Common",
+    "type": "Creature",
+	  "creatureType": ["Giant"],
+    "power": 5,
+	  "armor": 0,
+	  "abilityType": ["Before Fight"],
+    "ability": ["splash"],
+    "abilityDescription": [" Deal 2 damage to each neighbor of the creature Cowfyne fights."],
+    "set": ["AoA", "WC", "VM2023"],
+    "setId": ["005", "006", "043"]
+  }
+]
