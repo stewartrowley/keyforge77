@@ -4,17 +4,30 @@ import cards from '../json/cards.json'
 export const useCardStore = defineStore('card', {
   state () {
     return {
-      cardsData: []
+      cards: []
     };
   },
   getters: {
-    getCardsData () {
-      return this.cardsData;
-    }
+    getCards () {
+      return this.cards;
+    },
   },
   actions: {
-    setCardsData () {
-      this.cardsData = cards;
+    setCards () {
+      this.cards = cards;
+      console.log(cards);
+    },
+    getCardType (key) {
+      switch (key) {
+        case 1:
+          return "Action"
+        case 2:
+          return "Creature"
+        case 3:
+          return "Artifact"
+        case 4:
+          return "Upgrade"
+      }
     }
   }
 })

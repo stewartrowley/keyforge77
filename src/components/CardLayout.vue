@@ -4,9 +4,9 @@
          <img class="card-image" :src="card.imageUri" />
          <h1>{{ card.title }}</h1>
          <h3>{{ card.house }}</h3>
-         <img class="card-house-icon" :src="card.houseIcon" />
+         <!-- <img class="card-house-icon" :src="card.houseIcon" /> -->
          <p>Rarity: {{ card.rarity }}</p>
-         <p>Card Type: {{ card.type }}</p>
+         <p>Card Type: {{ this.getCardType(card.type) }}</p>
       </div>
    </div>
 </template>
@@ -20,9 +20,18 @@ export default {
          cardStore
       }
    },
+   props: [
+    "cards"
+   ],
    computed: {
       items() {
-         return this.cardStore.cardsData;
+         console.log(this.$props.cards)
+         return this.$props.cards;
+      }
+   },
+   methods: {
+      getCardType (type) {
+         return this.cardStore.getCardType(type);
       }
    }
 }

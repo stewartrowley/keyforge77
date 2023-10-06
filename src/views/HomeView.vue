@@ -1,13 +1,13 @@
 <template>
   <div class="home-container">
     <DropDown />
-    <Card />
+    <DeckLayout />
   </div>
 </template>
 <script>
 import DropDown from '../components/DropDown.vue';
-import Card from '../components/Card.vue';
 import {useCardStore} from '@/stores/cardStore.js'
+import DeckLayout from '../components/DeckLayout.vue';
 export default {
   setup () {
     const cardStore = useCardStore();
@@ -17,12 +17,12 @@ export default {
     }
   },
   mounted () {
-    console.log(this.cardStore.cardsData);
+    console.log(this.cardStore.AoACards);
   },
   components: {
     DropDown,
-    Card
-  }
+    DeckLayout
+}
 }
 </script>
 <style scoped>

@@ -1,9 +1,13 @@
 [
    {
-      "key": "",
-      "name": "",
-      "houses": [],
-      "cards": [],
-      "set": ""
+      "key": "AoAD1",
+      "name": "Endomotor, Minaret Prophet",
+      "houses": ["Dis", "Logos", "Sanctum"],
+      "cards": [
+         "AoA053", "AoA053", "AoA058", "AoA059", "AoA062", "AoA064", "AoA068", "AoA074", "AoA075", "AoA076", "AoA093", "AoA105",
+         "AoA109", "AoA110", "AoA115", "AoA118", "AoA120", "AoA124", "AoA132", "AoA132", "AoA135", "AoA136", "AoA138", "AoA148",
+         "AoA216", "AoA217", "AoA217", "AoA218", "AoA219", "AoA219", "AoA223", "AoA226", "AoA226", "AoA226", "AoA227", "AoA231"
+      ],
+      "set": "Age of Ascension"
    }
 ]
