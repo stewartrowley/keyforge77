@@ -2,25 +2,31 @@
 import { RouterLink, RouterView } from 'vue-router'
 import { useCardStore } from './stores/cardStore';
 import { useDeckStore } from './stores/deckStore';
+import { useSetStore } from './stores/setStore';
 const deckStore = useDeckStore();
 const cardStore = useCardStore();
+const setStore = useSetStore();
 cardStore.setCards();
 deckStore.setDecks();
+setStore.setHouses();
 
 </script>
 
 <template>
   <header>
-    <img src="./assets/" class="logo-banner" />
     <div class="nav-container">
       <div class="nav-logo-box">
         <img class="nav-logo" src="./assets/keyforge-cards/keychart-logo.png" />
         <h1 class="nav-logo-text">KeyChart</h1>
       </div>
+      <div>
+          <img src="./assets/keyforge-logos/keyforge_banner-tight.jpg" class="logo-banner" />
+        </div>
       <nav class="nav-box">
         <RouterLink class="nav-link" to="/">Home</RouterLink>
         <RouterLink class="nav-link" to="/decks">Decks</RouterLink>
         <RouterLink class="nav-link" to="/pods">Pods</RouterLink>
+        <RouterLink class="nav-link" to="/cards">Cards</RouterLink>
       </nav>
     </div>
   </header>
@@ -30,17 +36,16 @@ deckStore.setDecks();
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-/* .logo-banner {
+.logo-banner {
   width: 100%;
   height: 100%;
-} */
+}
 .nav-container {
   display: grid;
-  height: 300px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   justify-content: center;
-  /* background-color: navy; */
+  background-color: black;
   padding: 1rem;
 }
 .nav-box {
@@ -68,7 +73,7 @@ deckStore.setDecks();
 }
 .nav-link {
   color: #FFFFFF;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
 }
 .nav-link:hover {
   background-color: #FFFFFF;

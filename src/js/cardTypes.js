@@ -3,7 +3,7 @@
 //     "key": "AoA",
 //     "type": 4,
 //     "title": "",
-//     "imageUri": "../assets/keyforge-cards/age-of-ascension/blood_of_titans.png",
+//     "imageUri": "src/assets/keyforge-cards/age-of-ascension/blood_of_titans.png",
 //     "house": "",
 //     "bonusIcons": [
 //       {
@@ -26,7 +26,7 @@
 //     "key": "AoA",
 //     "type": 3,
 //     "title": "",
-//     "imageUri": "../assets/keyforge-cards/age-of-ascension/gauntlet_of_command.png",
+//     "imageUri": "src/assets/keyforge-cards/age-of-ascension/gauntlet_of_command.png",
 //     "house": "",
 //     "bonusIcons": [
 //       {
@@ -50,7 +50,7 @@
 //     "key": "AoA",
 //     "type": 2,
 //     "title": "",
-//     "imageUri": "../assets/keyforge-cards/age-of-ascension/bingle_bangbang.png",
+//     "imageUri": "src/assets/keyforge-cards/age-of-ascension/bingle_bangbang.png",
 //     "house": "",
 //     "bonusIcons": [
 //       {
@@ -77,7 +77,7 @@
 //     "key": "AoA001",
 //     "type": 1,
 //     "title": "",
-//     "imageUri": "../assets/keyforge-cards/age-of-ascension/1-2_punch.png",
+//     "imageUri": "src/assets/keyforge-cards/age-of-ascension/1-2_punch.png",
 //     "house": "Brobnar",
 //     "bonusIcons": [
 //       {
