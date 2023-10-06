@@ -32,7 +32,12 @@ export default {
    methods: {
       getCardType (type) {
          return this.cardStore.getCardType(type);
-      }
+      },
+      // getImage(image) {
+      //    const parseImage = JSON.stringify(image)
+      //    console.log(parseImage);
+      //    return parseImage;
+      // }
    }
 }
 </script>

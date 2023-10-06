@@ -2,6 +2,7 @@
   <div class="home-container">
     <DropDown />
     <DeckLayout />
+    <!-- <img src="../assets/keyforge-cards/age-of-ascension/dust_imp.png" /> -->
   </div>
 </template>
 <script>

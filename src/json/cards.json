@@ -3,7 +3,7 @@
     "key": "AoA001",
     "type": 1,
     "title": "1-2 Punch",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/1-2_punch.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/1-2_punch.png",
     "house": "Brobnar",
     "bonusIcons": [
       {
@@ -26,7 +26,7 @@
     "key": "AoA002",
     "type": 2,
     "title": "Bingle Bangbang",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/bingle_bangbang.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/bingle_bangbang.png",
     "house": "Brobnar",
     "bonusIcons": [
       {
@@ -51,7 +51,7 @@
     "key": "AoA010",
     "type": 3,
     "title": "Gauntlet of Command",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/gauntlet_of_command.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/gauntlet_of_command.png",
     "house": "Brobnar",
     "bonusIcons": [
       {
@@ -73,7 +73,7 @@
     "key": "AoA018",
     "type": 4,
     "title": "Blood of Titans",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/blood_of_titans.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/blood_of_titans.png",
     "house": "Brobnar",
     "bonusIcons": [
       {
@@ -94,7 +94,7 @@
     "key": "AoA058",
     "type": 2,
     "title": "Dust Imp",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/dust_imp.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/dust_imp.png",
     "house": "Dis",
     "bonusIcons": [
       {
@@ -118,7 +118,7 @@
     "key": "AoA074",
     "type": 1,
     "title": "Hysteria",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/hysteria.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/hysteria.png",
     "house": "Dis",
     "bonusIcons": [
       {
@@ -139,7 +139,7 @@
     "key": "AoA105",
     "type": 3,
     "title": "Soul Snatcher",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/soul_snatcher.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/soul_snatcher.png",
     "house": "Dis",
     "bonusIcons": [
       {
@@ -161,7 +161,7 @@
     "key": "AoA075",
     "type": 3,
     "title": "Library of the Damned",
-    "imageUri": "../assets/keyforge-cards/age-of-ascension/library_of_the_damned.png",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/library_of_the_damned.png",
     "house": "Dis",
     "bonusIcons": [
       {

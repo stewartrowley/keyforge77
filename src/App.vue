@@ -11,6 +11,7 @@ deckStore.setDecks();
 
 <template>
   <header>
+    <img src="./assets/" class="logo-banner" />
     <div class="nav-container">
       <div class="nav-logo-box">
         <img class="nav-logo" src="./assets/keyforge-cards/keychart-logo.png" />
@@ -29,12 +30,17 @@ deckStore.setDecks();
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* .logo-banner {
+  width: 100%;
+  height: 100%;
+} */
 .nav-container {
   display: grid;
+  height: 300px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  background-color: navy;
+  /* background-color: navy; */
   padding: 1rem;
 }
 .nav-box {

@@ -8,6 +8,20 @@
   font-weight: normal;
 } */
 
+:root {
+  --brobnar: #d71d21;
+  --dis: #C31958;
+  --ekwidon: #b56424;
+  --logos: #108eb0;
+  --mars: #71A93B;
+  --sanctum: #19428F;
+  --saurian: #069c94;
+  --shadows: #35335d;
+  --star-alliance: #ee9b22;
+  --unfathomable: #283162;
+  --untamed: #ce4322;
+}
+
 a,
 .green {
   text-decoration: none;
