@@ -5,22 +5,29 @@
     "title": "1-2 Punch",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/1-2_punch.png",
     "house": "Brobnar",
-    "bonusIcons": [
-      {
-        "amber": 1,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
-    "effect": ["Play"],
+    "effect": [
+      "Play"
+    ],
     "effectDescription": [
       "Stun an enemy creature. If that creature was already stunned, destroy it instead."
     ],
-    "ability": ["stun", "destroyed"],
-    "set": ["AoA"],
-    "setId": ["AoA001"]
+    "ability": [
+      "stun",
+      "destroyed"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA001"
+    ]
   },
   {
     "key": "AoA002",
@@ -28,24 +35,292 @@
     "title": "Bingle Bangbang",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/bingle_bangbang.png",
     "house": "Brobnar",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
-    "creatureType": ["Goblin"],
     "power": 2,
     "armor": 0,
-    "traits": ["Goblin"],
-    "effect": ["Before Fight"],
-    "effectDescription": ["Deal 5 damage to each neighbor of the creature Bingle Bangbang fights."],
-    "ability": ["splash", "damage"],
-    "set": ["AoA", "VM2023"],
-    "setId": ["AoA002", "VM2023040"]
+    "traits": [
+      "Goblin"
+    ],
+    "effect": [
+      "Before Fight"
+    ],
+    "effectDescription": [
+      "Deal 5 damage to each neighbor of the creature Bingle Bangbang fights."
+    ],
+    "ability": [
+      "splash",
+      "damage"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA002",
+      "VM2023040"
+    ]
+  },
+  {
+    "key": "AoA003",
+    "type": 2,
+    "title": "Brammo",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/brammo.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 4,
+    "armor": 1,
+    "traits": [
+      "Giant",
+      "Knight"
+    ],
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Deal 2 Damage to each enemy flank creature."
+    ],
+    "ability": [
+      "splash",
+      "damage"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA003",
+      "VM2023041"
+    ]
+  },
+  {
+    "key": "AoA004",
+    "type": 1,
+    "title": "Coward's End",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/cowards_end.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Destroy each undamaged creature. Gain 3 chains."
+    ],
+    "ability": [
+      "destroy",
+      "gainChains"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA007",
+      "AoA004"
+    ]
+  },
+  {
+    "key": "AoA005",
+    "type": 2,
+    "title": "Cowfyne",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/cowfyne.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 5,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Before Fight"
+    ],
+    "effectDescription": [
+      "Before Fight: Deal 2 Damage to each neighbor of the creature Cowfyne fights."
+    ],
+    "ability": [
+      "splash",
+      "damage",
+      "fight"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA005",
+      "WC006",
+      "VM2023043"
+    ]
+  },
+  {
+    "key": "AoA006",
+    "type": 2,
+    "title": "Drummernaut",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/drummernaut.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 6,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Play/After Fight/After Reap"
+    ],
+    "effectDescription": [
+      "Play/After Fight/After Reap: Return another friendly Giant creature to your hand."
+    ],
+    "ability": [
+      "play/fight/reap",
+      "return"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA006",
+      "VM2023044"
+    ]
+  },
+  {
+    "key": "AoA007",
+    "type": 1,
+    "title": "First Blood",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/first_blood.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Alpha. (You can only play this card before doing anything else this step.)",
+      "Play: Deal 2 Damage for each friendly Brobnar creature. You may divide this damage among any number of creatures."
+    ],
+    "ability": [
+      "alpha",
+      "damage"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA007"
+    ]
+  },
+  {
+    "key": "AoA008",
+    "type": 2,
+    "title": "Foozle",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/foozle.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 5,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Reap"
+    ],
+    "effectDescription": [
+      "Reap: If an enemy creature has been destroyed this turn, gain 1 Aember."
+    ],
+    "ability": [
+      "gainAember"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA008",
+      "VM2023045"
+    ]
+  },
+  {
+    "key": "AoA009",
+    "type": 2,
+    "title": "Granger Chieftain",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/granger_chieftain.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 5,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: You may ready and fight with a neighboring creature.",
+      "It takes two to fight, but more is better."
+    ],
+    "ability": [
+      "ready",
+      "fight"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA033",
+      "AoA009",
+      "WC007",
+      "VM2023047"
+    ]
   },
   {
     "key": "AoA010",
@@ -53,21 +328,33 @@
     "title": "Gauntlet of Command",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/gauntlet_of_command.png",
     "house": "Brobnar",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
-    "traits": ["Item"],
-    "effect": ["Action"],
-    "effectDescription": ["Ready and fight with a friendly creature"],
-    "ability": ["fight"],
-    "set": ["CotA", "AoA"],
-    "setId": ["CotA022", "AoA010"]
+    "traits": [
+      "Item"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Ready and fight with a friendly creature"
+    ],
+    "ability": [
+      "fight"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA022",
+      "AoA010"
+    ]
   },
   {
     "key": "AoA018",
@@ -75,20 +362,65 @@
     "title": "Blood of Titans",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/blood_of_titans.png",
     "house": "Brobnar",
-    "bonusIcons": [
-      {
-        "amber": 1,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Uncommon",
     "effect": "Neutral",
-    "effectDescription": ["This creature gets +5 power."],
-    "ability": ["power"],
-    "set": ["CotA", "AoA", "WoE"],
-    "setKeys": ["CotA050", "AoA018", "WoE021"]
+    "effectDescription": [
+      "This creature gets +5 power."
+    ],
+    "ability": [
+      "power"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WoE"
+    ],
+    "setKeys": [
+      "CotA050",
+      "AoA018",
+      "WoE021"
+    ]
+  },
+  {
+    "key": "AoA053",
+    "type": 2,
+    "title": "AEmber Imp",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/aember_imp.png",
+    "house": "Dis",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 2,
+    "armor": 0,
+    "traits": [
+      "Imp"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)"
+    ],
+    "ability": [
+      "elusive",
+      "stun"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA053"
+    ]
   },
   {
     "key": "AoA058",
@@ -96,88 +428,137 @@
     "title": "Dust Imp",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/dust_imp.png",
     "house": "Dis",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
     "power": 2,
     "armor": 0,
-    "traits": ["Imp"],
-    "effect": ["Destroyed"],
-    "effectDescription": ["Gain 2 ember"],
-    "ability": ["emberGain"],
-    "set": ["CotA", "AoA", "VM2023"],
-    "setId": ["CotA083", "AoA058", "VM2023093"]
+    "traits": [
+      "Imp"
+    ],
+    "effect": [
+      "Destroyed"
+    ],
+    "effectDescription": [
+      "Gain 2 ember"
+    ],
+    "ability": [
+      "aemberGain"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA083",
+      "AoA058",
+      "VM2023093"
+    ]
   },
   {
-    "key": "AoA074",
+    "key": "AoA059",
     "type": 1,
-    "title": "Hysteria",
-    "imageUri": "src/assets/keyforge-cards/age-of-ascension/hysteria.png",
+    "title": "Exhume",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/exhume.png",
     "house": "Dis",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
     ],
-    "rarity": "Uncommon",
-    "effect": ["Play"],
-    "effectDescription": ["Return each creature to its owner’s hand."],
-    "ability": ["return"],
-    "set": ["CotA", "AoA", "WC"],
-    "setId": ["CotA065", "AoA074", "WC091"]
+    "effectDescription": [
+      "Choose a creature in your discard pile. You may play that creature as if it belonged to the active house and was in your hand."
+    ],
+    "ability": [
+      "play"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA059",
+      "WC074",
+      "VM2023094"
+    ]
   },
   {
-    "key": "AoA105",
-    "type": 3,
-    "title": "Soul Snatcher",
-    "imageUri": "src/assets/keyforge-cards/age-of-ascension/soul_snatcher.png",
+    "key": "AoA062",
+    "type": 1,
+    "title": "Misery Exploit",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/misery_exploit.png",
     "house": "Dis",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
     ],
-    "rarity": "Rare",
-    "traits": ["Vehicle"],
-    "effect": ["Neutral"],
-    "effectDescription": ["Each time a creature is destroyed, its owner gains 1 ember icon."],
-    "ability": ["destroyed", "emberGain"],
-    "set": ["CotA", "AoA", "WC"],
-    "setId": ["CotA080", "AoA105", "WC119"]
+    "effectDescription": [
+      "Gain Aember icon for each damaged enemy creature."
+    ],
+    "ability": [
+      "aemberGain"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA062",
+      "WC081"
+    ]
   },
   {
-    "key": "AoA075",
-    "type": 3,
-    "title": "Library of the Damned",
-    "imageUri": "src/assets/keyforge-cards/age-of-ascension/library_of_the_damned.png",
+    "key": "AoA064",
+    "type": 2,
+    "title": "Shooler",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/shooler.png",
     "house": "Dis",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 5,
+    "armor": 0,
+    "traits": [
+      "Demon"
     ],
-    "rarity": "Uncommon",
-    "traits": ["Location"],
-    "effect": ["Action"],
-    "effectDescription": ["Archive a card."],
-    "ability": ["archive"],
-    "set": ["CotA", "AoA", "WC", "VM2023"],
-    "setId": ["CotA076", "AoA075", "WC092", "VM2023079"]
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "If your opponent has 4Aember icon or more, steal 1Aember icon."
+    ],
+    "ability": [
+      "steal"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA096",
+      "AoA064"
+    ]
   },
   {
     "key": "AoA068",
@@ -185,593 +566,1130 @@
     "title": "Yurk",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/yurk.png",
     "house": "Dis",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
     "power": 4,
     "armor": 0,
-    "traits": ["Demon"],
-    "effect": ["Play"],
-    "effectDescription": ["Choose and discard a card from your hand."],
-    "ability": ["discard"],
-    "set": ["AoA", "VM2023"],
-    "setId": ["AoA068", "VM2023104"]
-},
-{
-  "key": "AoA062",
-  "type": 1,
-  "title": "Misery Exploit",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/misery_exploit.png",
-  "house": "Dis",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    "traits": [
+      "Demon"
+    ],
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Choose and discard a card from your hand."
+    ],
+    "ability": [
+      "discard"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA068",
+      "VM2023104"
+    ]
+  },
+  {
+    "key": "AoA074",
+    "type": 1,
+    "title": "Hysteria",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/hysteria.png",
+    "house": "Dis",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "effect": ["Play"],
-  "effectDescription": ["Gain Aember icon for each damaged enemy creature."],
-  "ability": ["emberGain"],
-  "set": ["AoA", "WC"],
-  "setId": ["AoA062", "WC081"]
-},
-{
-  "key": "AoA064",
-  "type": 2,
-  "title": "Shooler",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/shooler.png",
-  "house": "Dis",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Return each creature to its owner’s hand."
+    ],
+    "ability": [
+      "return"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA065",
+      "AoA074",
+      "WC091"
+    ]
+  },
+  {
+    "key": "AoA075",
+    "type": 3,
+    "title": "Library of the Damned",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/library_of_the_damned.png",
+    "house": "Dis",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "power": 5,
-  "armor": 0,
-  "traits": ["Demon"],
-  "effect": ["Play"],
-  "effectDescription": ["If your opponent has 4Aember icon or more, steal 1Aember icon."],
-  "ability": ["steal"],
-  "set": ["CotA", "AoA"],
-  "setId": ["CotA096","AoA064"]
-},
-{
-  "key": "AoA059",
-  "type": 1,
-  "title": "Exhume",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/exhume.png",
-  "house": "Dis",
-  "bonusIcons": [
-    {
-      "amber": 1,
+    },
+    "rarity": "Uncommon",
+    "traits": [
+      "Location"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Archive a card."
+    ],
+    "ability": [
+      "archive"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA076",
+      "AoA075",
+      "WC092",
+      "VM2023079"
+    ]
+  },
+  {
+    "key": "AoA076",
+    "type": 3,
+    "title": "Lifeward",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/lifeward.png",
+    "house": "Dis",
+    "bonusIcons": {
+      "aember": 1,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "effect": ["Play"],
-  "effectDescription": ["Choose a creature in your discard pile. You may play that creature as if it belonged to the active house and was in your hand."],
-  "ability": ["play"],
-  "set": ["AoA", "WC",  "VM2023"],
-  "setId": ["AoA059", "WC074", "VM2023094"]
-},
-{
+    },
+    "rarity": "Uncommon",
+    "traits": [
+      "Power"
+    ],
+    "effect": [
+      "Omni"
+    ],
+    "effectDescription": [
+      "Sacrifice Lifeward. Your opponent cannot play creatures on their next turn."
+    ],
+    "ability": [
+      "disable"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA077",
+      "AoA076"
+    ]
+  },
+  {
     "key": "AoA093",
     "type": 3,
     "title": "Key to Dis",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/key_to_dis.png",
     "house": "Dis",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
-    "rarity": "Rare",
-    "traits": ["Item"],
-    "effect": ["Omni"],
-    "effectDescription": ["Sacrifice Key to Dis. Destroy each creature."],
-    "ability": ["destroy"],
-    "set": ["CotA", "AoA", "WC"],
-    "setId": ["CotA074", "AoA093", "WC108"]
-},
-{
-  "key": "AoA076",
-  "type": 3,
-  "title": "Lifeward",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/lifeward.png",
-  "house": "Dis",
-  "bonusIcons": [
-    {
-      "amber": 1,
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "traits": ["Power"],
-  "effect": ["Omni"],
-  "effectDescription": ["Sacrifice Lifeward. Your opponent cannot play creatures on their next turn."],
-  "ability": ["disable"],
-  "set": ["CotA", "AoA"],
-  "setId": ["CotA077", "AoA076"]
-},
-{
-    "key": "AoA053",
-    "type": 2,
-    "title": "AEmber Imp",
-    "imageUri": "src/assets/keyforge-cards/age-of-ascension/aember_imp.png",
-    "house": "Dis",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
-    "rarity": "Common",
-    "power": 2,
-    "armor": 0,
-    "traits": ["Imp"],
-    "effect": ["Neutral"],
-    "effectDescription": ["Elusive. (The first time this creature is attacked each turn, no damage is dealt.)"],
-    "ability": ["elusive", "stun"],
-    "set": ["AoA"],
-    "setId": ["AoA053"]
-},
-{
-    "key": "AoA148",
-    "type": 1,
-    "title": "Master the Theory",
-    "imageUri": "src/assets/keyforge-cards/age-of-ascension/master_the_theory.png",
-    "house": "Logos",
-    "bonusIcons": [
-      {
-        "amber": 1,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    },
     "rarity": "Rare",
-    "effect": ["Play"],
+    "traits": [
+      "Item"
+    ],
+    "effect": [
+      "Omni"
+    ],
+    "effectDescription": [
+      "Sacrifice Key to Dis. Destroy each creature."
+    ],
+    "ability": [
+      "destroy"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA074",
+      "AoA093",
+      "WC108"
+    ]
+  },
+  {
+    "key": "AoA105",
+    "type": 3,
+    "title": "Soul Snatcher",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/soul_snatcher.png",
+    "house": "Dis",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "traits": [
+      "Vehicle"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Each time a creature is destroyed, its owner gains 1 ember icon."
+    ],
+    "ability": [
+      "destroyed",
+      "aemberGain"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA080",
+      "AoA105",
+      "WC119"
+    ]
+  },
+  {
+    "key": "AoA109",
+    "type": 1,
+    "title": "Binate Rupture",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/binate_rupture.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play",
+      "Alpha"
+    ],
     "effectDescription": [
       "If there are no friendly creatures, you may archive a card for each enemy creature."
     ],
-    "ability": ["archive"],
-    "set": ["AoA"],
-    "setId": ["AoA148", "WC169", "MM106", "DT021", "VM2023119"]
-},
-{
-  "key": "AoA109",
-  "type": 1,
-  "title": "Binate Rupture",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/binate_rupture.png",
-  "house": "Logos",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    "ability": [
+      "aaemberGain"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA109",
+      "VM2023149"
+    ]
+  },
+  {
+    "key": "AoA110",
+    "type": 1,
+    "title": "Cutthroat Research",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/cutthroat_research.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "effect": ["Play", "Alpha"],
-  "effectDescription": [
-    "If there are no friendly creatures, you may archive a card for each enemy creature."
-  ],
-  "ability": ["aemberGain"],
-  "set": ["AoA", "VM2023"],
-  "setId": ["AoA109", "VM2023149"]
-},
-{
-    "key": "AoA136",
-    "type": 4,
-    "title": "Rocket Boots",
-    "imageUri": "src/assets/keyforge-cards/age-of-ascension/rocket_boots.png",
-    "house": "Logos",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
     ],
-    "rarity": "Uncommon",
-    "effect": "Fight/Reap",
-    "effectDescription": ["This creature gains, “Fight/Reap: If this is the first time this creature was used this turn, ready it.”"],
-    "ability": ["ready"],
-    "set": ["CotA", "AoA", "VM2023"],
-    "setKeys": ["CotA158", "AoA136", "VM2023143"]
-},
-{
+    "effectDescription": [
+      "Steal 2Aember icon if your opponent has 8Aember icon or more."
+    ],
+    "ability": [
+      "steal"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA110",
+      "WC130"
+    ]
+  },
+  {
+    "key": "AoA112",
+    "type": 2,
+    "title": "Helper Bot",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/helper_bot.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 1,
+    "armor": 0,
+    "traits": [
+      "Robot"
+    ],
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: You may play one non-Logos card this turn."
+    ],
+    "ability": [
+      "playCard"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA112"
+    ]
+  },
+  {
+    "key": "AoA113",
+    "type": 2,
+    "title": "Hexpion",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/jargogle.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 2,
+    "armor": 0,
+    "traits": [
+      "AI"
+    ],
+    "effect": [
+      "Destroyed"
+    ],
+    "effectDescription": [
+      "Destroyed: Archive Hexpion and the top card of your deck."
+    ],
+    "ability": [
+      "archive"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA113"
+    ]
+  },
+  {
+    "key": "AoA114",
+    "type": 1,
+    "title": "Labwork",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/labwork.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Archive a card."
+    ],
+    "ability": [
+      "archive"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA114",
+      "AoA114",
+      "WC159"
+    ]
+  },
+  {
     "key": "AoA115",
     "type": 3,
     "title": "Library of Babble",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/library_of_babble.png",
     "house": "Logos",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
-    "traits": ["Location"],
-    "effect": ["Action"],
-    "effectDescription": ["Draw a card."],
-    "ability": ["draw"],
-    "set": ["CotA", "AoA"],
-    "setId": ["CotA129", "AoA115"]
-},
-{
-  "key": "AoA110",
-  "type": 1,
-  "title": "Cutthroat Research",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/cutthroat_research.png",
-  "house": "Logos",
-  "bonusIcons": [
-    {
-      "amber": 1,
+    "traits": [
+      "Location"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Draw a card."
+    ],
+    "ability": [
+      "draw"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA129",
+      "AoA115"
+    ]
+  },
+  {
+    "key": "AoA118",
+    "type": 2,
+    "title": "Professor Sutterkin",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/professor_sutterkin.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "effect": ["Play"],
-  "effectDescription": [
-    "Steal 2Aember icon if your opponent has 8Aember icon or more."
-  ],
-  "ability": ["steal"],
-  "set": ["AoA", "WC"],
-  "setId": ["AoA110", "WC130"]
-},
-{
-  "key": "AoA138",
-  "type": 1,
-  "title": "Sloppy Labwork",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/sloppy_labwork.png",
-  "house": "Logos",
-  "bonusIcons": [
-    {
-      "amber": 1,
-      "damage": 0,
-      "draw": 0,
-      "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "effect": ["Play"],
-  "effectDescription": [
-    "Archive a card. Discard a card from your hand."
-  ],
-  "ability": ["archive", "discard"],
-  "set": ["CotA", "AoA", "MM"],
-  "setId": ["CotA123", "AoA138", "WC097"]
-},
-{
+    },
+    "rarity": "Common",
+    "power": 2,
+    "armor": 0,
+    "traits": [
+      "Human",
+      "Scientist"
+    ],
+    "effect": [
+      "Reap"
+    ],
+    "effectDescription": [
+      "Draw a card for each friendly Logos creature."
+    ],
+    "ability": [
+      "draw"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA118",
+      "VM2023158"
+    ]
+  },
+  {
     "key": "AoA120",
     "type": 2,
     "title": "Titan Librarian",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/titan_librarian.png",
     "house": "Logos",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
     "power": 4,
     "armor": 0,
-    "traits": ["Cyborg", "Scientist"],
-    "effect": ["Neutral"],
-    "effectDescription": ["At the end of your turn, if Titan Librarian is not on a flank, archive a card."],
-    "ability": ["archive"],
-    "set": ["AoA"],
-    "setId": ["AoA120"]
-},
-{
-  "key": "AoA118",
-  "type": 2,
-  "title": "Professor Sutterkin",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/professor_sutterkin.png",
-  "house": "Logos",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    "traits": [
+      "Cyborg",
+      "Scientist"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "At the end of your turn, if Titan Librarian is not on a flank, archive a card."
+    ],
+    "ability": [
+      "archive"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA120"
+    ]
+  },
+  {
+    "key": "AoA122",
+    "type": 1,
+    "title": "Wild Wormhole",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/wild_wormhole.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "power": 2,
-  "armor": 0,
-  "traits": ["Human", "Scientist"],
-  "effect": ["Reap"],
-  "effectDescription": ["Draw a card for each friendly Logos creature."],
-  "ability": ["draw"],
-  "set": ["AoA", "VM2023"],
-  "setId": ["AoA118", "VM2023158"]
-},
-{
-  "key": "AoA132",
-  "type": 3,
-  "title": "Memory Chip",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/memory_chip.png",
-  "house": "Logos",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Play the top card of your deck."
+    ],
+    "ability": [
+      "playCard"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA125",
+      "AoA122",
+      "WC143",
+      "VM2023160"
+    ]
+  },
+  {
+    "key": "AoA124",
+    "type": 4,
+    "title": "Backup Copy",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/backup_copy.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "traits": ["Item"],
-  "effect": ["Neutral"],
-  "effectDescription": ["After you choose Logos as your active house, archive a card."],
-  "ability": ["archive"],
-  "set": ["AoA", "WC", "VM2023"],
-  "setId": ["AoA132", "WC154", "VM2023138"]
-},
-{
-  "key": "AoA124",
-  "type": 4,
-  "title": "Backup Copy",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/backup_copy.png",
-  "house": "Logos",
-  "bonusIcons": [
-    {
-      "amber": 1,
+    },
+    "rarity": "Uncommon",
+    "effect": "Destroyed",
+    "effectDescription": [
+      "This creature gains, “Destroyed: Put this creature on top of your deck.”"
+    ],
+    "ability": [
+      "replay"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setKeys": [
+      "AoA124"
+    ]
+  },
+  {
+    "key": "AoA130",
+    "type": 1,
+    "title": "Interdimensional Graft",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/interdimensional_graft.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "effect": "Destroyed",
-  "effectDescription": ["This creature gains, “Destroyed: Put this creature on top of your deck.”"],
-  "ability": ["replay"],
-  "set": ["AoA"],
-  "setKeys": ["AoA124"]
-},
-{
-  "key": "AoA135",
-  "type": 2,
-  "title": "Research Smoko",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/research_smoko.png",
-  "house": "Logos",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: If an opponent forges a key on their next turn, they must give you their remaining Aember icon."
+    ],
+    "ability": [
+      "steal"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA112",
+      "AoA130",
+      "WC152",
+      "VM2023137"
+    ]
+  },
+  {
+    "key": "AoA131",
+    "type": 2,
+    "title": "Jargogle",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/jargogle.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "power": 2,
-  "armor": 0,
-  "traits": ["Mutant"],
-  "effect": ["Destroyed"],
-  "effectDescription": ["Destroyed: Archive the top card of your deck."],
-  "ability": ["archive"],
-  "set": ["CotA", "AoA", "MM"],
-  "setId": ["CotA151", "AoA135", "MM096"]
-},
-{
-  "key": "AoA226",
-  "type": 2,
-  "title": "The Grey Rider",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/the_grey_rider.png",
-  "house": "Sanctum",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Uncommon",
+    "power": 2,
+    "armor": 0,
+    "traits": [
+      "Beast",
+      "Mutant"
+    ],
+    "effect": [
+      "Play",
+      "Destroyed"
+    ],
+    "effectDescription": [
+      "Elusive. Play: Put a card from your hand facedown under Jargogle. Destroyed: If it is your turn, play the card under Jargogle; otherwise, archive that card."
+    ],
+    "ability": [
+      "elusive",
+      "archive"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA131",
+      "WC153"
+    ]
+  },
+  {
+    "key": "AoA132",
+    "type": 3,
+    "title": "Memory Chip",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/memory_chip.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "power": 2,
-  "armor": 0,
-  "traits": ["Human", "Monk"],
-  "effect": ["Play/After Fight/After Reap"],
-  "effectDescription": ["Deploy. (This creature can enter play anywhere in your battleline.) Play/After Fight/After Reap: You may ready and fight with a neighboring creature."],
-  "ability": ["deploy", "ready", "fight"],
-  "set": ["AoA", "MM", "WoE"],
-  "setId": ["AoA226", "MM142", "WoE226"]
-},
-{
-  "key": "AoA227",
-  "type": 2,
-  "title": "Baron Mengevin",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/baron_mengevin.png",
-  "house": "Sanctum",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Uncommon",
+    "traits": [
+      "Item"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After you choose Logos as your active house, archive a card."
+    ],
+    "ability": [
+      "archive"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA132",
+      "WC154",
+      "VM2023138"
+    ]
+  },
+  {
+    "key": "AoA134",
+    "type": 1,
+    "title": "Remote Access",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/remote_access.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "power": 6,
-  "armor": 1,
-  "traits": ["Human", "Knight"],
-  "effect": ["Neutral"],
-  "effectDescription": ["After you discard a Sanctum card from your hand, Baron Mengevin captures 1Aember icon."],
-  "ability": ["discard", "capture"],
-  "set": ["AoA"],
-  "setId": ["AoA227"]
-},
-{
-  "key": "AoA216",
-  "type": 2,
-  "title": "Challe the Safeguard",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/challe_the_safeguard.png",
-  "house": "Sanctum",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Use an opponent’s artifact as if it were yours."
+    ],
+    "ability": [
+      "artifactCounter"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA120",
+      "AoA134",
+      "WC159"
+    ]
+  },
+  {
+    "key": "AoA135",
+    "type": 2,
+    "title": "Research Smoko",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/research_smoko.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "power": 4,
-  "armor": 2,
-  "traits": ["Human", "Knight"],
-  "effect": ["Neutral"],
-  "effectDescription": ["Deploy. (This creature can enter play anywhere in your battleline.) Taunt. (This creature’s neighbors cannot be attacked unless they have taunt.)"],
-  "ability": ["deploy", "taunt"],
-  "set": ["AoA"],
-  "setId": ["AoA216"]
-},
-{
-  "key": "AoA217",
-  "type": 1,
-  "title": "Golden Aura",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/golden_aura.png",
-  "house": "Sanctum",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Uncommon",
+    "power": 2,
+    "armor": 0,
+    "traits": [
+      "Mutant"
+    ],
+    "effect": [
+      "Destroyed"
+    ],
+    "effectDescription": [
+      "Destroyed: Archive the top card of your deck."
+    ],
+    "ability": [
+      "archive"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "MM"
+    ],
+    "setId": [
+      "CotA151",
+      "AoA135",
+      "MM096"
+    ]
+  },
+  {
+    "key": "AoA136",
+    "type": 4,
+    "title": "Rocket Boots",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/rocket_boots.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "effect": ["Play"],
-  "effectDescription": [
-    "Play: Choose a creature. Fully heal the chosen creature. For the remainder of the turn, the chosen creature is considered to be in house Sanctum and cannot be dealt damage."
-  ],
-  "ability": ["heal", "ready"],
-  "set": ["AoA"],
-  "setId": ["AoA217"]
-},
-{
+    },
+    "rarity": "Uncommon",
+    "effect": "Fight/Reap",
+    "effectDescription": [
+      "This creature gains, “Fight/Reap: If this is the first time this creature was used this turn, ready it.”"
+    ],
+    "ability": [
+      "ready"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "VM2023"
+    ],
+    "setKeys": [
+      "CotA158",
+      "AoA136",
+      "VM2023143"
+    ]
+  },
+  {
+    "key": "AoA138",
+    "type": 1,
+    "title": "Sloppy Labwork",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/sloppy_labwork.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Archive a card. Discard a card from your hand."
+    ],
+    "ability": [
+      "archive",
+      "discard"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "MM"
+    ],
+    "setId": [
+      "CotA123",
+      "AoA138",
+      "WC097"
+    ]
+  },
+  {
+    "key": "AoA139",
+    "type": 3,
+    "title": "(REDACTED)",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/redacted.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "traits": [
+      "[REDACTED]"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After you choose Logos as your active house, put 1Aember icon from the common supply on [REDACTED]. When there are 4Aember icon or more on [REDACTED], destroy it and forge a key at no cost."
+    ],
+    "ability": [
+      "forge"
+    ],
+    "set": [
+      "AoA",
+      "MM"
+    ],
+    "setId": [
+      "AoA139",
+      "MM110"
+    ]
+  },
+  {
+    "key": "AoA148",
+    "type": 1,
+    "title": "Master the Theory",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/master_the_theory.png",
+    "house": "Logos",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "If there are no friendly creatures, you may archive a card for each enemy creature."
+    ],
+    "ability": [
+      "archive"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA148",
+      "WC169",
+      "MM106",
+      "DT021",
+      "VM2023119"
+    ]
+  },
+  {
+    "key": "AoA216",
+    "type": 2,
+    "title": "Challe the Safeguard",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/challe_the_safeguard.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 4,
+    "armor": 2,
+    "traits": [
+      "Human",
+      "Knight"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Deploy. (This creature can enter play anywhere in your battleline.) Taunt. (This creature’s neighbors cannot be attacked unless they have taunt.)"
+    ],
+    "ability": [
+      "deploy",
+      "taunt"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA216"
+    ]
+  },
+  {
+    "key": "AoA217",
+    "type": 1,
+    "title": "Golden Aura",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/golden_aura.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Choose a creature. Fully heal the chosen creature. For the remainder of the turn, the chosen creature is considered to be in house Sanctum and cannot be dealt damage."
+    ],
+    "ability": [
+      "heal",
+      "ready"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA217"
+    ]
+  },
+  {
     "key": "AoA218",
     "type": 3,
     "title": "Hallowed Shield",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/hallowed_shield.png",
     "house": "Sanctum",
-    "bonusIcons": [
-      {
-        "amber": 0,
-        "damage": 0,
-        "draw": 0,
-        "capture": 0
-      }
-    ],
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
     "rarity": "Common",
-    "traits": ["Item"],
-    "effect": ["Action"],
-    "effectDescription": ["Action: Choose a creature. For the remainder of the turn, the chosen creature cannot be dealt damage."],
-    "ability": ["invincible"],
-    "set": ["AoA"],
-    "setId": ["AoA218"]
-},
-{
-  "key": "AoA219",
-  "type": 1,
-  "title": "Healing Blast",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/healing_blast.png",
-  "house": "Sanctum",
-  "bonusIcons": [
-    {
-      "amber": 1,
+    "traits": [
+      "Item"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Action: Choose a creature. For the remainder of the turn, the chosen creature cannot be dealt damage."
+    ],
+    "ability": [
+      "invincible"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA218"
+    ]
+  },
+  {
+    "key": "AoA219",
+    "type": 1,
+    "title": "Healing Blast",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/healing_blast.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 1,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "effect": ["Play"],
-  "effectDescription": [
-    "Play: Fully heal a creature. If you healed 4 or more damage this way, gain 2Aember icon."
-  ],
-  "ability": ["heal", "aemberGain"],
-  "set": ["AoA"],
-  "setId": ["AoA219"]
-},
-{
-  "key": "AoA223",
-  "type": 2,
-  "title": "Sir Marrows",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/sir_marrows.png",
-  "house": "Sanctum",
-  "bonusIcons": [
-    {
-      "amber": 0,
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Fully heal a creature. If you healed 4 or more damage this way, gain 2Aember icon."
+    ],
+    "ability": [
+      "heal",
+      "aaemberGain"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA219"
+    ]
+  },
+  {
+    "key": "AoA223",
+    "type": 2,
+    "title": "Sir Marrows",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/sir_marrows.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Common",
-  "power": 4,
-  "armor": 2,
-  "traits": ["Human", "Knight"],
-  "effect": ["Neutral"],
-  "effectDescription": ["After your opponent gains Aember icon by reaping, Sir Marrows captures it."],
-  "ability": ["capture"],
-  "set": ["AoA"],
-  "setId": ["AoA223"]
-},
-{
-  "key": "AoA231",
-  "type": 1,
-  "title": "Doorstep to Heaven",
-  "imageUri": "src/assets/keyforge-cards/age-of-ascension/doorstep_to_heaven.png",
-  "house": "Sanctum",
-  "bonusIcons": [
-    {
-      "amber": 1,
+    },
+    "rarity": "Common",
+    "power": 4,
+    "armor": 2,
+    "traits": [
+      "Human",
+      "Knight"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After your opponent gains Aember icon by reaping, Sir Marrows captures it."
+    ],
+    "ability": [
+      "capture"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA223"
+    ]
+  },
+  {
+    "key": "AoA226",
+    "type": 2,
+    "title": "The Grey Rider",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/the_grey_rider.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 0,
       "damage": 0,
       "draw": 0,
       "capture": 0
-    }
-  ],
-  "rarity": "Uncommon",
-  "effect": ["Play"],
-  "effectDescription": [
-    "Play: Each player with 6Aember icon or more loses all but 5 of it."
-  ],
-  "ability": ["aemberLoss"],
-  "set": ["CotA", "AoA", "Dt"],
-  "setId": ["CotA217", "AoA231", "DT096"]
-}
+    },
+    "rarity": "Common",
+    "power": 2,
+    "armor": 0,
+    "traits": [
+      "Human",
+      "Monk"
+    ],
+    "effect": [
+      "Play/After Fight/After Reap"
+    ],
+    "effectDescription": [
+      "Deploy. (This creature can enter play anywhere in your battleline.) Play/After Fight/After Reap: You may ready and fight with a neighboring creature."
+    ],
+    "ability": [
+      "deploy",
+      "ready",
+      "fight"
+    ],
+    "set": [
+      "AoA",
+      "MM",
+      "WoE"
+    ],
+    "setId": [
+      "AoA226",
+      "MM142",
+      "WoE226"
+    ]
+  },
+  {
+    "key": "AoA227",
+    "type": 2,
+    "title": "Baron Mengevin",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/baron_mengevin.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "power": 6,
+    "armor": 1,
+    "traits": [
+      "Human",
+      "Knight"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After you discard a Sanctum card from your hand, Baron Mengevin captures 1Aember icon."
+    ],
+    "ability": [
+      "discard",
+      "capture"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA227"
+    ]
+  },
+  {
+    "key": "AoA231",
+    "type": 1,
+    "title": "Doorstep to Heaven",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/doorstep_to_heaven.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Each player with 6Aember icon or more loses all but 5 of it."
+    ],
+    "ability": [
+      "aemberLoss"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "Dt"
+    ],
+    "setId": [
+      "CotA217",
+      "AoA231",
+      "DT096"
+    ]
+  }
 ]

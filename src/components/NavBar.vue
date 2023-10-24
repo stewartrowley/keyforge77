@@ -1,30 +1,11 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { useCardStore } from './stores/cardStore';
-import { useDeckStore } from './stores/deckStore';
-import { useSetStore } from './stores/setStore';
-import {usePodStore} from './stores/podStore';
-const deckStore = useDeckStore();
-const cardStore = useCardStore();
-const setStore = useSetStore();
-const  podStore = usePodStore();
-cardStore.setCards();
-deckStore.setDecks();
-deckStore.getDecksStats();
-setStore.setHouses();
-podStore.setPods();
-
-</script>
-
-<template>
-  <header>
+<template >
     <div class="nav-container">
       <div class="nav-logo-box">
-        <img class="nav-logo" src="./assets/keyforge-cards/keychart-logo.png" />
+        <img class="nav-logo" src="../assets/keyforge-cards/keychart-logo.png" />
         <h1 class="nav-logo-text">KeyChart</h1>
       </div>
       <div class="nav-icons">
-        <div class="nav-icon-row" v-for="item, index in setStore.getHouses" :key="index" :style="this.handleBackground(item.houseColor)" @click="this.handleRoute(item.house)">
+        <div class="nav-icon-row" v-for="item, index in houseStore.getHouses" :key="index" :style="this.handleBackground(item.houseColor)" @click="this.handleRoute(item.house)">
           <img class="nav-icon-house" :src="item.houseIcon" />
         </div>
       </div>
@@ -35,14 +16,17 @@ podStore.setPods();
         <RouterLink class="nav-link" to="/cards">Cards</RouterLink>
       </nav>
     </div>
-  </header>
-
-  <RouterView />
 </template>
 <script>
-
+import { useHouseStore } from '../stores/houseStore';
 export default {
-  methods: {
+    setup() {
+        const houseStore = useHouseStore();
+        return {
+            houseStore
+        }
+    },
+    methods: {
     handleBackground(color) {
       return {
         'background-color': color
@@ -50,18 +34,14 @@ export default {
     },
     handleRoute(house) {
       house.toLowerCase();
-      this.$router.push(house)
+      
+      this.$router.push()
     }
-  }
+  }    
 }
 </script>
-
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-.logo-banner {
-  width: 100%;
-  height: 100%;
-}
+
 .nav-container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;

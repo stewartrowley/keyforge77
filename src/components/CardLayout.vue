@@ -5,7 +5,9 @@
             <img class="card-image" :src="card.imageUri" />
          </div>
          <div class="card-text">
-            <h1 class="card-layout-title">{{ card.title }}</h1>
+            <div>
+               <h1 class="card-layout-title" :style="this.handleTitleBackground(card)">{{ card.title }}</h1>
+            </div>
             <h3>{{ card.house }}</h3>
             <!-- <img class="card-house-icon" :src="card.houseIcon" /> -->
             <p>Rarity: {{ card.rarity }}</p>
@@ -16,13 +18,19 @@
 </template>
 <script>
 import { useCardStore } from '../stores/cardStore';
+import { useSetStore } from '../stores/setStore';
 
 export default {
    setup () {
       const cardStore = useCardStore();
+      const setStore = useSetStore();
       return {
-         cardStore
+         cardStore,
+         setStore
       }
+   },
+   mounted() {
+      console.log(this.$props.cards)
    },
    props: [
     "cards"
@@ -37,6 +45,18 @@ export default {
       getCardType (type) {
          return this.cardStore.getCardType(type);
       },
+      handleTitleBackground (card) {
+         let houseColor;
+            this.setStore.houses.forEach((element) => {
+                if (element.house === card.house) {
+                    houseColor = element.houseColor;
+                }
+            })
+            return {
+                'background-color': houseColor,
+                'color': '#FFFFFF'
+            }
+      }
       // getImage(image) {
       //    const parseImage = JSON.stringify(image)
       //    console.log(parseImage);
@@ -57,14 +77,21 @@ export default {
    .card-box {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       justify-content: space-evenly;
    }
 .card-layout-title {
+   width: 100%;
+   padding: 5px;
+   border-radius: 5px;
    font-size: 20px;
    font-weight: 700;
 }
    .card-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       font-size: 15px;
    }
 

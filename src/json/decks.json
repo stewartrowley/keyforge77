@@ -9,5 +9,16 @@
          "AoA216", "AoA217", "AoA217", "AoA218", "AoA219", "AoA219", "AoA223", "AoA226", "AoA226", "AoA226", "AoA227", "AoA231"
       ],
       "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD2",
+      "name": "Oziel Cledormo from the Regulator's Field",
+      "houses": ["Logos", "Sanctum", "Untamed"],
+      "cards": [
+         "AoA109", "AoA112", "AoA113", "AoA114", "AoA122", "AoA122", "AoA130", "AoA131", "AoA134", "AoA135", "AoA135", "AoA139",
+         "AoA211", "AoA217", "AoA214", "AoA216", "AoA223", "AoA223", "AoA225", "AoA235", "AoA244", "AoA246", "AoA260", "AoA266",
+         "AoA186", "AoA323", "AoA323", "AoA327", "AoA327", "AoA333", "AoA333", "AoA334", "AoA336", "AoA337", "AoA343", "AoA355"
+      ],
+      "set": "Age of Ascension"
    }
 ]
