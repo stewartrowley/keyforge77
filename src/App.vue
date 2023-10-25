@@ -4,15 +4,18 @@ import { useCardStore } from './stores/cardStore';
 import { useDeckStore } from './stores/deckStore';
 import { useSetStore } from './stores/setStore';
 import {usePodStore} from './stores/podStore';
+import { useHouseStore } from './stores/houseStore';
 const deckStore = useDeckStore();
 const cardStore = useCardStore();
 const setStore = useSetStore();
 const  podStore = usePodStore();
+const houseStore = useHouseStore();
 cardStore.setCards();
 deckStore.setDecks();
 deckStore.getDecksStats();
 setStore.setHouses();
 podStore.setPods();
+houseStore.setHouses();
 
 </script>
 

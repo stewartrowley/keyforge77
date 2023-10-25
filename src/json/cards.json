@@ -357,6 +357,242 @@
     ]
   },
   {
+    "key": "AoA011",
+    "type": 2,
+    "title": "Groggins",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/groggins.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 8,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "When Groggins is used to fight, it can only attack flank creatures."
+    ],
+    "ability": [
+      "fight"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA011"
+    ]
+  },
+  {
+    "key": "AoA012",
+    "type": 2,
+    "title": "Groke",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/groke.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 5,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Fight"
+    ],
+    "effectDescription": [
+      "Fight: Your opponent loses 1 Aember."
+    ],
+    "ability": [
+      "aemberLoss"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA012",
+      "WC008"
+    ]
+  },
+  {
+    "key": "AoA013",
+    "type": 1,
+    "title": "Into the Fray",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/into_the_fray.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play",
+      "Fight"
+    ],
+    "effectDescription": [
+      "Play: For the remainder of the turn, a friendly Brobnar creature gains, “Fight: Ready this creature.”"
+    ],
+    "ability": [
+      "ready",
+      "fight"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA013"
+    ]
+  },
+  {
+    "key": "AoA014",
+    "type": 2,
+    "title": "Lollop the Titanic",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/lollop_the_titanic.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 11,
+    "armor": 0,
+    "traits": [
+      "Giant",
+      "Location"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Lollop the Titanic deals no damage when attacked."
+    ],
+    "ability": [
+      ""
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA014",
+      "VM2023050"
+    ]
+  },
+  {
+    "key": "AoA015",
+    "type": 1,
+    "title": "Pound",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/pound.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Deal 2 Damage to a creature, with 1 Damage splash.”"
+    ],
+    "ability": [
+      "damage",
+      "splash"
+    ],
+    "set": [
+      "AoA",
+      "WoE"
+    ],
+    "setId": [
+      "AoA015",
+      "WoE046"
+    ]
+  },
+  {
+    "key": "AoA016",
+    "type": 1,
+    "title": "Tremor",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/tremor.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Stun a creature and each of its neighbors."
+    ],
+    "ability": [
+      "stun"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA016",
+      "AoA016",
+      "WC015"
+    ]
+  },
+  {
+    "key": "AoA017",
+    "type": 1,
+    "title": "Blood Money",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/blood_money.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Place 2 Aember from the common supply on an enemy creature."
+    ],
+    "ability": [
+      "captureO"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA003",
+      "AoA017",
+      "WC013"
+    ]
+  },
+  {
     "key": "AoA018",
     "type": 4,
     "title": "Blood of Titans",
@@ -385,6 +621,535 @@
       "CotA050",
       "AoA018",
       "WoE021"
+    ]
+  },
+  {
+    "key": "AoA019",
+    "type": 1,
+    "title": "Burn the Stockpile",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/burn_the_stockpile.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: If your opponent has 7 Aember or more, they lose 4 Aember."
+    ],
+    "ability": [
+      "aemberLossO"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA005",
+      "AoA019"
+    ]
+  },
+  {
+    "key": "AoA020",
+    "type": 2,
+    "title": "Culf the Quiet",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/culf_the_quiet.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "power": 6,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)"
+    ],
+    "ability": [
+      "elusive"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA020",
+      "VM2023024"
+    ]
+  },
+  {
+    "key": "AoA021",
+    "type": 3,
+    "title": "Flamethrower",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/flamethrower.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "traits": [
+      "Weapon"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Action: Deal 1 Damage to a creature, with 1 Damage splash."
+    ],
+    "ability": [
+      "damage",
+      "splash"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "WoE"
+    ],
+    "setId": [
+      "AoA021",
+      "WC018",
+      "WoE027"
+    ]
+  },
+  {
+    "key": "AoA022",
+    "type": 2,
+    "title": "Flamewake Shaman",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/flamewake_shaman.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "power": 4,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Deal 2 Damage to a creature."
+    ],
+    "ability": [
+      "damage"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA022",
+      "WC019"
+    ]
+  },
+  {
+    "key": "AoA023",
+    "type": 2,
+    "title": "Gargantes Scrapper",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/gargantes_scrapper.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "power": 3,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Alpha. (You can only play this card before doing anything else this step.)",
+      "Play: If you have 3 Aember or more, deal 3 Damage to an enemy creature."
+    ],
+    "ability": [
+      "alpha",
+      "damage"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA023",
+      "WC021"
+    ]
+  },
+  {
+    "key": "AoA024",
+    "type": 3,
+    "title": "Grump Buggy",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/grump_buggy.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "traits": [
+      "Vehicle"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Your opponent’s keys cost +1Aember for each friendly creature with power 5 or higher.",
+      "Your keys cost +1Aember for each enemy creature with power 5 or higher."
+    ],
+    "ability": [
+      "keyCostB"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA024"
+    ]
+  },
+  {
+    "key": "AoA025",
+    "type": 2,
+    "title": "Little Rapscal",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/little_rapscal.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "power": 2,
+    "armor": 0,
+    "traits": [
+      "Goblin"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)",
+      "Creatures must fight when used, if able."
+    ],
+    "ability": [
+      "elusive"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA025",
+      "WC023"
+    ]
+  },
+  {
+    "key": "AoA026",
+    "type": 2,
+    "title": "Ogopogo",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/ogopogo.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "power": 6,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After Ogopogo attacks and destroys a creature, you may deal 2 Damage to a creature."
+    ],
+    "ability": [
+      "damage"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA026",
+      "WC024",
+      "VM2023029"
+    ]
+  },
+  {
+    "key": "AoA027",
+    "type": 1,
+    "title": "Relentless Assault",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/relentless_assault.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Ready and fight with up to 3 different friendly creatures, one at a time."
+    ],
+    "ability": [
+      "ready"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA013",
+      "AoA027",
+      "VM2023031"
+    ]
+  },
+  {
+    "key": "AoA028",
+    "type": 3,
+    "title": "Screechbomb",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/screechbomb.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "traits": [
+      "Weapon"
+    ],
+    "effect": [
+      "Omni"
+    ],
+    "effectDescription": [
+      "Omni: Sacrifice Screechbomb.",
+      "Your opponent loses 2 Aember."
+    ],
+    "ability": [
+      "aemberLossO"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA26",
+      "AoA028",
+      "VM2023032"
+    ]
+  },
+  {
+    "key": "AoA029",
+    "type": 1,
+    "title": "Smith",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/smith.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Gain 2 Aember if you control more creatures than your opponent."
+    ],
+    "ability": [
+      "aemberGainY"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "WoE",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA014",
+      "AoA029",
+      "WC031",
+      "WoE032",
+      "VM2023033"
+    ]
+  },
+  {
+    "key": "AoA030",
+    "type": 1,
+    "title": "Sound the Horns",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/sound_the_horns.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Discard cards from the top of your deck until you either discard a Brobnar creature or run out of cards. If you discarded a Brobnar creature this way, put it into your hand."
+    ],
+    "ability": [
+      "discard",
+      "playCard"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA015",
+      "AoA030",
+      "VM2023034"
+    ]
+  },
+  {
+    "key": "AoA031",
+    "type": 1,
+    "title": "The Flex",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/the_flex.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Choose a ready friendly Brobnar creature. Exhaust it and gain Aember icon equal to half its power (rounding down the gain)."
+    ],
+    "ability": [
+      "aemberGainY"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "AoA031",
+      "WC032"
+    ]
+  },
+  {
+    "key": "AoA032",
+    "type": 3,
+    "title": "The Warchest",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/the_warchest.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "traits": [
+      "Item"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Action: Gain 1 Aember for each enemy creature that was destroyed in a fight this turn."
+    ],
+    "ability": [
+      "aemberGainY"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA27",
+      "AoA032"
+    ]
+  },
+  {
+    "key": "AoA031",
+    "type": 1,
+    "title": "Barehanded",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/barehanded.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Uncommon",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Put each artifact on top of its owner’s deck."
+    ],
+    "ability": [
+      "artifactRemovalB"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "WoE",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA002",
+      "AoA033",
+      "WC033",
+      "WoE004",
+      "VM2023003"
     ]
   },
   {

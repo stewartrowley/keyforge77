@@ -2,15 +2,15 @@
   <div>
     <DeckTable />
     <div>
-      <div class="deck-layout-container" v-for="(deck, index) in this.getCards()" :key="index">
-        <div class="deck-layout-deck" @click="this.handleShow(index)">
+      <div class="deck-layout-container" v-for="(deck, index) in getDecks" :key="index">
+        <div class="deck-layout-deck" @click="this.handleShow(deck)">
           <div class="deck-layout-title">
             <div class="deck-layout-select-icon">
               <div
                 class="chevron-icon-down"
                 v-if="
-                  this.decks[index].isSelected === false ||
-                  this.decks[index].isSelected === undefined
+                  deck.isSelected === false ||
+                  deck.isSelected === undefined
                 "
               >
                 <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512">
@@ -20,7 +20,7 @@
                   />
                 </svg>
               </div>
-              <div class="chevron-icon-up" v-if="this.decks[index].isSelected">
+              <div class="chevron-icon-up" v-if="deck.isSelected">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512">
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                   <path
@@ -48,7 +48,7 @@
             </div>
           </div>
         </div>
-        <CardLayout v-if="deck.isSelected" :cards="deck" />
+        <CardLayout v-if="deck.isSelected" :cards="deck.cardData" />
       </div>
     </div>
   </div>
@@ -68,20 +68,30 @@ export default {
       decks: []
     }
   },
-  mounted() {
-    this.deckStore.decks.forEach((deck) => {
-      deck.isSelected = false
-    })
-  },
-  methods: {
-    getCards() {
-      this.decks = []
+  computed: {
+    getDecks () {
       this.deckStore.decks.forEach((deck) => {
-        this.decks.push(deck.cardData)
+        deck.isSelected = false
       })
-      console.log(this.decks);
-      return this.decks
-    },
+      return this.deckStore.decks;
+    }
+  },
+  // mounted() {
+  //   this.deckStore.decks.forEach((deck) => {
+  //     deck.isSelected = false
+  //   })
+  // },
+  methods: {
+    // getCards() {
+    //   this.decks = []
+    //   console.log(this.deckStore.decks);
+    //   this.deckStore.decks.forEach((deck) => {
+    //     console.log(deck);
+    //     this.decks.push(deck.cardData)
+    //   })
+    //   console.log(this.decks);
+    //   return this.decks
+    // },
     getHouseIcon(house) {
       let houseIcon
       this.setStore.houses.forEach((element) => {
@@ -91,12 +101,8 @@ export default {
       })
       return houseIcon
     },
-    handleShow(index) {
-      if (this.decks[index].isSelected) {
-        this.decks[index].isSelected = false
-      } else {
-        this.decks[index].isSelected = true
-      }
+    handleShow(deck) {
+      deck.isSelected = deck.isSelected ? false : true;
     },
     handleBackground(item) {
       console.log(item)
@@ -184,5 +190,6 @@ export default {
   color: red;
 }
 .deck-layout-name {
+  font-size: 15px;
 }
 </style>

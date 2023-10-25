@@ -5,7 +5,7 @@ import { useCardStore } from './cardStore';
 export const useDeckStore = defineStore('deck', {
   state () {
     return {
-      decks: []
+      decks: [],
     };
   },
   getters: {
@@ -14,6 +14,16 @@ export const useDeckStore = defineStore('deck', {
     },
   },
   actions: {
+    getDecksData () {
+      this.decks = []
+      console.log(this.deckStore.decks);
+      this.deckStore.decks.forEach((deck) => {
+        console.log(deck);
+        this.decks.push(deck.cardData)
+      })
+      console.log(this.decks);
+      return this.decks
+    },
     getDecksStats() {
       this.assignCardsToDecks();
       this.calcDecksPower();
@@ -35,6 +45,7 @@ export const useDeckStore = defineStore('deck', {
       const cardStore = useCardStore();
       let cardData = [];
       this.decks.forEach((deck) => {
+        cardData = [];
         deck.cards.forEach((key) => {
           const deckCard = cardStore.cards.find((card) => card.key === key);
           if(deckCard != undefined) {

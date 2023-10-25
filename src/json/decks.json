@@ -20,5 +20,16 @@
          "AoA186", "AoA323", "AoA323", "AoA327", "AoA327", "AoA333", "AoA333", "AoA334", "AoA336", "AoA337", "AoA343", "AoA355"
       ],
       "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD3",
+      "name": "Rivenlark, the Druid of Tempation",
+      "houses": ["Brobnar", "Logos", "Shadows"],
+      "cards": [
+         "AoA004", "AoA006", "AoA007", "AoA009", "AoA011", "AoA015", "AoA015", "AoA016", "AoA024", "CotA029", "AoA035", "AoA042",
+         "AoA109", "AoA110", "AoA110", "AoA111", "AoA113", "AoA115", "AoA119", "AoA122", "AoA125", "AoA127", "AoA134", "AoA134",
+         "AoA267", "AoA269", "AoA269", "AoA272", "AoA273", "AoA277", "AoA279", "AoA280", "AoA281", "AoA290", "AoA306", "AoA314"
+      ],
+      "set": "Age of Ascension"
    }
 ]

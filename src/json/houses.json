@@ -2,56 +2,67 @@
   {
     "house": "Brobnar",
     "houseColor": "#d71d21",
-    "houseIcon": "src/assets/keyforge-logos/brobnar_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/brobnar_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/brobnar_banner.jpg"
   },
   {
     "house": "Dis",
     "houseColor": "#C31958",
-    "houseIcon": "src/assets/keyforge-logos/dis_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/dis_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/dis_banner.jpg"
   },
   {
     "house": "Ekwidon",
     "houseColor": "#b56424",
-    "houseIcon": "src/assets/keyforge-logos/ekwidon_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/ekwidon_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/ekwidon_banner.jpg"
   },
   {
     "house": "Logos",
     "houseColor": "#108eb0",
-    "houseIcon": "src/assets/keyforge-logos/logos_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/logos_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/logos_banner.jpg"
   },
   {
     "house": "Mars",
     "houseColor": "#71A93B",
-    "houseIcon": "src/assets/keyforge-logos/mars_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/mars_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/mars_banner.jpg"
   },
   {
     "house": "Sanctum",
     "houseColor": "#19428F",
-    "houseIcon": "src/assets/keyforge-logos/sanctum_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/sanctum_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/sanctum_banner.jpg"
   },
   {
     "house": "Saurian",
     "houseColor": "#069c94",
-    "houseIcon": "src/assets/keyforge-logos/saurian_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/saurian_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/saurian_banner.jpg"
   },
   {
     "house": "Shadows",
     "houseColor": "#35335d",
-    "houseIcon": "src/assets/keyforge-logos/shadows_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/shadows_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/shadows_banner.jpg"
   },
   {
     "house": "Star Alliance",
     "houseColor": "#ee9b22",
-    "houseIcon": "src/assets/keyforge-logos/star_alliance_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/star_alliance_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/star_alliance_banner.jpg"
   },
   {
     "house": "Unfathomable",
     "houseColor": "#283162",
-    "houseIcon": "src/assets/keyforge-logos/unfathomable_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/unfathomable_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/unfathomable_banner.jpg"
   },
   {
     "house": "Untamed",
     "houseColor": "#ce4322",
-    "houseIcon": "src/assets/keyforge-logos/untamed_logo.png"
+    "houseIcon": "src/assets/keyforge-logos/untamed_logo.png",
+    "houseBanner": "src/assets/keyforge-banners/untamed_banner.jpg"
   }
 ]
