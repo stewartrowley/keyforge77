@@ -1,11 +1,12 @@
 <template>
   <div class="home-container">
-    <DropDown />
+/
+    <CardForm />
   </div>
 </template>
 <script>
-import DropDown from '../components/DropDown.vue';
 import {useCardStore} from '@/stores/cardStore.js'
+import CardForm from '../components/card-form/CardForm.vue';
 export default {
   setup () {
     const cardStore = useCardStore();
@@ -18,7 +19,7 @@ export default {
     console.log(this.cardStore.AoACards);
   },
   components: {
-    DropDown,
+    CardForm
 }
 }
 </script>

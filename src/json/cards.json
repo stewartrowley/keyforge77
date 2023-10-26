@@ -1116,7 +1116,7 @@
     ]
   },
   {
-    "key": "AoA031",
+    "key": "AoA033",
     "type": 1,
     "title": "Barehanded",
     "imageUri": "src/assets/keyforge-cards/age-of-ascension/barehanded.png",
@@ -1127,7 +1127,7 @@
       "draw": 0,
       "capture": 0
     },
-    "rarity": "Uncommon",
+    "rarity": "Rare",
     "effect": [
       "Play"
     ],
@@ -1150,6 +1150,695 @@
       "WC033",
       "WoE004",
       "VM2023003"
+    ]
+  },
+  {
+    "key": "AoA034",
+    "type": 2,
+    "title": "Bellowing Patrizate",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/bellowing_patrizate.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 7,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "While Bellowing Patrizate is ready, each creature takes 1 Damage after it enters play."
+    ],
+    "ability": [
+      "damageB"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA034",
+      "WC034",
+      "VM2023004"
+    ]
+  },
+  {
+    "key": "AoA035",
+    "type": 2,
+    "title": "Bilgum Avalanche",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/bilgum_avalanche.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 5,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After you forge a key, deal 2 Damage to each enemy creature."
+    ],
+    "ability": [
+      "damageO"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA028",
+      "AoA035",
+      "WC005"
+    ]
+  },
+  {
+    "key": "AoA036",
+    "type": 1,
+    "title": "Champion’s Challenge",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/champions_challenge.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Destroy each enemy creature except the most powerful enemy creature. Destroy each friendly creature except the most powerful friendly creature. Ready and fight with your remaining creature."
+    ],
+    "ability": [
+      "destroyB",
+      "ready"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WoE",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA006",
+      "AoA036",
+      "WoE006",
+      "VM2023006"
+    ]
+  },
+  {
+    "key": "AoA037",
+    "type": 4,
+    "title": "Cybergiant Rig",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/cybergiant_rig.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "effect": "Play",
+    "effectDescription": [
+      "This creature gains, “At the end of your turn, this creature loses a +1 power counter.”",
+      "Play: Fully heal this creature and give it a +1 power counter for each damage healed."
+    ],
+    "ability": [
+      "healA",
+      "powerCounter"
+    ],
+    "set": [
+      "AoA",
+      "WC"
+    ],
+    "setKeys": [
+      "AoA037",
+      "WC035"
+    ]
+  },
+  {
+    "key": "AoA038",
+    "type": 2,
+    "title": "Forgemaster Og",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/forgemaster_og.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 4,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After a player forges a key, they lose all of their remaining Aember."
+    ],
+    "ability": [
+      "aemberLossA"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA038",
+      "WC036",
+      "VM2023007"
+    ]
+  },
+  {
+    "key": "AoA039",
+    "type": 2,
+    "title": "Grumpus Tamer",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/grumpus_tamer.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 4,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Reap"
+    ],
+    "effectDescription": [
+      "Reap: Search your deck and discard pile for a War Grumpus, reveal it, and add it to your hand. Then, shuffle your deck."
+    ],
+    "ability": [
+      "cardHandY"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA039",
+      "WC037",
+      "VM2023008"
+    ]
+  },
+  {
+    "key": "AoA040",
+    "type": 3,
+    "title": "Iron Obelisk",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/iron_obelisk.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "traits": [
+      "Location"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Your opponent’s keys cost +1Aember for each friendly damaged Brobnar creature."
+    ],
+    "ability": [
+      "keyCostO"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "WoE",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA23",
+      "AoA040",
+      "WC040",
+      "WoE012",
+      "VM2023011"
+    ]
+  },
+  {
+    "key": "AoA041",
+    "type": 2,
+    "title": "King of the Crag",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/king_of_the_crag.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 7,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Each enemy Brobnar creature gets –2 power."
+    ],
+    "ability": [
+      "powerLossO"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA038",
+      "AoA041"
+    ]
+  },
+  {
+    "key": "AoA042",
+    "type": 1,
+    "title": "Lava Ball",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/lava_ball.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Deal 4 Damage to a creature, with 2 Damage splash."
+    ],
+    "ability": [
+      "damageA",
+      "splashA"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "WoE"
+    ],
+    "setId": [
+      "CotA009",
+      "AoA042",
+      "WC042",
+      "WoE014"
+    ]
+  },
+  {
+    "key": "AoA043",
+    "type": 1,
+    "title": "Might Makes Right",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/might_makes_right.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: You may sacrifice any number of creatures with total power of 25 or more. If you do, forge a key at no cost."
+    ],
+    "ability": [
+      "forgeKeyY",
+      "destroyA"
+    ],
+    "set": [
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA043",
+      "VM2023014"
+    ]
+  },
+  {
+    "key": "AoA044",
+    "type": 2,
+    "title": "Mugwump",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/mugwump.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 6,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "After an enemy creature is destroyed fighting Mugwump, fully heal Mugwump and give it a +1 power counter."
+    ],
+    "ability": [
+      "healY",
+      "powerCounterGainY"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA042",
+      "AoA044",
+      "WC043",
+      "VM2023015"
+    ]
+  },
+  {
+    "key": "AoA045",
+    "type": 4,
+    "title": "Phoenix Heart",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/phoenix_heart.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "effect": "Destroyed",
+    "effectDescription": [
+      "This creature gains, “Destroyed: Return this creature to its owner’s hand and deal 3 Damage to each creature in play.”"
+    ],
+    "ability": [
+      "returnY",
+      "damageA"
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setKeys": [
+      "CotA051",
+      "AoA045"
+    ]
+  },
+  {
+    "key": "AoA046",
+    "type": 3,
+    "title": "Pile of Skulls",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/pile_of_skulls.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "traits": [
+      "Location"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Each time an enemy creature is destroyed during your turn, a friendly creature captures 1 Aember."
+    ],
+    "ability": [
+      "captureO"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA25",
+      "AoA046",
+      "WC046",
+      "VM2023016"
+    ]
+  },
+  {
+    "key": "AoA047",
+    "type": 2,
+    "title": "Rock-Hurling Giant",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/rock_hurling_giant.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 6,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "During your turn, each time you discard a Brobnar card from your hand, you may deal 4 Damage to a creature."
+    ],
+    "ability": [
+      "damageA"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA044",
+      "AoA047",
+      "WC048",
+      "VM2023017"
+    ]
+  },
+  {
+    "key": "AoA048",
+    "type": 3,
+    "title": "Shard of Strength",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/shard_of_strength.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "traits": [
+      "Item",
+      "Shard"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Action: Give a friendly creature a +1 power counter for each friendly Shard."
+    ],
+    "ability": [
+      "addPowerCounterY"
+    ],
+    "set": [
+      "AoA"
+    ],
+    "setId": [
+      "AoA048"
+    ]
+  },
+  {
+    "key": "AoA049",
+    "type": 3,
+    "title": "Signal Fire",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/signal_fire.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "traits": [
+      "Item"
+    ],
+    "effect": [
+      "Omni"
+    ],
+    "effectDescription": [
+      "Omni: Destroy Signal Fire. For the remainder of the turn, friendly Brobnar creatures may fight as though they belonged to the active house."
+    ],
+    "ability": [
+      "ReadyY"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "WoE"
+    ],
+    "setId": [
+      "AoA049",
+      "WC049",
+      "WoE019"
+    ]
+  },
+  {
+    "key": "AoA050",
+    "type": 1,
+    "title": "Take that, Smartypants",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/take_that_smartypants.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 1,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "effect": [
+      "Play"
+    ],
+    "effectDescription": [
+      "Play: Steal 2 Aember if your opponent has 3 or more Logos cards in play."
+    ],
+    "ability": [
+      "stealY"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA011",
+      "AoA050"
+    ]
+  },
+  {
+    "key": "AoA051",
+    "type": 2,
+    "title": "Tireless Crocag",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/tireless_crocag.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 7,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Tireless Crocag cannot reap.",
+      "You may use Tireless Crocag as if it belonged to the active house.",
+      "If your opponent has no creatures in play, destroy Tireless Crocag."
+    ],
+    "ability": [
+      ""
+    ],
+    "set": [
+      "CotA",
+      "AoA"
+    ],
+    "setId": [
+      "CotA047",
+      "AoA051"
+    ]
+  },
+  {
+    "key": "AoA052",
+    "type": 2,
+    "title": "War Grumpus",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/war_grumpus.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 3,
+    "armor": 0,
+    "traits": [
+      "Beast"
+    ],
+    "effect": [
+      "Fight/Reap"
+    ],
+    "effectDescription": [
+      "Fight/Reap: Ready and fight with a neighboring Giant."
+    ],
+    "ability": [
+      "readyY"
+    ],
+    "set": [
+      "AoA",
+      "WC",
+      "VM2023"
+    ],
+    "setId": [
+      "AoA052",
+      "WC052",
+      "VM2023019"
     ]
   },
   {
@@ -2455,6 +3144,117 @@
       "CotA217",
       "AoA231",
       "DT096"
+    ]
+  },
+  {
+    "key": "AoA369",
+    "type": 2,
+    "title": "Witch of the Wilds",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/witch_of_the_wilds.png",
+    "house": "Sanctum",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "power": 4,
+    "armor": 0,
+    "traits": [
+      "Beast",
+      "Witch"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "During each turn in which Untamed is not your active house, you may play one Untamed card."
+    ],
+    "ability": [
+      "playCardY"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "WC"
+    ],
+    "setId": [
+      "CotA347",
+      "AoA369",
+      "WC403"
+    ]
+  },
+  {
+    "key": "AoA370",
+    "type": 3,
+    "title": "World Tree",
+    "imageUri": "src/assets/keyforge-cards/age-of-ascension/world_tree.png",
+    "house": "Untamed",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Rare",
+    "traits": [
+      "Location"
+    ],
+    "effect": [
+      "Action"
+    ],
+    "effectDescription": [
+      "Action: Return a creature from your discard pile to the top of your deck."
+    ],
+    "ability": [
+      "returnY"
+    ],
+    "set": [
+      "CotA",
+      "AoA",
+      "DT",
+      "VM2023"
+    ],
+    "setId": [
+      "CotA344",
+      "AoA370",
+      "DT396",
+      "VM2023347"
+    ]
+  },
+  {
+    "key": "CotA029",
+    "type": 2,
+    "title": "Valdr",
+    "imageUri": "src/assets/keyforge-cards/call-of-the-archons/valdr.png",
+    "house": "Brobnar",
+    "bonusIcons": {
+      "aember": 0,
+      "damage": 0,
+      "draw": 0,
+      "capture": 0
+    },
+    "rarity": "Common",
+    "power": 6,
+    "armor": 0,
+    "traits": [
+      "Giant"
+    ],
+    "effect": [
+      "Neutral"
+    ],
+    "effectDescription": [
+      "Valdr deals +2 Damage while attacking an enemy creature on the flank."
+    ],
+    "ability": [
+      "damageO"
+    ],
+    "set": [
+      "CotA"
+    ],
+    "setId": [
+      "CotA029"
     ]
   }
 ]
