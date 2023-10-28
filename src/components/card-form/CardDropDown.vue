@@ -1,8 +1,9 @@
 <template>
   <div>
+    <label>{{ this.$props.label }}</label>
     <v-icon size="large" color="black" icon="mdi-chevron-down"></v-icon>
     <div class="dropdown-select" @click="handleSelection">
-      <div v-if="this.selectedOption === null">Select Keyforge Set</div>
+      <div v-if="this.selectedOption === null">{{ this.$props.placeholder }}</div>
       <div v-else>{{ this.selectedOption }}</div>
       <v-icon class="dropdown-icon" icon="mdi-chevron-down"></v-icon>
     </div>
@@ -35,7 +36,9 @@ export default {
     },
     props: [
         'options',
-        'type'
+        'type',
+        'label',
+        'placeholder'
     ],
     methods: {
         handleOption(item) {
@@ -43,9 +46,11 @@ export default {
             switch(this.$props.type) {
               case 'set':
                 this.formStore.setSelected = item;
+                this.formStore.getSetHouses();
                 break;
               case 'cardType':
                 this.formStore.cardTypeSelected = item;
+                this.formStore.cardTypeShow = true;
                 break;
               case 'cardHouse': 
                 this.formStore.cardHouseSelected = item;
