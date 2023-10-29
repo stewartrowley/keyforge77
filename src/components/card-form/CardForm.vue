@@ -10,9 +10,12 @@
             <div>
                 <CardDropdown :options="getSetHouses" type="cardHouse" label="Card House" placeholder="Select Card House"/>
             </div>
+            <CardUpload />
             <CardText label="Card Key" type="cardKey"/>
             <CardText label="Card Title" type="cardTitle"/>
             <CardDescription label="Card Description" />
+            <cardNum label="Ability Qty" type="qty"/>
+            <CardSelector :cardData="formStore.cardAbilitiesOptions" type="ability"/>
             <div>
                 <h1>Bonus Icons</h1>
                 <div>
@@ -22,14 +25,16 @@
                     <CardNum label="Draw Card" type="drawCard"/>
                 </div>
             </div>
+            <CardSelector :cardData="getCardTraits" type="traits" />
             <div>
                 <CardNum label="Power" type="power"/>
                 <CardNum label="Armor" type="armor"/>
             </div>
-            <CardRadio :options="getCardRarityoptions" title="Card Rarity" />
-            <CardCheckBox :options="getCardEffectOptions" title="Card Effect"/>
+            <CardRadio :options="getCardRarityoptions" title="Card Rarity" type="rarity"/>
+            <CardSelector :cardData="getCardEffectOptions" type="effect" />
+            <!-- <CardCheckBox :options="getCardEffectOptions" title="Card Effect"/> -->
         </div>
-        <button @click="this.handleCardSubmission">Add Card</button>
+        <button @click="this.handleCardSubmission()">Add Card</button>
     </div>
 </template>
 <script>
@@ -39,7 +44,9 @@ import CardDropdown from './CardDropdown.vue';
 import CardNum from './CardNum.vue';
 import CardRadio from './CardRadio.vue';
 import CardText from './CardText.vue';
-import CardCheckBox from './CardCheckBox.vue'
+// import CardCheckBox from './CardCheckBox.vue'
+import CardUpload from './CardUpload.vue'
+import CardSelector from './CardSelector.vue';
 
 export default {
     setup () {
@@ -69,6 +76,9 @@ export default {
         },
         getSetHousesSelected () {
             return this.formStore.setHouses;
+        },
+        getCardTraits () {
+            return this.formStore.cardTraitOptions;
         }
     },
     // data() {
@@ -78,10 +88,11 @@ export default {
     // },
     methods: {
         handleCardSubmission () {
-            this.formStore.cardSubmission;
+            console.log('submit')
+            this.formStore.cardSubmission();
         }
     },
-    components: { CardDropdown, CardNum, CardRadio, CardDescription, CardText, CardCheckBox }
+    components: { CardDropdown, CardNum, CardRadio, CardDescription, CardText, CardUpload, CardSelector }
 }
 </script>
 <style scoped>

@@ -5,13 +5,21 @@
     </div>
 </template>
 <script>
+import { useFormStore } from '../../stores/formStore';
 export default {
+    setup () {
+        const formStore = useFormStore();
+        return {
+            formStore
+        }
+    },
     props: [
         'label',
         'type'
     ],
     methods: {
         handleText() {
+            console.log(event.target.value);
             switch(this.$props.type) {
               case 'cardKey':
                 this.formStore.cardKeySelected = event.target.value;
