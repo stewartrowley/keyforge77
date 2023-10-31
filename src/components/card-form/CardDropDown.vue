@@ -3,9 +3,12 @@
     <label>{{ this.$props.label }}</label>
     <v-icon size="large" color="black" icon="mdi-chevron-down"></v-icon>
     <div class="dropdown-select" @click="handleSelection">
-      <div v-if="this.selectedOption === null">{{ this.$props.placeholder }}</div>
-      <div v-else>{{ this.selectedOption }}</div>
-      <v-icon class="dropdown-icon" icon="mdi-chevron-down"></v-icon>
+      <div class="dropdown-text" v-if="this.selectedOption === null">
+        <p>{{ this.$props.placeholder }}</p>
+      </div>
+      <div class="dropdown-text" v-else>
+        <p>{{ this.selectedOption }}</p>
+      </div>
     </div>
     <div class="dropdown-option-container" v-if="this.isOpen">
       <div
@@ -80,7 +83,7 @@ export default {
   height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   cursor: pointer;
 }
@@ -100,5 +103,8 @@ export default {
   background-color: #ffffff;
   color: navy;
   cursor: pointer;
+}
+.dropdown-text {
+  padding-left: 1rem !important;
 }
 </style>

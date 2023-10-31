@@ -1,0 +1,70 @@
+{
+  "cards": [
+    {
+      "key": "AoA001",
+      "type": "action",
+      "title": "1-2 punch",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/1-2_punch.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Stun an enemy creature. If that creature was already stunned, destroy it instead.",
+      "ability": [
+        "destroyO",
+        "stunO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA001"
+      ],
+      "id": 1
+    },
+    {
+      "key": "AoA002",
+      "type": "creature",
+      "title": "bingle bangbang",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bingle_bangbang.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Goblin"
+      ],
+      "effect": [
+        "Before Fight"
+      ],
+      "effectDescription": "Before Fight: Deal 5Damage icon to each neighbor of the creature Bingle Bangbang fights.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023040",
+        "AoA002"
+      ],
+      "id": 2
+    }
+  ]
+}

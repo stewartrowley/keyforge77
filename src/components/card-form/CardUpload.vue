@@ -1,7 +1,8 @@
 <template>
     <div>
+        <h3>Card Image</h3>
         <form @submit.prevent="this.handleFile()">
-            <input type="file" @change="handleUpload($event)">
+            <input class="card-upload-btn" type="file" @change="handleUpload($event)">
         </form>
     </div>
 </template>
@@ -28,5 +29,11 @@ export default {
 }
 </script>
 <style>
-    
+    .card-upload-btn {
+        background-color: forestgreen;
+        color: white;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+    }
 </style>

@@ -3,7 +3,7 @@
         <h1>{{ this.$props.title }}</h1>
         <div class="card-radio-box">
             <div class="card-radio-box-details" v-for="item, index in this.$props.options" :key="index">
-                <input class="card-radio-input" type="radio" name="rarity" :id="item.value" @click="this.handleValue()" :value="item.value" >
+                <input class="card-radio-input" type="radio" name="rarity" :id="item.value" @click="this.handleValue()" :value="item.value" required>
                 <label class="card-radio-label" :for="item.value">{{ item.name }}</label>
             </div>
         </div>

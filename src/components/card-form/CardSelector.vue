@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h3>{{ this.$props.title }}</h3>
         <div class="card-selector-select-box">
             <div class="card-selector-selected-container" v-for="item, index in getSelectedItems" :key="index">
                 <p>{{ item.name }}</p>
@@ -9,7 +10,7 @@
             </div>
         </div>
         <div class="card-selector-input-box">
-            <input type="text" >
+            <input class="card-selector-input" type="text" @keydown="this.handleSearch()">
         </div>
         <div class="card-selector-option-box">
             <div class="card-selector-option-container" v-for="item, index in getItems" :key="index" @click="handleOptionSelection(item)">
@@ -30,7 +31,8 @@ export default {
     },
     props: [
         'cardData',
-        'type'
+        'type',
+        'title'
     ],
     data () {
         return {
@@ -59,6 +61,21 @@ export default {
         this.items = this.$props.cardData;
     },
     methods: {
+        handleSearch () {
+            console.log(event.target.value)
+            if(this.$props.type === 'ability') {
+                this.items = this.formStore.cardAbilitiesOptions;
+            } else if (this.$props.type === 'effect') {
+               this.items = this.formStore.cardEffectOptions;
+            } else if (this.$props.type === 'traits') {
+               this.items = this.formStore.cardTraitOptions;
+            }
+            const filteredItems = this.items.filter((str) => {
+                return event.target.value.toLowerCase().split(' ').every(v => str.name.toLowerCase().includes(v));
+            });
+            this.items = filteredItems
+            // console.log(searchValue)
+        },
         handleOptionSelection (item) {
             let filteredItems = this.items.filter((element) => {
                 return element.name != item.name;   
@@ -100,12 +117,19 @@ export default {
 <style scoped>
     .card-selector-option-box {
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         background-color: lightgray;
+        max-height: 150px;
+        width: 300px;       
+        overflow-y: auto;
     }
     .card-selector-select-box {
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        background-color: lightgray;
+        max-height: 150px;
+        width: 300px;
+        overflow-y: auto;
     }
 
     .card-selector-option-container {
@@ -130,8 +154,16 @@ export default {
     }
     .card-selector-close {
         color: white;
-        background-color: red;
+        background-color: black;
         padding: 3px;
-        border-radius: 50%;
+        border-radius: 5px;
+    }
+    .card-selector-input {
+      border-style: solid;
+      border-color: var(--lightblk);
+      border-radius: 5px;
+      padding: 0.5em;
+      width: 200px;
+      margin: 1rem 0;
     }
 </style>

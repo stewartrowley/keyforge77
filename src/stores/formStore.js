@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia'
+import ApiService from '../services/apiService';
+
 
 export const useFormStore = defineStore('form', { 
     state () {
@@ -20,6 +22,7 @@ export const useFormStore = defineStore('form', {
             cardEffectSelected: null,
             qtySelected: null,
             abilitySelected: null,
+            cardOtherSetsSelected: [],
             cardTraitsSelected: null,
             cardDescription: null,
             cardTypeShow: false,
@@ -31,11 +34,12 @@ export const useFormStore = defineStore('form', {
             ],
             setOptions: [
                 {value: "CotA", path: "call_to_the_archons", name: "Call to The Archons", houseIds: [1, 2, 5, 6, 7, 9, 13]},
-                {value: "AoA", path: "age_of_ascencion", name: "Age of Ascencion", houseIds: [1, 2, 5, 6, 7, 9, 13]},
+                {value: "AoA", path: "age_of_ascension", name: "Age of Ascension", houseIds: [1, 2, 5, 6, 7, 9, 13]},
                 {value: "WC", path: "worlds_collide", name: "Worlds Collide", houseIds: [1, 2, 5, 8, 9, 11, 13]},
                 {value: "MM", path: "mass_mutations", name: "Mass Mutations", houseIds: [2, 5, 7, 8, 9, 11, 13]},
                 {value: "DT", path: "dark_tidings", name: "Dark Tidings", houseIds: [5, 7, 8, 9, 11, 12, 13]},
-                {value: "WoE", path: "winds_of_exchange", name: "Winds of Exchange", houseIds: [1, 3, 6, 7, 8, 11, 12]}
+                {value: "WoE", path: "winds_of_exchange", name: "Winds of Exchange", houseIds: [1, 3, 6, 7, 8, 11, 12]},
+                {value: 'VM2023', path: "vm_2023", name: "Vault Masters 2023", houseIds: [1, 2, 5, 6, 8, 11, 13]}
             ],
             cardEffectOptions: [
                 {value: 'neutral', name: "Neutral"},
@@ -158,7 +162,7 @@ export const useFormStore = defineStore('form', {
                 {value: 'giant', name: 'Giant'},
                 {value: 'weapon', name: 'Weapon'},
                 {value: 'knight', name: 'Knight'},
-                {value: '', name: ''},
+                {value: 'goblin', name: 'Goblin'},
                 {value: '', name: ''},
                 {value: '', name: ''},
                 {value: '', name: ''},
@@ -209,9 +213,23 @@ export const useFormStore = defineStore('form', {
             const effects = this.cardEffectSelected.map((element) => {
                 return element.name
             })
-            const traits = this.cardTraitsSelected.map((element) => {
-                return element.name
+            let traits;
+            if (type === 'artifact' || type === 'creature') {
+                traits = this.cardTraitsSelected.map((element) => {
+                    return element.name
+                }) 
+            }
+            let otherSets = [];
+            let otherSetKeys = [];
+            
+            this.cardOtherSetsSelected.forEach((item) => {
+                console.log(item)
+                otherSets.push(item.setName);
+                otherSetKeys.push(item.setKey)
             })
+
+            otherSets.push(this.setSelected.name)
+            otherSetKeys.push(this.setSelected.value + this.cardKeySelected)
 
             this.aemberSelected = this.aemberSelected === null ? 0 : JSON.parse(this.aemberSelected);
             this.damageSelected = this.damageSelected === null ? 0 : JSON.parse(this.damageSelected);
@@ -221,7 +239,9 @@ export const useFormStore = defineStore('form', {
               this.armorSelected = this.armorSelected === null ? 0 : JSON.parse(this.armorSelected);
               this.powerSelected = this.powerSelected === null ? 0 : JSON.parse(this.powerSelected);
             }
-            const imagePath = 'src/assets/keyforge-cards/' + this.setSelected.path + '/' + this.imageSelected[0].name;
+            const fileName = this.cardTitleSelected;
+            const formattedImage = fileName.replace(/ /g,"_")
+            const imagePath = 'src/assets/keyforge-cards/' + this.setSelected.path + '/' + formattedImage + '.png';
             console.log('it made it')
             console.log(type)
             let cardObject;
@@ -243,7 +263,9 @@ export const useFormStore = defineStore('form', {
                     effect: effects,
                     effectDescription: this.cardDescription,
                     ability: abilities,
-                    abilityQty: JSON.parse(this.qtySelected)
+                    abilityQty: JSON.parse(this.qtySelected),
+                    set: otherSets,
+                    setId: otherSetKeys
                 }
             } else if (type === 'creature') {
                 console.log('creature')
@@ -266,7 +288,9 @@ export const useFormStore = defineStore('form', {
                     effect: effects,
                     effectDescription: this.cardDescription,
                     ability: abilities,
-                    abilityQty: JSON.parse(this.qtySelected)
+                    abilityQty: JSON.parse(this.qtySelected),
+                    set: otherSets,
+                    setId: otherSetKeys
                 }
             } else if (type === 'artifact') {
                 console.log('artifact')
@@ -287,7 +311,9 @@ export const useFormStore = defineStore('form', {
                     effect: effects,
                     effectDescription: this.cardDescription,
                     ability: abilities,
-                    abilityQty: JSON.parse(this.qtySelected)
+                    abilityQty: JSON.parse(this.qtySelected),
+                    set: otherSets,
+                    setId: otherSetKeys
                 }
             } else if (type === 'upgrade') {
                 console.log('upgrade')
@@ -307,9 +333,26 @@ export const useFormStore = defineStore('form', {
                     effect: effects,
                     effectDescription: this.cardDescription,
                     ability: abilities,
-                    abilityQty: JSON.parse(this.qtySelected)
+                    abilityQty: JSON.parse(this.qtySelected),
+                    set: otherSets,
+                    setId: otherSetKeys
                 }
             }
+            // const file = 'test.json'
+            // const obj = { name: 'JP' }
+            // jsonfile.push(obj)
+                    
+            // jsonfile.writeFile(file, obj, { flag: 'a' }, function (err) {
+            //   if (err) console.error(err)
+            // })
+            ApiService.addCard(cardObject)
+            .then(() => {
+                this.clearCardSubmission();
+            }) 
+            .catch((error) => {
+                console.log(error)
+            })
+            
             console.log(cardObject);
         },
         clearCardSubmission () {
@@ -330,6 +373,8 @@ export const useFormStore = defineStore('form', {
             this.imageSelected = null
             this.cardEffectSelected = null
             this.cardDescription = null
+            this.cardOtherSetsSelected = []
+            this.qtySelected = null
         }
     }
 })

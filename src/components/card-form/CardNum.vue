@@ -1,7 +1,7 @@
 <template>
     <div class="card-num-container">
         <label>{{ this.$props.label }}</label>
-        <input type="number" @change="this.handleNum()" :value="0">
+        <input required class="card-num-input" type="number" @change="this.handleNum()" :value="0" @focus="$event.target.select()">
     </div>
 </template>
 <script>
@@ -54,5 +54,12 @@ export default {
     .card-num-container {
         display: flex;
         flex-direction: column;
+    }
+    .card-num-input {
+      border-style: solid;
+      border-color: var(--lightblk);
+      border-radius: 5px;
+      padding: 0.5em;
+      width: 150px;
     }
 </style>
