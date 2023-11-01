@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import cards from '../json/cards.json'
+import items from '../../test.json'
 
 export const useCardStore = defineStore('card', {
   state () {
@@ -14,8 +14,8 @@ export const useCardStore = defineStore('card', {
   },
   actions: {
     setCards () {
-      this.cards = cards;
-      console.log(cards);
+      this.cards = items.cards;
+      console.log(items.cards);
     },
     getCardType (key) {
       switch (key) {

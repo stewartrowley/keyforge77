@@ -65,6 +65,661 @@
         "AoA002"
       ],
       "id": 2
+    },
+    {
+      "key": "AoA003",
+      "type": "creature",
+      "title": "brammo",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/brammo.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 1,
+      "traits": [
+        "Giant",
+        "Knight"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 2Damage icon to each enemy flank creature.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023041",
+        "AoA003"
+      ],
+      "id": 3
+    },
+    {
+      "key": "AoA004",
+      "type": "action",
+      "title": "coward’s end",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/coward’s_end.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each undamaged creature. Gain 3 chains.",
+      "ability": [
+        "destroyB",
+        "gainChainsO"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA007",
+        "AoA004"
+      ],
+      "id": 4
+    },
+    {
+      "key": "AoA005",
+      "type": "creature",
+      "title": "cowfyne",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/cowfyne.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Before Fight"
+      ],
+      "effectDescription": "Before Fight: Deal 2Damage icon to each neighbor of the creature Cowfyne fights.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC006",
+        "VM2023043",
+        "AoA005"
+      ],
+      "id": 5
+    },
+    {
+      "key": "AoA006",
+      "type": "creature",
+      "title": "drummernaut",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/drummernaut.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Play/Fight/Reap"
+      ],
+      "effectDescription": "Play/Fight/Reap: Return a friendly Giant creature to your hand.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023044",
+        "AoA006"
+      ],
+      "id": 6
+    },
+    {
+      "key": "AoA007",
+      "type": "action",
+      "title": "first blood",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/first_blood.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha. (You can only play this card before doing anything else this step.)\nPlay: Deal 2Damage icon for each friendly Brobnar creature. You may divide this damage among any number of creatures.",
+      "ability": [
+        "alphaY",
+        "damageO"
+      ],
+      "abilityQty": 11,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA007"
+      ],
+      "id": 7
+    },
+    {
+      "key": "AoA008",
+      "type": "creature",
+      "title": "foozle",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/foozle.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: If an enemy creature has been destroyed this turn, gain 1Aember icon.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension",
+        "Vault Masters 2023"
+      ],
+      "setId": [
+        "AoA008",
+        "VM2023045"
+      ],
+      "id": 8
+    },
+    {
+      "key": "AoA009",
+      "type": "creature",
+      "title": "ganger chieftain",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ganger_chieftain.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: You may ready and fight with a neighboring creature.\nIt takes two to fight, but more is better.",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA033",
+        "WC007",
+        "VM2023047",
+        "AoA009"
+      ],
+      "id": 9
+    },
+    {
+      "key": "AoA010",
+      "type": "artifact",
+      "title": "gauntlet of command",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gauntlet_of_command.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Ready and fight with a friendly creature.\n“I said ‘take me to your leader’ and got a fist to the face.” – Captain Val Jericho",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA022",
+        "AoA010"
+      ],
+      "id": 10
+    },
+    {
+      "key": "AoA011",
+      "type": "creature",
+      "title": "groggins",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/groggins.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 8,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "When Groggins is used to fight, it can only attack flank creatures.",
+      "ability": [
+        "attackFlankY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA011"
+      ],
+      "id": 11
+    },
+    {
+      "key": "AoA012",
+      "type": "creature",
+      "title": "groke",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/groke.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Fight"
+      ],
+      "effectDescription": "Fight: Your opponent loses 1Aember icon.",
+      "ability": [
+        "aemberLossO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC008",
+        "AoA012"
+      ],
+      "id": 12
+    },
+    {
+      "key": "AoA013",
+      "type": "action",
+      "title": "into the fray",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/into_the_fray.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Fight",
+        "Play"
+      ],
+      "effectDescription": "Play: For the remainder of the turn, a friendly Brobnar creature gains, “Fight: Ready this creature.”",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA013"
+      ],
+      "id": 13
+    },
+    {
+      "key": "AoA014",
+      "type": "creature",
+      "title": "lollop the titanic",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lollop_the_titanic.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 11,
+      "armor": 0,
+      "traits": [
+        "Giant",
+        "Location"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Lollop the Titanic deals no damage when attacked.\n“Titans are to giants as giants are to goblins.” – Dr. Schucks",
+      "ability": [
+        "defenseLessY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023050",
+        "AoA014"
+      ],
+      "id": 14
+    },
+    {
+      "key": "AoA015",
+      "type": "action",
+      "title": "pound",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/pound.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 2Damage icon to a creature, with 1Damage icon splash.",
+      "ability": [
+        "damageO",
+        "splashO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE046",
+        "AoA015"
+      ],
+      "id": 15
+    },
+    {
+      "key": "AoA016",
+      "type": "action",
+      "title": "tremor",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/tremor.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Stun a creature and each of its neighbors.",
+      "ability": [
+        "stunO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA016",
+        "WC015",
+        "AoA016"
+      ],
+      "id": 16
+    },
+    {
+      "key": "AoA017",
+      "type": "action",
+      "title": "blood money",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/blood_money.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Play: Place 2Aember icon from the common supply on an enemy creature.\n“You! Æmber lover. You’re next.”",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA003",
+        "WC017",
+        "AoA017"
+      ],
+      "id": 17
+    },
+    {
+      "key": "AoA018",
+      "type": "upgrade",
+      "title": "blood of titans",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/blood_of_titans.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "This creature gets +5 power.\n“Blood of Giants? Why stop there?” -Pingle Who Annoys",
+      "ability": [
+        "powerGainY"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA050",
+        "WoE021",
+        "AoA018"
+      ],
+      "id": 18
+    },
+    {
+      "key": "AoA019",
+      "type": "action",
+      "title": "burn the stockpile",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/burn_the_stockpile.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If your opponent has 7Aember icon or more, they lose 4Aember icon.\n“If you can’t protect it, you don’t deserve it.” – Bilgum Avalanche",
+      "ability": [
+        "aemberLossO"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA005",
+        "AoA019"
+      ],
+      "id": 19
+    },
+    {
+      "key": "AoA020",
+      "type": "creature",
+      "title": "culf the quiet",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/culf_the_quiet.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)",
+      "ability": [
+        "elusiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023024",
+        "AoA020"
+      ],
+      "id": 20
+    },
+    {
+      "key": "AoA021",
+      "type": "artifact",
+      "title": "flamethrower",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/flamethrower.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Weapon"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Deal 1Damage icon to a creature, with 1Damage icon splash.\nThe skalds were really hot that night.",
+      "ability": [
+        "damageC",
+        "splashC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC018",
+        "WoE027",
+        "AoA021"
+      ],
+      "id": 21
     }
   ]
 }
