@@ -1862,6 +1862,1043 @@
         "AoA052"
       ],
       "id": 52
+    },
+    {
+      "key": "AoA053",
+      "type": "creature",
+      "title": "æmber imp",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/æmber_imp.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nAfter a creature reaps, stun it.\n\n“Even the rocks themselves suffer here.” – Eldest Bear",
+      "ability": [
+        "elusiveY",
+        "stunB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA053"
+      ],
+      "id": 53
+    },
+    {
+      "key": "AoA054",
+      "type": "action",
+      "title": "banish",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/banish.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Put an enemy creature into your opponent’s archives.",
+      "ability": [
+        "archiveO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA054"
+      ],
+      "id": 54
+    },
+    {
+      "key": "AoA055",
+      "type": "action",
+      "title": "binding irons",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/binding_irons.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Your opponent gains 3 chains.\n“I will not chain you. You have already chained yourself through your blind affection for these mortals.” — Judge Slenderwile, Archon",
+      "ability": [
+        "gainChainsO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC069",
+        "AoA055"
+      ],
+      "id": 55
+    },
+    {
+      "key": "AoA056",
+      "type": "creature",
+      "title": "charette",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/charette.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Capture 3Aember icon.\nIt doesn’t like to share.",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA081",
+        "VM2023092",
+        "AoA056"
+      ],
+      "id": 56
+    },
+    {
+      "key": "AoA057",
+      "type": "action",
+      "title": "cull the weak",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/cull_the_weak.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy the least powerful enemy creature.",
+      "ability": [
+        "destroyO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA057"
+      ],
+      "id": 57
+    },
+    {
+      "key": "AoA058",
+      "type": "creature",
+      "title": "dust imp",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/dust_imp.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "Destroyed: Gain 2Aember icon.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA083",
+        "VM2023093",
+        "AoA058"
+      ],
+      "id": 58
+    },
+    {
+      "key": "AoA059",
+      "type": "action",
+      "title": "exhume",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/exhume.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a creature in your discard pile. You may play that creature as if it belonged to the active house and was in your hand.",
+      "ability": [
+        "playCardY",
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC074",
+        "VM2023094",
+        "AoA059"
+      ],
+      "id": 59
+    },
+    {
+      "key": "AoA060",
+      "type": "creature",
+      "title": "gub",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gub.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "While Gub is not on a flank, it gets +5 power and gains taunt.\nDon’t go into the light.",
+      "ability": [
+        "powerGainY",
+        "tauntY"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023096",
+        "AoA060"
+      ],
+      "id": 60
+    },
+    {
+      "key": "AoA061",
+      "type": "artifact",
+      "title": "lash of broken dreams",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lash_of_broken_dreams.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "traits": [
+        "Weapon"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Keys cost +3Aember icon during your opponent’s next turn.\n“At first, I thought that nothing could harm an Archon.” – Captain Val Jericho",
+      "ability": [
+        "keyCostAddO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA075",
+        "VM2023097",
+        "AoA061"
+      ],
+      "id": 61
+    },
+    {
+      "key": "AoA062",
+      "type": "action",
+      "title": "misery exploit",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/misery_exploit.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Gain 1Aember icon for each damaged enemy creature.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC081",
+        "AoA062"
+      ],
+      "id": 62
+    },
+    {
+      "key": "AoA063",
+      "type": "action",
+      "title": "not finished with you",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/not_finished_with_you.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Play: Shuffle any number of creatures from your discard pile into your deck.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 35,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC082",
+        "AoA063"
+      ],
+      "id": 63
+    },
+    {
+      "key": "AoA064",
+      "type": "creature",
+      "title": "shooler",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shooler.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If your opponent has 4Aember icon or more, steal 1Aember icon.\n“Demons only take, never give.” – The Sanctified Scroll",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA096",
+        "AoA064"
+      ],
+      "id": 64
+    },
+    {
+      "key": "AoA065",
+      "type": "creature",
+      "title": "streke",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/streke.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nWhile Streke is not on a flank, your opponent refills their hand to 1 less card during their “draw cards” step.",
+      "ability": [
+        "elusiveY",
+        "handCountLessO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA065"
+      ],
+      "id": 65
+    },
+    {
+      "key": "AoA066",
+      "type": "creature",
+      "title": "tezmal",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/tezmal.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nReap: Choose a house. Your opponent cannot choose that house as their active house on their next turn.",
+      "ability": [
+        "elusiveY",
+        "houseRestrictO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023100",
+        "AoA066"
+      ],
+      "id": 66
+    },
+    {
+      "key": "AoA067",
+      "type": "action",
+      "title": "unlocked gateway",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/unlocked_gateway.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Omega. (After you play this card, end this step.)\nPlay: Destroy each creature.\n\n“Well, just lock it again!” – Quixo the “Adventurer”",
+      "ability": [
+        "destroyB",
+        "omegaY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023103",
+        "AoA067"
+      ],
+      "id": 67
+    },
+    {
+      "key": "AoA068",
+      "type": "creature",
+      "title": "yurk",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/yurk.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose and discard a card from your hand.\n“They aren’t that bad if you can pay their price.” – Iona, Demonologist",
+      "ability": [
+        "discardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023104",
+        "AoA068"
+      ],
+      "id": 68
+    },
+    {
+      "key": "AoA069",
+      "type": "creature",
+      "title": "angwish",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/angwish.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "For each damage on Angwish, your opponent’s keys cost +1Aember icon.\n“The more it hurts, the more it shares its pain. What a beautiful monster.” – Miss “Onyx” Censorius",
+      "ability": [
+        "keyCostAddO"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM018",
+        "AoA069"
+      ],
+      "id": 69
+    },
+    {
+      "key": "AoA070",
+      "type": "creature",
+      "title": "bloodshard imp",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bloodshard_imp.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After a creature reaps, its controller must sacrifice it.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC085",
+        "AoA070"
+      ],
+      "id": 70
+    },
+    {
+      "key": "AoA071",
+      "type": "creature",
+      "title": "bronze key imp",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bronze_key_imp.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nPlayers cannot forge their first key.",
+      "ability": [
+        "elusiveY",
+        "restrictForgeKeyB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA071"
+      ],
+      "id": 71
+    },
+    {
+      "key": "AoA072",
+      "type": "creature",
+      "title": "gold key imp",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gold_key_imp.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nPlayers cannot forge their third key.",
+      "ability": [
+        "elusiveY",
+        "restrictForgeKeyB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA072"
+      ],
+      "id": 72
+    },
+    {
+      "key": "AoA073",
+      "type": "action",
+      "title": "gongoozle",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gongoozle.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 3Damage icon to a creature. If it is not destroyed, its owner discards a random card from their hand.\n“Just trying to understand these… ’things’ gives me a headache.”",
+      "ability": [
+        "damageC",
+        "discardC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA060",
+        "VM2023077",
+        "AoA073"
+      ],
+      "id": 73
+    },
+    {
+      "key": "AoA074",
+      "type": "action",
+      "title": "hysteria",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hysteria.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Return each creature to its owner’s hand.\n“Help! I can’t stop this feeling!”",
+      "ability": [
+        "returnB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA065",
+        "WC091",
+        "AoA074"
+      ],
+      "id": 74
+    },
+    {
+      "key": "AoA075",
+      "type": "artifact",
+      "title": "library of the damned",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/library_of_the_damned.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Archive a card.\n”This place takes the idea of losing yourself in a book to a whole new level.” – Doc Bookton",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA076",
+        "WC092",
+        "VM2023079",
+        "VM2023079",
+        "AoA075"
+      ],
+      "id": 75
+    },
+    {
+      "key": "AoA076",
+      "type": "artifact",
+      "title": "lifeward",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lifeward.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Power"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Lifeward. Your opponent cannot play creatures on their next turn.",
+      "ability": [
+        "restrictPlayCardO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA077",
+        "AoA076"
+      ],
+      "id": 76
+    },
+    {
+      "key": "AoA77",
+      "type": "creature",
+      "title": "old yurk",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/old_yurk.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose and discard 2 cards from your hand.\n”As they get older, they get meaner.” – Iona, Demonologist",
+      "ability": [
+        "discardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023081",
+        "AoA77"
+      ],
+      "id": 77
+    },
+    {
+      "key": "AoA078",
+      "type": "action",
+      "title": "pain reaction",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/pain_reaction.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 2Damage icon to an enemy creature. If this damage destroys that creature, deal 2Damage icon to each of that creature’s neighbors after it leaves play.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM026",
+        "AoA078"
+      ],
+      "id": 78
+    },
+    {
+      "key": "AoA079",
+      "type": "action",
+      "title": "pandemonium",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/pandemonium.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Each undamaged creature captures 1Aember icon from its opponent.",
+      "ability": [
+        "captureB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA068",
+        "MM027",
+        "AoA079"
+      ],
+      "id": 79
+    },
+    {
+      "key": "AoA080",
+      "type": "action",
+      "title": "poltergeist",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/poltergeist.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Use an artifact controlled by any player as if it were yours. Destroy that artifact.",
+      "ability": [
+        "artifactRemovalC",
+        "artifactUseC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA069",
+        "WC094",
+        "VM2023082",
+        "VM2023082",
+        "AoA080"
+      ],
+      "id": 80
+    },
+    {
+      "key": "AoA081",
+      "type": "creature",
+      "title": "silver key imp",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/silver_key_imp.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nPlayers cannot forge their second key.",
+      "ability": [
+        "elusiveY",
+        "restrictForgeKeyB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA081"
+      ],
+      "id": 81
+    },
+    {
+      "key": "AoA082",
+      "type": "creature",
+      "title": "skullion",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/skullion.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 7,
+      "armor": 2,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Sacrifice a friendly creature.\n“Staying with the Skullions.” – Crucible slang for death",
+      "ability": [
+        "destroyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC095",
+        "AoA082"
+      ],
+      "id": 82
     }
   ]
 }
