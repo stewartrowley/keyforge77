@@ -61,7 +61,7 @@ export const useDeckStore = defineStore('deck', {
         let deckPower = [];
         console.log(deck)
         deck.cardData.forEach((card) => {
-          if(card.type === 2) {
+          if(card.type === 'creature') {
             deckPower.push(card.power);
           }
         })
@@ -83,7 +83,7 @@ export const useDeckStore = defineStore('deck', {
       this.decks.forEach((deck) => {
         let deckCreature =[];
         deck.cardData.forEach((card) => {
-          if(card.type === 2) {
+          if(card.type === 'creature') {
             deckCreature.push(1);
           }
         })

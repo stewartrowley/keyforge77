@@ -19,13 +19,13 @@ export const useCardStore = defineStore('card', {
     },
     getCardType (key) {
       switch (key) {
-        case 1:
+        case 'action':
           return "Action"
-        case 2:
+        case 'creature':
           return "Creature"
-        case 3:
+        case 'artifact':
           return "Artifact"
-        case 4:
+        case 'upgrade':
           return "Upgrade"
       }
     }
