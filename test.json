@@ -2899,6 +2899,4499 @@
         "AoA082"
       ],
       "id": 82
+    },
+    {
+      "key": "AoA083",
+      "type": "upgrade",
+      "title": "soulkeeper",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/soulkeeper.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "This creature gains, “Destroyed: Destroy the most powerful enemy creature.”",
+      "ability": [
+        "destroyC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC098",
+        "MM032",
+        "VM2023085",
+        "VM2023085",
+        "AoA083"
+      ],
+      "id": 83
+    },
+    {
+      "key": "AoA084",
+      "type": "creature",
+      "title": "spyyyder",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/spyyyder.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Skirmish. (When you use this creature to fight, it is dealt no damage in return.)\nSpyyyder gains poison while attacking an enemy flank creature.",
+      "ability": [
+        "poisonY",
+        "skirmishY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC099",
+        "VM2023086",
+        "AoA084"
+      ],
+      "id": 84
+    },
+    {
+      "key": "AoA085",
+      "type": "creature",
+      "title": "tentacus",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/tentacus.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Your opponent must pay you 1Aember icon in order to use an artifact.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA100",
+        "VM2023087",
+        "AoA085"
+      ],
+      "id": 85
+    },
+    {
+      "key": "AoA086",
+      "type": "action",
+      "title": "three fates",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/three_fates.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy the 3 most powerful creatures.\n“Destitution. Dereliction. Defenestration.”",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA071",
+        "WC100",
+        "VM2023088",
+        "VM2023088",
+        "AoA086"
+      ],
+      "id": 86
+    },
+    {
+      "key": "AoA087",
+      "type": "action",
+      "title": "a fair game",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/a_fair_game.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Discard the top card of your opponent’s deck and reveal their hand. You gain 1Aember icon for each card of the discarded card’s house revealed this way. Your opponent repeats the preceding effect on you.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 6,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA053",
+        "WC101",
+        "VM2023053",
+        "VM2023053",
+        "AoA087"
+      ],
+      "id": 87
+    },
+    {
+      "key": "AoA088",
+      "type": "creature",
+      "title": "ancient yurk",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ancient_yurk.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose and discard 3 cards from your hand.\n“I no longer know who serves whom.” – Iona, Demonologist",
+      "ability": [
+        "discardY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023054",
+        "AoA088"
+      ],
+      "id": 88
+    },
+    {
+      "key": "AoA089",
+      "type": "upgrade",
+      "title": "collar of subordination",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/collar_of_subordination.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "You control this creature.\n“OBEY.”",
+      "ability": [
+        "controlCardO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA105",
+        "WC102",
+        "VM2023055",
+        "VM2023055",
+        "AoA089"
+      ],
+      "id": 89
+    },
+    {
+      "key": "AoA090",
+      "type": "action",
+      "title": "creeping oblivion",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/creeping_oblivion.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Purge up to 2 cards from a discard pile.\n“As far as oblivions go, it’s in my bottom three.” – Dr. Escotera",
+      "ability": [
+        "purgeC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA056",
+        "WC103",
+        "VM2023056",
+        "VM2023056",
+        "AoA090"
+      ],
+      "id": 90
+    },
+    {
+      "key": "AoA091",
+      "type": "creature",
+      "title": "eater of the dead",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/eater_of_the_dead.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Fight/Reap: Purge a creature from a discard pile. If you do, put a +1 power counter on Eater of the Dead.",
+      "ability": [
+        "powerGainY",
+        "purgeC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA084",
+        "WC104",
+        "AoA091"
+      ],
+      "id": 91
+    },
+    {
+      "key": "AoA092",
+      "type": "action",
+      "title": "hecatomb",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hecatomb.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each Dis creature. Each player gains 1Aember icon for each creature they controlled that was destroyed this way.",
+      "ability": [
+        "aemberGainB",
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA063",
+        "WC107",
+        "AoA092"
+      ],
+      "id": 92
+    },
+    {
+      "key": "AoA093",
+      "type": "artifact",
+      "title": "key to dis",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/key_to_dis.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Key to Dis. Destroy each creature.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA074",
+        "WC108",
+        "AoA093"
+      ],
+      "id": 93
+    },
+    {
+      "key": "AoA094",
+      "type": "creature",
+      "title": "neffru",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/neffru.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Each time a creature is destroyed, its owner gains 1Aember icon.\n“…Who’s there?”",
+      "ability": [
+        "aemberGainB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC111",
+        "AoA094"
+      ],
+      "id": 94
+    },
+    {
+      "key": "AoA095",
+      "type": "creature",
+      "title": "onyx knight",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/onyx_knight.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Demon",
+        "Knight"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each creature with odd power.\n”I will not be denied.”",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC11",
+        "AoA095"
+      ],
+      "id": 95
+    },
+    {
+      "key": "AoA096",
+      "type": "artifact",
+      "title": "orb of invidius",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/orb_of_invidius.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After a creature reaps, stun it.\n“Whatever it was, it’s cursed now.” – Bordan the Redeemed",
+      "ability": [
+        "stunB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC114",
+        "MM041",
+        "AoA096"
+      ],
+      "id": 96
+    },
+    {
+      "key": "AoA097",
+      "type": "creature",
+      "title": "ortannu the chained",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ortannu_the_chained.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 7,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: Return each copy of Ortannu’s Binding from your discard pile to your hand. For each one returned this way, deal 2Damage icon to a creature, with 2Damage icon splash.",
+      "ability": [
+        "damageC",
+        "returnY",
+        "splashC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC115",
+        "VM2023064",
+        "AoA097"
+      ],
+      "id": 97
+    },
+    {
+      "key": "AoA098",
+      "type": "action",
+      "title": "ortannu’s binding",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ortannu’s_binding.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 2Damage icon to a friendly creature.\nIt’s coming…",
+      "ability": [
+        "damageY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC121",
+        "VM2023105",
+        "AoA098"
+      ],
+      "id": 98
+    },
+    {
+      "key": "AoA099",
+      "type": "creature",
+      "title": "overlord greking",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/overlord_greking.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 7,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After an enemy creature is destroyed fighting Overlord Greking, put that creature into play under your control.",
+      "ability": [
+        "controlCardO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA087",
+        "AoA099"
+      ],
+      "id": 99
+    },
+    {
+      "key": "AoA100",
+      "type": "creature",
+      "title": "pitlord",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/pitlord.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 2,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 9,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Taunt. (This creature’s neighbors cannot be attacked unless they have taunt.)\nWhile Pitlord is in play, you must choose Dis as your active house.",
+      "ability": [
+        "houseRestrictY",
+        "tauntY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA093",
+        "VM2023066",
+        "AoA100"
+      ],
+      "id": 100
+    },
+    {
+      "key": "AoA101",
+      "type": "action",
+      "title": "red-hot armor",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/red-hot_armor.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Each enemy creature with armor loses all of its armor until the end of the turn and is dealt 1Damage icon for each point of armor it lost this way.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA070",
+        "MM043",
+        "AoA101"
+      ],
+      "id": 101
+    },
+    {
+      "key": "AoA102",
+      "type": "creature",
+      "title": "restringuntus",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/restringuntus.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a house. Your opponent cannot choose that house as their active house until Restringuntus leaves play.",
+      "ability": [
+        "houseRestrictO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA094",
+        "AoA102"
+      ],
+      "id": 102
+    },
+    {
+      "key": "AoA108",
+      "type": "creature",
+      "title": "archimedes",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/archimedes.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Cyborg"
+      ],
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nEach of Archimedes’s neighbors gains, “Destroyed: Archive this creature.”\nElusive. (The first time this creature is attacked each turn, no damage is dealt.)\nEach of Archimedes’s neighbors gains, “Destroyed: Archive this creature.”\n",
+      "ability": [
+        "archiveY",
+        "elusiveY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023145",
+        "AoA108"
+      ],
+      "id": 103
+    },
+    {
+      "key": "AoA109",
+      "type": "action",
+      "title": "binate rupture",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/binate_rupture.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha. (You can only play this card before doing anything else this step.)\nPlay: Each player gains Aember icon equal to the Aember icon in their pool.",
+      "ability": [
+        "aemberGainB",
+        "alphaY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023149",
+        "AoA109"
+      ],
+      "id": 104
+    },
+    {
+      "key": "AoA110",
+      "type": "action",
+      "title": "cutthroat research",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/cutthroat_research.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Steal 2Aember icon if your opponent has 8Aember icon or more.\n“To steal data from one person is plagiarism. To steal from many is research.” – Dr. Escotera",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC130",
+        "AoA110"
+      ],
+      "id": 105
+    },
+    {
+      "key": "AoA111",
+      "type": "creature",
+      "title": "eyegor",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/eyegor.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Cyborg"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Look at the top 3 cards of your deck. Add 1 to your hand and discard the others.",
+      "ability": [
+        "discardY",
+        "returnY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC1",
+        "VM2023153",
+        "AoA111"
+      ],
+      "id": 106
+    },
+    {
+      "key": "AoA112",
+      "type": "creature",
+      "title": "helper bot",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/helper_bot.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Robot"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: You may play one non-Logos card this turn.\n“See, Momo? I told you it wouldn’t take long.” – Doc Bookton",
+      "ability": [
+        "playCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA112"
+      ],
+      "id": 107
+    },
+    {
+      "key": "AoA113",
+      "type": "creature",
+      "title": "hexpion",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hexpion.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Ai"
+      ],
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "Destroyed: Archive Hexpion and the top card of your deck.\n”I learn, I die, I learn again.”",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA113"
+      ],
+      "id": 108
+    },
+    {
+      "key": "AoA114",
+      "type": "action",
+      "title": "labwork",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/labwork.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Archive a card.\nAttention to detail is the key to all progress.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA114",
+        "AoA114"
+      ],
+      "id": 109
+    },
+    {
+      "key": "AoA115",
+      "type": "artifact",
+      "title": "library of babble",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/library_of_babble.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Draw a card.\nWhen you make an archive of all knowledge\nin the universe, don’t be surprised when you understand almost none of it.",
+      "ability": [
+        "drawY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA129",
+        "AoA115"
+      ],
+      "id": 110
+    },
+    {
+      "key": "AoA116",
+      "type": "creature",
+      "title": "pip pip",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/pip_pip.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Scientist"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After an enemy creature reaps, stun it.\n“A lead foot? I’ll give ‘em a lead foot.”",
+      "ability": [
+        "stunO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA116"
+      ],
+      "id": 111
+    },
+    {
+      "key": "AoA117",
+      "type": "action",
+      "title": "poke",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/poke.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 1Damage icon to an enemy creature. If this damage destroys that creature, draw a card.",
+      "ability": [
+        "archiveY",
+        "damageO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA117"
+      ],
+      "id": 112
+    },
+    {
+      "key": "AoA118",
+      "type": "creature",
+      "title": "professor sutterkin",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/professor_sutterkin.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Scientist"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: Draw a card for each friendly Logos creature.\n“I taught me everything you know.”",
+      "ability": [
+        "drawY"
+      ],
+      "abilityQty": 11,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023158",
+        "AoA118"
+      ],
+      "id": 113
+    },
+    {
+      "key": "AoA119",
+      "type": "action",
+      "title": "standardized testing",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/standardized_testing.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each creature with the lowest power and each creature with the highest power.\nThe Logos like to call it aggressive motivation.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM080",
+        "AoA119"
+      ],
+      "id": 114
+    },
+    {
+      "key": "AoA120",
+      "type": "creature",
+      "title": "titan librarian",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/titan_librarian.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Cyborg",
+        "Scientist"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "At the end of your turn, if Titan Librarian is not on a flank, archive a card.\nTitan Fabrication Labs: Building a Bigger Tomorrow.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA120"
+      ],
+      "id": 115
+    },
+    {
+      "key": "AoA121",
+      "type": "creature",
+      "title": "titan mechanic",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/titan_mechanic.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Cyborg",
+        "Scientist"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "While Titan Mechanic is on a flank, each key costs –1Aember icon.\nIf they come, they will build it.",
+      "ability": [
+        "keyCostMinusB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA154",
+        "AoA121"
+      ],
+      "id": 116
+    },
+    {
+      "key": "AoA122",
+      "type": "action",
+      "title": "wild wormhole",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/wild_wormhole.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Play the top card of your deck.\n“But if we ever do recover the dataprobe, think of what we will learn!”",
+      "ability": [
+        "playCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA125",
+        "WC143",
+        "VM2023160",
+        "AoA122"
+      ],
+      "id": 117
+    },
+    {
+      "key": "AoA123",
+      "type": "creature",
+      "title": "z.y.x. researcher",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/z.y.x._researcher.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Scientist"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Archive the top card of your deck or the top card of your discard pile.\n“We only concern ourselves with ‘can’; let the Sanctum worry about ‘should’.”",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA123"
+      ],
+      "id": 118
+    },
+    {
+      "key": "AoA124",
+      "type": "upgrade",
+      "title": "backup copy",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/backup_copy.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "This creature gains, “Destroyed: Put this creature on top of your deck.”\n”It’s so cute! I want another one.” – Dextre",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA124"
+      ],
+      "id": 119
+    },
+    {
+      "key": "AoA125",
+      "type": "action",
+      "title": "Bouncing Deathquark",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bouncing_deathquark.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy an enemy creature and a friendly creature. You may repeat this effect as many times as you like, as long as it is possible to repeat the entire effect.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA107",
+        "WC082",
+        "MM082",
+        "DT035",
+        "VM2023130",
+        "AoA125"
+      ],
+      "id": 120
+    },
+    {
+      "key": "AoA126",
+      "type": "creature",
+      "title": "brain eater",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/brain_eater.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Cyborg"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After a creature is destroyed fighting Brain Eater, draw a card.",
+      "ability": [
+        "drawY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA137",
+        "DT036",
+        "AoA126"
+      ],
+      "id": 121
+    },
+    {
+      "key": "AoA127",
+      "type": "creature",
+      "title": "director of z.y.x.",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/director_of_z.y.x..png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Cyborg",
+        "Scientist"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nAt the start of your turn, archive the top card of your deck.",
+      "ability": [
+        "archiveY",
+        "elusiveY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA127"
+      ],
+      "id": 122
+    },
+    {
+      "key": "AoA128",
+      "type": "action",
+      "title": "eureka!",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/eureka!.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha.\n\nPlay: Gain 2Aember icon. Archive 2 random cards from your hand.",
+      "ability": [
+        "aemberGainY",
+        "alphaY",
+        "archiveY"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "DT038",
+        "VM2023135",
+        "AoA128"
+      ],
+      "id": 123
+    },
+    {
+      "key": "AoA129",
+      "type": "creature",
+      "title": "fila the researcher",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/fila_the_researcher.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Scientist"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nAfter a creature is played adjacent to Fila the Researcher, draw a card.",
+      "ability": [
+        "drawY",
+        "elusiveY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "DT039",
+        "AoA129"
+      ],
+      "id": 124
+    },
+    {
+      "key": "AoA130",
+      "type": "action",
+      "title": "interdimensional graft",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/interdimensional_graft.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If an opponent forges a key on their next turn, they must give you their remaining Aember icon.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA112",
+        "WC152",
+        "VM2023137",
+        "VM2023137",
+        "AoA130"
+      ],
+      "id": 125
+    },
+    {
+      "key": "AoA131",
+      "type": "creature",
+      "title": "jargogle",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/jargogle.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Mutant"
+      ],
+      "effect": [
+        "Destroyed",
+        "Play"
+      ],
+      "effectDescription": "Elusive.\nPlay: Put a card from your hand facedown under Jargogle.\n\nDestroyed: If it is your turn, play the card under Jargogle; otherwise, archive that card.",
+      "ability": [
+        "archiveY",
+        "elusiveY",
+        "playCardY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC153",
+        "AoA131"
+      ],
+      "id": 126
+    },
+    {
+      "key": "AoA132",
+      "type": "artifact",
+      "title": "memory chip",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/memory_chip.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After you choose Logos as your active house, archive a card.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC154",
+        "VM2023138",
+        "AoA132"
+      ],
+      "id": 127
+    },
+    {
+      "key": "AoA133",
+      "type": "artifact",
+      "title": "quantum fingertrap",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/quantum_fingertrap.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Swap the position of two creatures in a battleline.\nSo if you push forward in space, and I pull backward in time…",
+      "ability": [
+        "controlCardB"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC157",
+        "VM2023142",
+        "AoA133"
+      ],
+      "id": 128
+    },
+    {
+      "key": "AoA134",
+      "type": "action",
+      "title": "remote access",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/remote_access.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Use an opponent’s artifact as if it were yours.",
+      "ability": [
+        "artifactUseY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA120",
+        "WC159",
+        "AoA134"
+      ],
+      "id": 129
+    },
+    {
+      "key": "AoA135",
+      "type": "creature",
+      "title": "research smoko",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/research_smoko.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Mutant"
+      ],
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "Destroyed: Archive the top card of your deck.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA151",
+        "MM096",
+        "AoA135"
+      ],
+      "id": 130
+    },
+    {
+      "key": "AoA136",
+      "type": "upgrade",
+      "title": "rocket boots",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/rocket_boots.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "This creature gains, “Fight/Reap: If this is the first time this creature was used this turn, ready it.”\n”Wheeeee!”",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA158",
+        "VM2023143",
+        "AoA136"
+      ],
+      "id": 131
+    },
+    {
+      "key": "AoA137",
+      "type": "artifact",
+      "title": "seismo-entangler",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/seismo-entangler.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Choose a house. During your opponent’s next turn, creatures of the chosen house cannot be used to reap.",
+      "ability": [
+        "houseRestrictO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC160",
+        "AoA137"
+      ],
+      "id": 132
+    },
+    {
+      "key": "AoA138",
+      "type": "action",
+      "title": "sloppy labwork",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sloppy_labwork.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Archive a card. Discard a card.",
+      "ability": [
+        "archiveY",
+        "discardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA123",
+        "MM097",
+        "AoA138"
+      ],
+      "id": 133
+    },
+    {
+      "key": "AoA139",
+      "type": "artifact",
+      "title": "[redacted]",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/[redacted].png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Redacted"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After you choose Logos as your active house, place 1Aember icon from the common supply on [REDACTED]. When there are 4 or more Aember icon on [REDACTED], sacrifice it and forge a key at no cost.",
+      "ability": [
+        "forgeKeyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM110",
+        "AoA139"
+      ],
+      "id": 134
+    },
+    {
+      "key": "AoA140",
+      "type": "artifact",
+      "title": "chaos portal",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/chaos_portal.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Choose a house. Reveal the top card of your deck. If it is of that house, play it.",
+      "ability": [
+        "playCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA127",
+        "WC162",
+        "VM2023111",
+        "VM2023111",
+        "AoA140"
+      ],
+      "id": 135
+    },
+    {
+      "key": "AoA141",
+      "type": "artifact",
+      "title": "crazy killing machine",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/crazy_killing_machine.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Weapon"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Discard the top card of each player’s deck. For each of those cards, destroy a creature or artifact of that card’s house, if able. If 2 cards are not destroyed as a result of this, destroy Crazy Killing Machine.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA128",
+        "WC163",
+        "AoA141"
+      ],
+      "id": 136
+    },
+    {
+      "key": "AoA142",
+      "type": "creature",
+      "title": "dysania",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/dysania.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Mutant"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Your opponent discards each of their archived cards. You gain 1Aember icon for each card discarded this way.",
+      "ability": [
+        "aemberGainY",
+        "discardO"
+      ],
+      "abilityQty": 36,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA141",
+        "WC164",
+        "VM2023113",
+        "VM2023113",
+        "AoA142"
+      ],
+      "id": 137
+    },
+    {
+      "key": "AoA143",
+      "type": "action",
+      "title": "entropic swirl",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/entropic_swirl.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a creature, for each trait that creature has, deal it 2Damage icon and gain 1Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "damageC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC165",
+        "MM103",
+        "VM2023114",
+        "VM2023114",
+        "AoA143"
+      ],
+      "id": 138
+    },
+    {
+      "key": "AoA144",
+      "type": "artifact",
+      "title": "fetchdrones",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/fetchdrones.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Discard the top 2 cards of your deck. For each Logos card discarded this way, a friendly creature captures 2Aember icon.",
+      "ability": [
+        "captureY",
+        "discardY"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC166",
+        "AoA144"
+      ],
+      "id": 139
+    },
+    {
+      "key": "AoA145",
+      "type": "creature",
+      "title": "harland mindlock",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/harland_mindlock.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Cyborg",
+        "Scientist"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Take control of an enemy flank creature until Harland Mindlock leaves play.",
+      "ability": [
+        "controlCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA143",
+        "AoA145"
+      ],
+      "id": 140
+    },
+    {
+      "key": "AoA146",
+      "type": "action",
+      "title": "help from future self",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/help_from_future_self.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Search your deck and discard pile for a Timetraveller, reveal it, and put it into your hand. Shuffle your discard pile into your deck.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA111",
+        "VM2023161",
+        "AoA146"
+      ],
+      "id": 141
+    },
+    {
+      "key": "AoA147",
+      "type": "action",
+      "title": "knowledge is power",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/knowledge_is_power.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose one: Archive a card, or, for each archived card you have, gain 1Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA113",
+        "WC168",
+        "DT019",
+        "DT019",
+        "VM2023117",
+        "VM2023117",
+        "VM2023117",
+        "VM2023117",
+        "AoA147"
+      ],
+      "id": 142
+    },
+    {
+      "key": "AoA148",
+      "type": "action",
+      "title": "master the theory",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/master_the_theory.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If there are no friendly creatures in play, you may archive a card for each enemy creature.\n\nIn theory, there is no difference between theory and practice.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 36,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC169",
+        "MM106",
+        "DT021",
+        "DT021",
+        "VM2023119",
+        "VM2023119",
+        "VM2023119",
+        "VM2023119",
+        "AoA148"
+      ],
+      "id": 143
+    },
+    {
+      "key": "AoA149",
+      "type": "creature",
+      "title": "neutron shark",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/neutron_shark.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Mutant"
+      ],
+      "effect": [
+        "Play/Fight/Reap"
+      ],
+      "effectDescription": "Play/Fight/Reap: Destroy an enemy creature or artifact and a friendly creature or artifact. Discard the top card of your deck. If that card is not a Logos card, trigger this effect again.",
+      "ability": [
+        "destroyB",
+        "discardY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA146",
+        "WC171",
+        "AoA149"
+      ],
+      "id": 144
+    },
+    {
+      "key": "AoA150",
+      "type": "creature",
+      "title": "ozmo, martianologist",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ozmo,_martianologist.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Scientist"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nFight/Reap: Heal 3 damage from a Mars creature or stun a Mars creature.",
+      "ability": [
+        "stunC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA148",
+        "AoA150"
+      ],
+      "id": 145
+    },
+    {
+      "key": "AoA151",
+      "type": "artifact",
+      "title": "pocket universe",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/pocket_universe.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "You may spend Aember icon on Pocket Universe when forging keys.\nAction: Move 1Aember icon from your pool to Pocket Universe.",
+      "ability": [
+        "forgeKeyY",
+        "moveAemberY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA131",
+        "WC172",
+        "AoA151"
+      ],
+      "id": 146
+    },
+    {
+      "key": "AoA152",
+      "type": "creature",
+      "title": "project z.y.x.",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/project_z.y.x..png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 5,
+      "armor": 1,
+      "traits": [
+        "Cyborg",
+        "Mutant"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Fight/Reap: You may play one of your archived cards as if it were in your hand and in the active house.\n”Everything will be fine, as long as it doesn’t wake up.”",
+      "ability": [
+        "playCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA152"
+      ],
+      "id": 147
+    },
+    {
+      "key": "AoA153",
+      "type": "creature",
+      "title": "replicator",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/replicator.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Mutant"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: Trigger the reap effect of another creature in play as if you controlled that creature. (That creature does not exhaust.)",
+      "ability": [
+        "useCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA150",
+        "WC174",
+        "VM2023121",
+        "VM2023121",
+        "AoA153"
+      ],
+      "id": 148
+    },
+    {
+      "key": "AoA154",
+      "type": "artifact",
+      "title": "scientifical hack",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/scientifical_hack.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Equation"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Scientifical Hack. For the remainder of the turn, you may use friendly artifacts as if they belonged to the active house.",
+      "ability": [
+        "artifactUseY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC175",
+        "AoA154"
+      ],
+      "id": 149
+    },
+    {
+      "key": "AoA155",
+      "type": "artifact",
+      "title": "shard of knowledge",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shard_of_knowledge.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item",
+        "Shard"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Draw a card for each friendly Shard.\nForged from desire.",
+      "ability": [
+        "drawY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA155"
+      ],
+      "id": 150
+    },
+    {
+      "key": "AoA156",
+      "type": "artifact",
+      "title": "strange gizmo",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/strange_gizmo.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After you forge a key, destroy each creature and artifact.\n“Why did we make this again?”",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA137",
+        "WC177",
+        "VM2023124",
+        "VM2023124",
+        "AoA156"
+      ],
+      "id": 151
+    },
+    {
+      "key": "AoA157",
+      "type": "creature",
+      "title": "the curator",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/the_curator.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Scientist"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Friendly artifacts enter play ready.\n“Don’t touch anything.”",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA157"
+      ],
+      "id": 152
+    },
+    {
+      "key": "AoA158",
+      "type": "creature",
+      "title": "timetraveller",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/timetraveller.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Scientist"
+      ],
+      "effect": [
+        "Action",
+        "Play"
+      ],
+      "effectDescription": "Play: Draw 2 cards.\nAction: Shuffle Timetraveller into your deck.",
+      "ability": [
+        "drawY",
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA153",
+        "VM2023125",
+        "AoA158"
+      ],
+      "id": 153
+    },
+    {
+      "key": "AoA159",
+      "type": "upgrade",
+      "title": "transposition sandals",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/transposition_sandals.png",
+      "house": "Logos",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "This creature gains, “Action: Swap this creature with another friendly creature in the battleline. You may use that other creature this turn.”",
+      "ability": [
+        "controlCardB",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA159",
+        "AoA159"
+      ],
+      "id": 154
+    },
+    {
+      "key": "AoA160",
+      "type": "creature",
+      "title": "agent hoo-man",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/agent_hoo-man.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Agent",
+        "Martian"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nReap: Choose a friendly non-Mars creature and an enemy non-Mars creature. Stun the chosen creatures.",
+      "ability": [
+        "elusiveY",
+        "stunB"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA160"
+      ],
+      "id": 155
+    },
+    {
+      "key": "AoA161",
+      "type": "action",
+      "title": "carpet phloxem",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/carpet_phloxem.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If there are no friendly creatures in play, deal 4Damage icon to each creature.",
+      "ability": [
+        "damageB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA161"
+      ],
+      "id": 156
+    },
+    {
+      "key": "AoA162",
+      "type": "creature",
+      "title": "collector worm",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/collector_worm.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 5,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Fight"
+      ],
+      "effectDescription": "Fight: Archive the creature Collector Worm fights. If that creature leaves your archives, put it in its owner’s hand instead.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023200",
+        "AoA162"
+      ],
+      "id": 157
+    },
+    {
+      "key": "AoA163",
+      "type": "creature",
+      "title": "glyxl proliferator",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/glyxl_proliferator.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Martian",
+        "Soldier"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: If Glyxl Proliferator is on a flank, archive a Mars card from your discard pile.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023202",
+        "AoA163"
+      ],
+      "id": 158
+    },
+    {
+      "key": "AoA164",
+      "type": "creature",
+      "title": "ixxyxli fixfinger",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ixxyxli_fixfinger.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 2,
+      "traits": [
+        "Martian",
+        "Scientist"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nEach other Martian creature gets +1 armor.",
+      "ability": [
+        "armorGainY",
+        "elusiveY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA164"
+      ],
+      "id": 159
+    },
+    {
+      "key": "AoA165",
+      "type": "action",
+      "title": "mars first",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mars_first.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Ready and use a friendly Mars creature.\n“Mars second, third, and fourth, too, if you ask me.” – Ulyq Megamouth",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023204",
+        "AoA165"
+      ],
+      "id": 160
+    },
+    {
+      "key": "AoA166",
+      "type": "action",
+      "title": "mars needs æmber",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mars_needs_æmber.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Each damaged enemy non-Mars creature captures 1Aember icon from its own side.",
+      "ability": [
+        "aemberGainY",
+        "captureY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE160",
+        "VM2023205",
+        "AoA166"
+      ],
+      "id": 161
+    },
+    {
+      "key": "AoA167",
+      "type": "creature",
+      "title": "mindwarper",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mindwarper.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Martian",
+        "Scientist"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nAction: Choose an enemy creature. It captures 1Aember icon from its own side.",
+      "ability": [
+        "aemberGainY",
+        "captureY",
+        "elusiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA196",
+        "AoA167"
+      ],
+      "id": 162
+    },
+    {
+      "key": "AoA168",
+      "type": "creature",
+      "title": "mindworm",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mindworm.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Before Fight"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nBefore Fight: The creature Mindworm fights deals damage equal to its power to each of its neighbors.",
+      "ability": [
+        "powerGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023206",
+        "AoA168"
+      ],
+      "id": 163
+    },
+    {
+      "key": "AoA169",
+      "type": "artifact",
+      "title": "mothergun",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mothergun.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "traits": [
+        "Weapon"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Reveal any number of Mars cards from your hand. Deal damage to a creature equal to the number of Mars cards revealed this way.",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 6,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA187",
+        "VM2023207",
+        "AoA169"
+      ],
+      "id": 164
+    },
+    {
+      "key": "AoA170",
+      "type": "creature",
+      "title": "skybooster squadron",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/skybooster_squadron.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Martian",
+        "Soldier"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: Return Skybooster Squadron to your hand.\n“I thought you said we wouldn’t need booster packs?” – Phlurx the Hapless",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA170"
+      ],
+      "id": 165
+    },
+    {
+      "key": "AoA171",
+      "type": "creature",
+      "title": "tyxl beambuckler",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/tyxl_beambuckler.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 1,
+      "traits": [
+        "Martian",
+        "Soldier"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 2Damage icon to a creature and move it to either flank of its controller’s battleline.",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE164",
+        "AoA171"
+      ],
+      "id": 166
+    },
+    {
+      "key": "AoA172",
+      "type": "creature",
+      "title": "vezyma thinkdrone",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/vezyma_thinkdrone.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Martian",
+        "Scientist"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: You may archive a friendly creature or artifact from play.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA202",
+        "AoA172"
+      ],
+      "id": 167
+    },
+    {
+      "key": "AoA173",
+      "type": "creature",
+      "title": "xanthyx harvester",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/xanthyx_harvester.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "After Reap"
+      ],
+      "effectDescription": "Xanthyx Harvester cannot be used while it has a non-Mars neighbor.\nAfter Reap: Gain 1Aember icon.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE165",
+        "VM2023211",
+        "AoA173"
+      ],
+      "id": 168
+    },
+    {
+      "key": "AoA174",
+      "type": "creature",
+      "title": "yxilx dominator",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/yxilx_dominator.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 9,
+      "armor": 1,
+      "traits": [
+        "Robot"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Taunt. (This creature’s neighbors cannot be attacked unless they have taunt.)\nYxilx Dominator enters play stunned.\n\nCore power online. Stand by for domination.",
+      "ability": [
+        "stunY",
+        "tauntY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA205",
+        "VM2023213",
+        "AoA174"
+      ],
+      "id": 169
+    },
+    {
+      "key": "AoA175",
+      "type": "creature",
+      "title": "zysysyx shockworm",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/zysysyx_shockworm.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 1,
+      "traits": [
+        "Martian",
+        "Soldier"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After an enemy creature reaps, stun it.\n”He shocks more than just worms; that’s just a name.” – Inka the Spider",
+      "ability": [
+        "stunO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA175"
+      ],
+      "id": 170
+    },
+    {
+      "key": "AoA176",
+      "type": "artifact",
+      "title": "æmber conduction unit",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/æmber_conduction_unit.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After an enemy creature reaps, if it is the first time a creature has reaped this turn, stun it.",
+      "ability": [
+        "stunO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA176"
+      ],
+      "id": 171
+    },
+    {
+      "key": "AoA177",
+      "type": "artifact",
+      "title": "combat pheromones",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/combat_pheromones.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Combat Pheromones. You may use up to 2 other Mars cards this turn.\n“Don’t worry, this will only sting a lot.”",
+      "ability": [
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA180",
+        "VM2023186",
+        "AoA177"
+      ],
+      "id": 172
+    },
+    {
+      "key": "AoA178",
+      "type": "upgrade",
+      "title": "containment field",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/containment_field.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After this creature is used, destroy it.\n“So, this nonlethal containment field; how lethal do you want it?”",
+      "ability": [
+        "destroyC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023187",
+        "AoA178"
+      ],
+      "id": 173
+    },
+    {
+      "key": "AoA179",
+      "type": "action",
+      "title": "destroy them all!",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/destroy_them_all!.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy an artifact, a creature, and an upgrade.",
+      "ability": [
+        "artifactRemovalC",
+        "destroyC"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE137",
+        "VM2023190",
+        "AoA179"
+      ],
+      "id": 174
+    },
+    {
+      "key": "AoA180",
+      "type": "action",
+      "title": "exterminate! exterminate!",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/exterminate!_exterminate!.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: For each friendly Mars creature, destroy a non-Mars creature with lower power.",
+      "ability": [
+        "destroyC"
+      ],
+      "abilityQty": 11,
+      "set": [
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE139",
+        "AoA180"
+      ],
+      "id": 175
+    },
+    {
+      "key": "AoA181",
+      "type": "action",
+      "title": "hypnobeam",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hypnobeam.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Gain control of an enemy creature.",
+      "ability": [
+        "controlCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA181"
+      ],
+      "id": 176
+    },
+    {
+      "key": "AoA182",
+      "type": "action",
+      "title": "key abduction",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/key_abduction.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Return each Mars creature to its owner’s hand. Then, you may forge a key at +9Aember icon current cost, reduced by 1Aember icon for each card in your hand.",
+      "ability": [
+        "forgeKeyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA166",
+        "VM2023192",
+        "AoA182"
+      ],
+      "id": 177
+    },
+    {
+      "key": "AoA183",
+      "type": "action",
+      "title": "mothership support",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mothership_support.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: For each friendly ready Mars creature, deal 2Damage icon to a creature. (You may choose a different creature each time.)",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 22,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA171",
+        "WoE142",
+        "AoA183"
+      ],
+      "id": 178
+    },
+    {
+      "key": "AoA184",
+      "type": "creature",
+      "title": "nyzyk resonator",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/nyzyk_resonator.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 1,
+      "traits": [
+        "Martian",
+        "Soldier"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "For each neighbor Nyzyk Resonator has, your opponent’s keys cost +2Aember icon.",
+      "ability": [
+        "keyCostAddO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE144",
+        "VM2023194",
+        "AoA184"
+      ],
+      "id": 179
+    },
+    {
+      "key": "AoA185",
+      "type": "action",
+      "title": "orbital bombardment",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/orbital_bombardment.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Reveal any number of Mars cards from your hand. For each card revealed this way, deal 2Damage icon to a creature. (You may choose a different creature each time.)",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 10,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA172",
+        "VM2023195",
+        "AoA185"
+      ],
+      "id": 180
+    },
+    {
+      "key": "AoA186",
+      "type": "action",
+      "title": "phloxem spike",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/phloxem_spike.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If there are no friendly creatures in play, destroy each creature not on a flank.",
+      "ability": [
+        "destroyO"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA186"
+      ],
+      "id": 181
+    },
+    {
+      "key": "AoA187",
+      "type": "upgrade",
+      "title": "red planet ray gun",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/red_planet_ray_gun.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "After Reap"
+      ],
+      "effectDescription": "This creature gains, “After Reap: Choose a creature. Deal 1Damage icon to that creature for each Mars creature in play.”",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 11,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA211",
+        "WoE146",
+        "AoA187"
+      ],
+      "id": 182
+    },
+    {
+      "key": "AoA188",
+      "type": "action",
+      "title": "sample collection",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sample_collection.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Put an enemy creature into your archives for each key your opponent has forged. If any of these creatures leave your archives, they are put into their owner’s hand instead.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA175",
+        "AoA188"
+      ],
+      "id": 183
+    },
+    {
+      "key": "AoA189",
+      "type": "creature",
+      "title": "storm crawler",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/storm_crawler.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 6,
+      "armor": 1,
+      "traits": [
+        "Robot"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Storm Crawler only deals 1Damage icon when fighting.\nAfter an enemy creature reaps, stun it.",
+      "ability": [
+        "stunO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA189"
+      ],
+      "id": 184
+    },
+    {
+      "key": "AoA190",
+      "type": "creature",
+      "title": "uxlyx the zookeeper",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/uxlyx_the_zookeeper.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Martian",
+        "Scientist"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nReap: Put an enemy creature into your archives. If that creature leaves your archives, it is put into its owner’s hand instead.",
+      "ability": [
+        "archiveY",
+        "elusiveY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA201",
+        "VM2023197",
+        "AoA190"
+      ],
+      "id": 185
+    },
+    {
+      "key": "AoA191",
+      "type": "creature",
+      "title": "zorg",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/zorg.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 7,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Before Fight"
+      ],
+      "effectDescription": "Zorg enters play stunned.\nBefore Fight: Stun the creature Zorg fights and each of that creature’s neighbors.",
+      "ability": [
+        "stunO",
+        "stunY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA206",
+        "AoA191"
+      ],
+      "id": 186
+    },
+    {
+      "key": "AoA192",
+      "type": "upgrade",
+      "title": "brain stem antenna",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/brain_stem_antenna.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "This creature gains, “After you play a Mars creature, ready this creature and for the remainder of the turn it belongs to house Mars.”",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA209",
+        "VM202316",
+        "VM2023163",
+        "AoA192"
+      ],
+      "id": 187
+    },
+    {
+      "key": "AoA193",
+      "type": "artifact",
+      "title": "custom virus",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/custom_virus.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Weapon"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Custom Virus. Purge a creature from your hand. Destroy each creature that shares a trait with the purged creature.",
+      "ability": [
+        "destroyC",
+        "purgeY"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA183",
+        "VM2023166",
+        "AoA193"
+      ],
+      "id": 188
+    },
+    {
+      "key": "AoA194",
+      "type": "action",
+      "title": "destructive analysis",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/destructive_analysis.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 2Damage icon to a creature. You may purge any number of cards from your archives. Deal an additional 2Damage icon to the same creature for each card purged this way.",
+      "ability": [
+        "damageC",
+        "purgeY"
+      ],
+      "abilityQty": 10,
+      "set": [
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE108",
+        "VM2023167",
+        "AoA194"
+      ],
+      "id": 189
+    },
+    {
+      "key": "AoA195",
+      "type": "action",
+      "title": "entropic manipulator",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/entropic_manipulator.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a player. You may redistribute the damage on the creatures that player controls among that player’s creatures. (You may cause more damage to a creature than it has power.)",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 10,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023168",
+        "AoA195"
+      ],
+      "id": 190
+    },
+    {
+      "key": "AoA196",
+      "type": "action",
+      "title": "extinction",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/extinction.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy a creature and each creature that shares a trait with it. Gain 1 chain.",
+      "ability": [
+        "destroyB",
+        "gainChainsY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE119",
+        "VM2023169",
+        "AoA196"
+      ],
+      "id": 191
+    },
+    {
+      "key": "AoA197",
+      "type": "creature",
+      "title": "grommid",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/grommid.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 10,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "You cannot play creatures.\nAfter an enemy creature is destroyed fighting Grommid, your opponent loses 1Aember icon.",
+      "ability": [
+        "aemberLossO",
+        "restrictPlayCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA194",
+        "AoA197"
+      ],
+      "id": 192
+    },
+    {
+      "key": "AoA198",
+      "type": "action",
+      "title": "hypnotic command",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hypnotic_command.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: For each friendly Mars creature, choose an enemy creature to capture 1Aember icon from its own side.",
+      "ability": [
+        "aemberGainY",
+        "captureY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA164",
+        "WoE122",
+        "VM2023170",
+        "VM2023170",
+        "AoA198"
+      ],
+      "id": 193
+    },
+    {
+      "key": "AoA199",
+      "type": "artifact",
+      "title": "incubation chamber",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/incubation_chamber.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Reveal a Mars creature from your hand. If you do, archive it.\n\nMost Martians on the Crucible came out of one of these tanks.",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 6,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA186",
+        "WoE123",
+        "AoA199"
+      ],
+      "id": 194
+    },
+    {
+      "key": "AoA200",
+      "type": "artifact",
+      "title": "invasion portal",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/invasion_portal.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Discard cards from the top of your deck until you discard a Mars creature or run out of cards. If you discard a Mars creature this way, put it into your hand.",
+      "ability": [
+        "discardY",
+        "returnY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA185",
+        "VM2023171",
+        "AoA200"
+      ],
+      "id": 195
+    },
+    {
+      "key": "AoA201",
+      "type": "upgrade",
+      "title": "killzord mk. 9001",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/killzord_mk._9001.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Fight"
+      ],
+      "effectDescription": "This creature gets +2 armor and +2 power.\nThis creature gains skirmish and, “Fight: Gain 1 chain.”",
+      "ability": [
+        "armorGainC",
+        "gainChainsC",
+        "powerGainC",
+        "skirmishY"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023173",
+        "AoA201"
+      ],
+      "id": 196
+    },
+    {
+      "key": "AoA202",
+      "type": "action",
+      "title": "martian generosity",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/martian_generosity.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Lose all of your Aember icon. Draw 2 cards for each Aember icon lost.\n“F-f-forgive me; I misspoke! Thirty—no, forty—percent discount!”",
+      "ability": [
+        "aemberLossY",
+        "drawY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA202"
+      ],
+      "id": 197
+    },
+    {
+      "key": "AoA203",
+      "type": "action",
+      "title": "martian hounds",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/martian_hounds.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a creature. For each damaged creature, give the chosen creature two +1 power counters.\nWho let the... dogs?... out?",
+      "ability": [
+        "powerGainC"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA167",
+        "AoA203"
+      ],
+      "id": 198
+    },
+    {
+      "key": "AoA204",
+      "type": "creature",
+      "title": "qyxxlyx plague master",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/qyxxlyx_plague_master.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Martian",
+        "Scientist"
+      ],
+      "effect": [
+        "After Fight/After Reap"
+      ],
+      "effectDescription": "After Fight/After Reap: Deal 3Damage icon to each Human creature. This damage cannot be prevented by armor.",
+      "ability": [
+        "damageB"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA198",
+        "WoE128",
+        "VM2023177",
+        "VM2023177",
+        "AoA204"
+      ],
+      "id": 199
+    },
+    {
+      "key": "AoA205",
+      "type": "artifact",
+      "title": "shard of hate",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shard_of_hate.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item",
+        "Shard"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Stun an enemy creature for each friendly Shard.\nForged from fear.",
+      "ability": [
+        "stunO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA205"
+      ],
+      "id": 200
+    },
+    {
+      "key": "AoA206",
+      "type": "action",
+      "title": "shatter storm",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shatter_storm.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Lose all your Aember icon. Then, your opponent loses triple the amount of Aember icon you lost this way.\n“It’s working!”",
+      "ability": [
+        "aemberLossB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA176",
+        "VM2023179",
+        "AoA206"
+      ],
+      "id": 201
+    },
+    {
+      "key": "AoA207",
+      "type": "artifact",
+      "title": "sniffer",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sniffer.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Ally"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: For the remainder of the turn, each creature loses elusive.\nEven the Martians’ pets have a bone to pick with the other lifeforms on the Crucible.",
+      "ability": [
+        "elusiveLossB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA188",
+        "VM2023180",
+        "AoA207"
+      ],
+      "id": 202
+    },
+    {
+      "key": "AoA208",
+      "type": "action",
+      "title": "total recall",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/total_recall.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: For each friendly ready creature, gain 1Aember icon. Return each friendly creature to your hand.",
+      "ability": [
+        "aemberGainY",
+        "returnY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA179",
+        "WoE133",
+        "AoA208"
+      ],
+      "id": 203
+    },
+    {
+      "key": "AoA209",
+      "type": "creature",
+      "title": "yxlyx stimrager",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/yxlyx_stimrager.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 2,
+      "traits": [
+        "Martian",
+        "Soldier"
+      ],
+      "effect": [
+        "After Fight"
+      ],
+      "effectDescription": "After Fight: Deal 2Damage icon to a creature and move it to either flank of its controller’s battleline.",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Winds of Exchange",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE134",
+        "VM2023182",
+        "AoA209"
+      ],
+      "id": 204
+    },
+    {
+      "key": "AoA210",
+      "type": "creature",
+      "title": "yzphyz knowdrone",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/yzphyz_knowdrone.png",
+      "house": "Mars",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 1,
+      "traits": [
+        "Martian",
+        "Soldier"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Archive a card. You may purge an archived card to stun a creature.",
+      "ability": [
+        "archiveY",
+        "purgeC",
+        "stunC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA210"
+      ],
+      "id": 205
+    },
+    {
+      "key": "AoA211",
+      "type": "creature",
+      "title": "“lion” bautrem",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/“lion”_bautrem.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 1,
+      "traits": [
+        "Human",
+        "Knight"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Deploy. (This creature can enter play anywhere in your battleline.)\n“Lion” Bautrem’s neighbors get +2 power.",
+      "ability": [
+        "deployY",
+        "powerGainY"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA211"
+      ],
+      "id": 206
+    },
+    {
+      "key": "AoA212",
+      "type": "creature",
+      "title": "abond the armorsmith",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/abond_the_armorsmith.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Other friendly creatures get +1 armor.\nAction: For the remainder of the turn, other friendly creatures get +1 armor.",
+      "ability": [
+        "armorGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA212"
+      ],
+      "id": 207
+    },
+    {
+      "key": "AoA213",
+      "type": "creature",
+      "title": "aubade the grim",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/aubade_the_grim.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 1,
+      "traits": [
+        "Knight",
+        "Spirit"
+      ],
+      "effect": [
+        "Play",
+        "Reap"
+      ],
+      "effectDescription": "Play: Capture 3Aember icon.\nReap: Discard 1Aember icon from Aubade the Grim.",
+      "ability": [
+        "aemberLossO",
+        "captureY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA213"
+      ],
+      "id": 208
     }
   ]
 }
