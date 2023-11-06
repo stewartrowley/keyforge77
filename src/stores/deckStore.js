@@ -29,6 +29,10 @@ export const useDeckStore = defineStore('deck', {
       this.calcDecksPower();
       this.calcDecksAember();
       this.calcCreatureCount();
+      this.calcActionCount();
+      this.calcArtifactCount();
+      this.calcUpgradeCount();
+      this.calcPlayEffects();
     },
     setDecks () {
       this.decks = decks;
@@ -89,6 +93,57 @@ export const useDeckStore = defineStore('deck', {
         })
         const deckSum = this.sumAll(deckCreature);
         deck.creatureCount = deckSum;
+      })
+    },
+    calcActionCount() {
+      this.decks.forEach((deck) => {
+        let deckActions =[];
+        deck.cardData.forEach((card) => {
+          if(card.type === 'action') {
+            deckActions.push(1);
+          }
+        })
+        const deckSum = this.sumAll(deckActions);
+        deck.actionCount = deckSum;
+      })
+    },
+    calcArtifactCount() {
+      this.decks.forEach((deck) => {
+        let deckArtifact =[];
+        deck.cardData.forEach((card) => {
+          if(card.type === 'artifact') {
+            deckArtifact.push(1);
+          }
+        })
+        const deckSum = this.sumAll(deckArtifact);
+        deck.artifactCount = deckSum;
+      })
+    },
+    calcUpgradeCount() {
+      this.decks.forEach((deck) => {
+        let deckUpgrades =[];
+        deck.cardData.forEach((card) => {
+          if(card.type === 'upgrade') {
+            deckUpgrades.push(1);
+          }
+        })
+        const deckSum = this.sumAll(deckUpgrades);
+        deck.upgradeCount = deckSum;
+      })
+    },
+    calcPlayEffects() {
+      this.decks.forEach((deck) => {
+        let deckPlayEffects = [];
+        deck.cardData.forEach((card) => {
+          card.effect.forEach((element) => {
+            if(element === 'Play' || element === 'Play/Fight/Reap' || element === 'Play/Reap' || element === 'Play/After Fight/After Reap') {
+              deckPlayEffects.push(1)
+            }
+          })
+        })
+        console.log(deckPlayEffects)
+        const deckSum = this.sumAll(deckPlayEffects)
+        deck.playEffectCount = deckSum
       })
     }
   }

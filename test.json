@@ -13159,6 +13159,42 @@
         "CotA029"
       ],
       "id": 368
+    },
+    {
+      "key": "CotA102",
+      "type": "creature",
+      "title": "tocsin",
+      "imageUri": "src/assets/keyforge-cards/call_to_the_archons/tocsin.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Demon"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Reap: Your opponent discards a random card from their hand.",
+      "ability": [
+        "discardO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Vault Masters 2023",
+        "Call to The Archons"
+      ],
+      "setId": [
+        "VM2023102",
+        "CotA102"
+      ],
+      "id": 372
     }
   ]
 }

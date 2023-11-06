@@ -86,5 +86,170 @@
          "AoA269", "AoA270", "AoA271", "AoA275", "AoA282", "AoA286", "AoA288", "AoA289", "AoA290", "AoA291", "AoA293", "AoA298"
       ],
       "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD9",
+      "name": "Blind \"Old Blue\" Franz",
+      "houses": ["Dis", "Shadows", "Untamed"],
+      "cards": [
+         "AoA054", "AoA057", "AoA057", "AoA057", "AoA059", "AoA059", "AoA061", "AoA064", "AoA066", "AoA067", "AoA086", "AoA100",
+         "AoA268", "AoA269", "AoA271", "AoA273", "AoA280", "AoA280", "AoA281", "AoA281", "AoA284", "AoA290", "AoA292", "AoA310",
+         "AoA320", "AoA321", "AoA321", "AoA325", "AoA326", "AoA328", "AoA333", "AoA335", "AoA344", "AoA347", "AoA353", "AoA354"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD10",
+      "name": "Agile \"Singer\" Zacharias",
+      "houses": ["Brobnar", "Sanctum", "Shadows"],
+      "cards": [
+         "AoA003", "AoA004", "AoA005", "AoA009", "AoA010", "AoA020", "AoA025", "AoA027", "AoA029", "AoA034", "AoA041", "AoA046",
+         "AoA211", "AoA217", "AoA221", "AoA222", "AoA222", "AoA231", "AoA240", "AoA240", "AoA242", "AoA246", "AoA258", "AoA265",
+         "AoA270", "AoA272", "AoA277", "AoA278", "AoA279", "AoA280", "AoA281", "AoA291", "AoA294", "AoA298", "AoA311", "AoA311"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD10",
+      "name": "The Opportunistic Spymaster of Fireroom",
+      "houses": ["Brobnar", "Sanctum", "Untamed"],
+      "cards": [
+         "AoA001", "AoA001", "AoA002", "AoA004", "AoA004", "AoA006", "AoA014", "AoA015", "AoA031", "AoA031", "AoA042", "AoA045",
+         "AoA211", "AoA213", "AoA215", "AoA215", "AoA219", "AoA223", "AoA228", "AoA233", "AoA242", "AoA249", "AoA253", "AoA265",
+         "AoA320", "AoA321", "AoA328", "AoA329", "AoA330", "AoA332", "AoA334", "AoA335", "AoA337", "AoA348", "AoA354", "AoA365"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD11",
+      "name": "The Sgt. of Vinevale",
+      "houses": ["Brobnar", "Sanctum", "Untamed"],
+      "cards": [
+         "AoA001", "AoA004", "AoA004", "AoA005", "AoA006", "AoA011", "AoA011", "AoA012", "AoA013", "AoA016", "AoA018", "AoA018",
+         "AoA211", "AoA215", "AoA222", "AoA226", "AoA235", "AoA239", "AoA244", "AoA246", "AoA247", "AoA250", "AoA251", "AoA258",
+         "AoA324", "AoA325", "AoA327", "AoA327", "AoA328", "AoA328", "AoA329", "AoA330", "AoA332", "AoA335", "AoA335", "AoA355"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD12",
+      "name": "Barbosa the Famously Rustic",
+      "houses": ["Dis", "Shadows", "Untamed"],
+      "cards": [
+         "AoA054", "AoA060", "AoA061", "AoA065", "AoA065", "AoA066", "AoA066", "AoA067", "AoA082", "AoA083", "AoA086", "AoA101",
+         "AoA268", "AoA272", "AoA275", "AoA275", "AoA275", "AoA275", "AoA280", "AoA281", "AoA282", "AoA293", "AoA296", "AoA300",
+         "AoA322", "AoA323", "AoA324", "AoA328", "AoA331", "AoA331", "AoA333", "AoA333", "AoA333", "AoA345", "AoA350", "AoA364"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD13",
+      "name": "The Swarming Geneticist",
+      "houses": ["Sanctum", "Shadows", "Untamed"],
+      "cards": [
+         "AoA211", "AoA212", "AoA214", "AoA215", "AoA215", "AoA217", "AoA223", "AoA223", "AoA224", "AoA225", "AoA244", "AoA261",
+         "AoA271", "AoA271", "AoA271", "AoA283", "AoA283", "AoA284", "AoA289", "AoA295", "AoA296", "AoA297", "AoA297", "AoA304",
+         "AoA319", "AoA323", "AoA323", "AoA325", "AoA326", "AoA326", "AoA327", "AoA327", "AoA331", "AoA337", "AoA351", "AoA365"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD14",
+      "name": "The Advocate that Hypes Treaties",
+      "houses": ["Brobnar", "Mars", "Sanctum"],
+      "cards": [
+         "AoA002", "AoA009", "AoA010", "AoA010", "AoA014", "AoA016", "AoA019", "AoA024", "AoA030", "AoA031", "AoA031", "AoA040",
+         "AoA160", "AoA162", "AoA165", "AoA167", "AoA170", "AoA171", "AoA172", "AoA174", "AoA182", "AoA190", "AoA190", "AoA191",
+         "AoA217", "AoA217", "AoA217", "AoA218", "AoA219", "AoA220", "AoA225", "AoA233", "AoA234", "AoA245", "AoA251", "AoA259"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD15",
+      "name": "Iei, the Leader of Clubs",
+      "houses": ["Logos", "Mars", "Shadows"],
+      "cards": [
+         "AoA109", "AoA109", "AoA112", "AoA112", "AoA113", "AoA119", "AoA120", "AoA123", "AoA123", "AoA128", "AoA137", "AoA142",
+         "AoA160", "AoA162", "AoA162", "AoA165", "AoA167", "AoA168", "AoA173", "AoA173", "AoA175", "AoA176", "AoA180", "AoA201",
+         "AoA267", "AoA268", "AoA270", "AoA274", "AoA275", "AoA275", "AoA275", "AoA280", "AoA281", "AoA283", "AoA296", "AoA309"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD16",
+      "name": "Superflux, the Madre of the Minefield",
+      "houses": ["Brobnar", "Mars", "Sanctum"],
+      "cards": [
+         "AoA001", "AoA001", "AoA003", "AoA008", "AoA010", "AoA014", "AoA015", "AoA021", "AoA022", "AoA030", "AoA046", "AoA049",
+         "AoA160", "AoA160", "AoA161", "AoA162", "AoA169", "AoA174", "AoA178", "AoA185", "AoA188", "AoA189", "AoA202", "AoA204",
+         "AoA212", "AoA217", "AoA217", "AoA217", "AoA218", "AoA220", "AoA222", "AoA222", "AoA224", "AoA227", "AoA242", "AoA244"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD17",
+      "name": "Asia N. Coaljoukhia, the Variable",
+      "houses": ["Dis", "Logos", "Mars"],
+      "cards": [
+         "AoA054", "AoA058", "AoA059", "AoA060", "AoA064", "AoA065", "AoA069", "AoA072", "AoA075", "AoA078", "AoA084", "AoA105",
+         "AoA109", "AoA111", "AoA113", "AoA117", "AoA118", "AoA119", "AoA119", "AoA120", "AoA123", "AoA129", "AoA144", "AoA156",
+         "AoA160", "AoA162", "AoA163", "AoA168", "AoA169", "AoA171", "AoA171", "AoA172", "AoA175", "AoA179", "AoA184", "AoA188"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD18",
+      "name": "The Preposterous Swindler of Farwell",
+      "houses": ["Dis", "Mars", "Untamed"],
+      "cards": [
+         "AoA054", "AoA055", "AoA058", "AoA060", "AoA062", "AoA067", "AoA068", "AoA070", "AoA085", "AoA086", "CotA102", "AoA107",
+         "AoA165", "AoA167", "AoA169", "AoA169", "AoA170", "AoA170", "AoA171", "AoA172", "AoA172", "AoA173", "AoA174", "AoA195",
+         "AoA319", "AoA320", "AoA321", "AoA321", "AoA331", "AoA333", "AoA337", "AoA342", "AoA345", "AoA347", "AoA348", "AoA349"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD19",
+      "name": "Dust the Honest",
+      "houses": ["Logos", "Mars", "Sanctum"],
+      "cards": [
+         "AoA108", "AoA111", "AoA114", "AoA115", "AoA115", "AoA119", "AoA121", "AoA123", "AoA128", "AoA134", "AoA144", "AoA159",
+         "AoA164", "AoA165", "AoA166", "AoA167", "AoA169", "AoA169", "AoA169", "AoA178", "AoA182", "AoA188", "AoA191", "AoA200",
+         "AoA212", "AoA213", "AoA215", "AoA216", "AoA216", "AoA219", "AoA220", "AoA222", "AoA241", "AoA241", "AoA246", "AoA258"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD20",
+      "name": "Ulysses, College Navigator",
+      "houses": ["Dis", "Logos", "Sanctum"],
+      "cards": [
+         "AoA058", "AoA060", "AoA060", "AoA063", "AoA064", "AoA066", "AoA066", "AoA070", "AoA075", "AoA076", "AoA086", "AoA091",
+         "AoA109", "AoA110", "AoA114", "AoA115", "AoA119", "AoA121", "AoA121", "AoA121", "AoA126", "AoA131", "AoA159", "AoA159",
+         "AoA215", "AoA216", "AoA218", "AoA219", "AoA219", "AoA223", "AoA223", "AoA224", "AoA226", "AoA233", "AoA233", "AoA249"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD21",
+      "name": "Actder, Spawn of Teloscohelper",
+      "houses": ["Shadows", "Logos", "Untamed"],
+      "cards": [
+         "AoA110", "AoA110", "AoA113", "AoA113", "AoA114", "AoA114", "AoA117", "AoA120", "AoA125", "AoA126", "AoA131", "AoA141",
+         "AoA267", "AoA268", "AoA269", "AoA270", "AoA273", "AoA276", "AoA276", "AoA277", "AoA281", "AoA284", "AoA285", "AoA290",
+         "AoA319", "AoA319", "AoA326", "AoA328", "AoA330", "AoA334", "AoA335", "AoA340", "AoA348", "AoA349", "AoA349", "AoA359"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD22",
+      "name": "Intrafather, Spawn of Grimchanger",
+      "houses": ["Logos", "Shadows", "Untamed"],
+      "cards": [
+         "AoA108", "AoA109", "AoA109", "AoA114", "AoA117", "AoA119", "AoA125", "AoA133", "AoA134", "AoA136", "AoA145", "AoA150",
+         "AoA271", "AoA277", "AoA280", "AoA280", "AoA282", "AoA282", "AoA290", "AoA295", "AoA297", "AoA301", "AoA318", "AoA318",
+         "AoA325", "AoA328", "AoA329", "AoA332", "AoA332", "AoA333", "AoA333", "AoA339", "AoA341", "AoA345", "AoA349", "AoA370"
+      ],
+      "set": "Age of Ascension"
    }
 ]
