@@ -1,16 +1,16 @@
 <template>
   <div>
-    <SearchBar />
+    <!-- <SearchBar /> -->
     <CardGallery :cards="getCards" />
   </div>
 </template>
 <script>
 import CardGallery from '../components/CardGallery.vue'
-import SearchBar from '../components/SearchBar.vue'
+// import SearchBar from '../components/SearchBar.vue'
 import { useCardStore } from '../stores/cardStore'
 import { useDeckStore } from '../stores/deckStore'
 export default {
-  components: { CardGallery, SearchBar },
+  components: { CardGallery },
   setup() {
     const cardStore = useCardStore()
     const deckStore = useDeckStore()

@@ -2692,7 +2692,7 @@
       "id": 76
     },
     {
-      "key": "AoA77",
+      "key": "AoA077",
       "type": "creature",
       "title": "old yurk",
       "imageUri": "src/assets/keyforge-cards/age_of_ascension/old_yurk.png",
@@ -3632,6 +3632,181 @@
         "AoA102"
       ],
       "id": 102
+    },
+    {
+      "key": "AoA103",
+      "type": "action",
+      "title": "shadow of dis",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shadow_of_dis.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Until your next turn, enemy creatures’ text boxes are considered blank (except for traits).",
+      "ability": [
+        "restrictPlayCardO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM046",
+        "VM2023068",
+        "AoA103"
+      ],
+      "id": 363
+    },
+    {
+      "key": "AoA104",
+      "type": "artifact",
+      "title": "shard of pain",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shard_of_pain.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item",
+        "Shard"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Deal 1Damage icon to an enemy creature for each friendly Shard.\nForged from curiosity.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA104"
+      ],
+      "id": 364
+    },
+    {
+      "key": "AoA105",
+      "type": "artifact",
+      "title": "soul snatcher",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/soul_snatcher.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Vehicle"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Each time a creature is destroyed, its owner gains 1Aember icon.\nNo one goes in, no one comes out. And yet the fires burn.",
+      "ability": [
+        "aemberGainB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA080",
+        "WC119",
+        "AoA105"
+      ],
+      "id": 365
+    },
+    {
+      "key": "AoA106",
+      "type": "creature",
+      "title": "tolas",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/tolas.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Imp"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nEach time a creature is destroyed, its opponent gains 1Aember icon.",
+      "ability": [
+        "aemberGainB",
+        "elusiveY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA103",
+        "AoA106"
+      ],
+      "id": 366
+    },
+    {
+      "key": "AoA107",
+      "type": "artifact",
+      "title": "wretched doll",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/wretched_doll.png",
+      "house": "Dis",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Wretched Doll was updated in Mass Mutation. Original card text:\nAction: If there is a doom counter in play, destroy all creatures with doom counters. Otherwise, put a doom counter on a creature.",
+      "ability": [
+        "destroyC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC120",
+        "MM052",
+        "AoA107"
+      ],
+      "id": 367
     },
     {
       "key": "AoA108",
@@ -7392,6 +7567,5598 @@
         "AoA213"
       ],
       "id": 208
+    },
+    {
+      "key": "AoA214",
+      "type": "action",
+      "title": "blinding light",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/blinding_light.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a house. Stun each creature of that house.",
+      "ability": [
+        "stunC"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA213",
+        "AoA213"
+      ],
+      "id": 209
+    },
+    {
+      "key": "AoA215",
+      "type": "creature",
+      "title": "bordan the redeemed",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bordan_the_redeemed.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Thief"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nAction: Capture 2Aember icon.\n\n“Redemption is a journey, not a destination.”",
+      "ability": [
+        "captureY",
+        "elusiveY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA215"
+      ],
+      "id": 210
+    },
+    {
+      "key": "AoA216",
+      "type": "creature",
+      "title": "challe the safeguard",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/challe_the_safeguard.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 2,
+      "traits": [
+        "Human",
+        "Knight"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Deploy. (This creature can enter play anywhere in your battleline.)\nTaunt. (This creature’s neighbors cannot be attacked unless they have taunt.)",
+      "ability": [
+        "deployY",
+        "tauntY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE212",
+        "AoA216"
+      ],
+      "id": 211
+    },
+    {
+      "key": "AoA217",
+      "type": "action",
+      "title": "golden aura",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/golden_aura.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a creature. Fully heal the chosen creature. For the remainder of the turn, the chosen creature is considered to be in house Sanctum and cannot be dealt damage.",
+      "ability": [
+        "healY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA217"
+      ],
+      "id": 212
+    },
+    {
+      "key": "AoA218",
+      "type": "artifact",
+      "title": "hallowed shield",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hallowed_shield.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Choose a creature. For the remainder of the turn, the chosen creature cannot be dealt damage.",
+      "ability": [
+        "harmLessY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA218"
+      ],
+      "id": 213
+    },
+    {
+      "key": "AoA219",
+      "type": "action",
+      "title": "healing blast",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/healing_blast.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Fully heal a creature. If you healed 4 or more damage this way, gain 2Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "healY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA219"
+      ],
+      "id": 214
+    },
+    {
+      "key": "AoA220",
+      "type": "creature",
+      "title": "maruck the marked",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/maruck_the_marked.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 5,
+      "armor": 1,
+      "traits": [
+        "Knight",
+        "Spirit"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After Maruck the Marked prevents damage with its armor, capture 1Aember icon for each damage just prevented.\nWhat weapon can scar a being of pure light?",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA220"
+      ],
+      "id": 215
+    },
+    {
+      "key": "AoA221",
+      "type": "upgrade",
+      "title": "protect the weak",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/protect_the_weak.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "This creature gets +1 armor and gains taunt. (This creature’s neighbors cannot be attacked unless they have taunt.)",
+      "ability": [
+        "armorGainY",
+        "tauntY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA265",
+        "AoA221"
+      ],
+      "id": 216
+    },
+    {
+      "key": "AoA222",
+      "type": "action",
+      "title": "shield of justice",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shield_of_justice.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: For the remainder of the turn, each friendly creature cannot be dealt damage.",
+      "ability": [
+        "harmLessY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA225",
+        "AoA222"
+      ],
+      "id": 217
+    },
+    {
+      "key": "AoA223",
+      "type": "creature",
+      "title": "sir marrows",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sir_marrows.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 2,
+      "traits": [
+        "Human",
+        "Knight"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After your opponent gains Aember icon by reaping, Sir Marrows captures it.\n“All Æmber is ours by right.”",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA223"
+      ],
+      "id": 218
+    },
+    {
+      "key": "AoA224",
+      "type": "action",
+      "title": "smite",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/smite.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Ready and fight with a friendly creature. Deal 2Damage icon to the attacked creature’s neighbors.",
+      "ability": [
+        "damageY",
+        "readyY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM139",
+        "AoA224"
+      ],
+      "id": 219
+    },
+    {
+      "key": "AoA225",
+      "type": "action",
+      "title": "take hostages",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/take_hostages.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: For the remainder of the turn, each time a friendly creature fights, it captures 1Aember icon.",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA226",
+        "AoA225"
+      ],
+      "id": 220
+    },
+    {
+      "key": "AoA226",
+      "type": "creature",
+      "title": "the grey rider",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/the_grey_rider.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Monk"
+      ],
+      "effect": [
+        "Play/After Fight/After Reap"
+      ],
+      "effectDescription": "Deploy. (This creature can enter play anywhere in your battleline.)\nPlay/After Fight/After Reap: You may ready and fight with a neighboring creature.",
+      "ability": [
+        "deployY",
+        "readyY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM141",
+        "WoE226",
+        "AoA226"
+      ],
+      "id": 221
+    },
+    {
+      "key": "AoA227",
+      "type": "creature",
+      "title": "baron mengevin",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/baron_mengevin.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 6,
+      "armor": 1,
+      "traits": [
+        "Human",
+        "Knight"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After you discard a Sanctum card from your hand, Baron Mengevin captures 1Aember icon.",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA227"
+      ],
+      "id": 222
+    },
+    {
+      "key": "AoA228",
+      "type": "creature",
+      "title": "barrister joya",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/barrister_joya.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 5,
+      "armor": 1,
+      "traits": [
+        "Human",
+        "Knight"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Enemy creatures cannot reap.\n“A righteous law will enforce itself.”",
+      "ability": [
+        "unableReapO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM145",
+        "DT094",
+        "AoA228"
+      ],
+      "id": 223
+    },
+    {
+      "key": "AoA229",
+      "type": "creature",
+      "title": "brobnar ambassador",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/brobnar_ambassador.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nFight/Reap: You may play or use a Brobnar card this turn.\n\n“Greetings! I bring rad tidings.”",
+      "ability": [
+        "elusiveY",
+        "playCardY",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA229"
+      ],
+      "id": 224
+    },
+    {
+      "key": "AoA230",
+      "type": "creature",
+      "title": "dis ambassador",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/dis_ambassador.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nFight/Reap: You may play or use a Dis card this turn.\n\n“Greetings! I bring bad tidings.”",
+      "ability": [
+        "elusiveY",
+        "playCardY",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA230"
+      ],
+      "id": 225
+    },
+    {
+      "key": "AoA231",
+      "type": "action",
+      "title": "doorstep to heaven",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/doorstep_to_heaven.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Each player with 6Aember icon or more is reduced to 5Aember icon.\n\nOriginal Text\nThe cities of the Sanctum are safe, clean, and vibrant like few others on the Crucible. But few are judged worthy to enter.",
+      "ability": [
+        "aemberLossB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA217",
+        "DT096",
+        "AoA231"
+      ],
+      "id": 226
+    },
+    {
+      "key": "AoA232",
+      "type": "action",
+      "title": "equalize",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/equalize.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Redistribute the Aember icon on friendly creatures among friendly creatures. Then, redistribute the Aember icon on enemy creatures among enemy creatures.",
+      "ability": [
+        "redistributeAemberC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM148",
+        "AoA232"
+      ],
+      "id": 227
+    },
+    {
+      "key": "AoA233",
+      "type": "action",
+      "title": "free markets",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/free_markets.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Gain 1Aember icon (to a maximum of 6) for each house represented among cards in play, except for Sanctum.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM149",
+        "AoA233"
+      ],
+      "id": 228
+    },
+    {
+      "key": "AoA234",
+      "type": "creature",
+      "title": "gatekeeper",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gatekeeper.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 5,
+      "armor": 1,
+      "traits": [
+        "Knight",
+        "Spirit"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If your opponent has 7 or more Aember icon, capture all but 5 of it.",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA260",
+        "DT098",
+        "AoA234"
+      ],
+      "id": 229
+    },
+    {
+      "key": "AoA235",
+      "type": "artifact",
+      "title": "gorm of omm",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gorm_of_omm.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Destroy Gorm of Omm. Destroy an artifact.\n“An object, no matter how sacred, is just a thing.”",
+      "ability": [
+        "artifactRemovalC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA232",
+        "MM151",
+        "DT099",
+        "DT099",
+        "AoA235"
+      ],
+      "id": 230
+    },
+    {
+      "key": "AoA236",
+      "type": "artifact",
+      "title": "haedroth’s wall",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/haedroth’s_wall.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Each friendly flank creature gets +2 power.\nOrder. This is the Sanctum’s promise.",
+      "ability": [
+        "powerGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Dark Tidings",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "DT101",
+        "WoE200",
+        "AoA236"
+      ],
+      "id": 231
+    },
+    {
+      "key": "AoA237",
+      "type": "creature",
+      "title": "logos ambassador",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/logos_ambassador.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nFight/Reap: You may play or use a Logos card this turn.\n\n“Greetings! I bring glad tidings.”",
+      "ability": [
+        "elusiveY",
+        "playCardY",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA237"
+      ],
+      "id": 232
+    },
+    {
+      "key": "AoA238",
+      "type": "creature",
+      "title": "mars ambassador",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mars_ambassador.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nFight/Reap: You may play or use a Mars card this turn.\n\n“Greetings! I bring mad tidings.”",
+      "ability": [
+        "elusiveY",
+        "playCardY",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA238"
+      ],
+      "id": 233
+    },
+    {
+      "key": "AoA239",
+      "type": "artifact",
+      "title": "potion of invulnerability",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/potion_of_invulnerability.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Potion of Invulnerability. For the remainder of the turn, each friendly creature cannot be dealt damage.",
+      "ability": [
+        "harmLessY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA234",
+        "MM152",
+        "AoA239"
+      ],
+      "id": 234
+    },
+    {
+      "key": "AoA240",
+      "type": "creature",
+      "title": "prince derric, unifier",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/prince_derric,_unifier.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 4,
+      "armor": 1,
+      "traits": [
+        "Human",
+        "Knight"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Gain 3Aember icon if you control creatures from 3 different houses.\n“Ah, excellent! My father will be pleased.”",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA240"
+      ],
+      "id": 235
+    },
+    {
+      "key": "AoA241",
+      "type": "action",
+      "title": "radiant truth",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/radiant_truth.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Stun each enemy creature not on a flank.\n“Truly I say to you: pie is superior to cake.” – from the Ravings of The Prophet Gizelhart",
+      "ability": [
+        "stunO"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA224",
+        "MM154",
+        "DT105",
+        "DT105",
+        "AoA241"
+      ],
+      "id": 369
+    },
+    {
+      "key": "AoA242",
+      "type": "creature",
+      "title": "rothais the fierce",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/rothais_the_fierce.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 4,
+      "armor": 2,
+      "traits": [
+        "Human",
+        "Knight"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Taunt. (This creature’s neighbors cannot be attacked unless they have taunt.)\nHazardous 4. (Before this creature is attacked, deal 4Damage icon to the attacking enemy.)\n\n“Verily, I say unto thee; bring it on.”",
+      "ability": [
+        "hazardessY",
+        "tauntY"
+      ],
+      "abilityQty": 5,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA242"
+      ],
+      "id": 370
+    },
+    {
+      "key": "AoA243",
+      "type": "creature",
+      "title": "shadows ambassador",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shadows_ambassador.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nFight/Reap: You may play or use a Shadows card this turn.\n\n“Greetings! I bring… Hello?”",
+      "ability": [
+        "elusiveY",
+        "playCardY",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA243"
+      ],
+      "id": 371
+    },
+    {
+      "key": "AoA244",
+      "type": "artifact",
+      "title": "sigil of brotherhood",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sigil_of_brotherhood.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Power"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Destroy Sigil of Brotherhood. For the remainder of the turn, you may use friendly Sanctum creatures.",
+      "ability": [
+        "useCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA236",
+        "WoE207",
+        "AoA244"
+      ],
+      "id": 236
+    },
+    {
+      "key": "AoA245",
+      "type": "action",
+      "title": "the harder they come",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/the_harder_they_come.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Purge a creature with power 5 or higher.",
+      "ability": [
+        "purgeO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA228",
+        "AoA245"
+      ],
+      "id": 237
+    },
+    {
+      "key": "AoA246",
+      "type": "action",
+      "title": "the spirit’s way",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/the_spirit’s_way.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each creature with power 3 or higher.\n“The spirit is eternal. The flesh is weak. Let go the flesh, for your earthly strength is the greatest prison.” – The Last Book",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA229",
+        "MM157",
+        "AoA246"
+      ],
+      "id": 238
+    },
+    {
+      "key": "AoA247",
+      "type": "creature",
+      "title": "untamed ambassador",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/untamed_ambassador.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "special",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nFight/Reap: You may play or use an Untamed card this turn.\n\n“I bring tidings.”",
+      "ability": [
+        "elusiveY",
+        "playCardY",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA247"
+      ],
+      "id": 239
+    },
+    {
+      "key": "AoA248",
+      "type": "creature",
+      "title": "anahita the trader",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/anahita_the_trader.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Merchant"
+      ],
+      "effect": [
+        "After Reap"
+      ],
+      "effectDescription": "After Reap: Give control of a friendly artifact to your opponent. If you do, they must give you 2Aember icon.\n“Never rush a good deal.”",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE176",
+        "AoA248"
+      ],
+      "id": 240
+    },
+    {
+      "key": "AoA249",
+      "type": "upgrade",
+      "title": "armageddon cloak",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/armageddon_cloak.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "This creature gains hazardous 2 and, “Destroyed: Fully heal this creature and destroy Armageddon Cloak instead.”",
+      "ability": [
+        "hazardessY",
+        "healY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA263",
+        "MM158",
+        "AoA249"
+      ],
+      "id": 241
+    },
+    {
+      "key": "AoA250",
+      "type": "action",
+      "title": "begone!",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/begone!.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose one: destroy each Dis creature, or gain 1Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "destroyB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA212",
+        "AoA250"
+      ],
+      "id": 242
+    },
+    {
+      "key": "AoA251",
+      "type": "creature",
+      "title": "duma the martyr",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/duma_the_martyr.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human"
+      ],
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "Destroyed: Fully heal each other friendly creature and draw 2 cards.\n“Remember me.” – Squire Duma, at the Battle for the Gate of Hope",
+      "ability": [
+        "drawY",
+        "healY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA242",
+        "AoA251"
+      ],
+      "id": 243
+    },
+    {
+      "key": "AoA252",
+      "type": "artifact",
+      "title": "epic quest",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/epic_quest.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Quest"
+      ],
+      "effect": [
+        "Omni",
+        "Play"
+      ],
+      "effectDescription": "Play: Archive each friendly Knight creature in play.�Omni: If you have played 7 or more Sanctum cards this turn, sacrifice Epic Quest and forge a key at no cost.",
+      "ability": [
+        "archiveY",
+        "forgeKeyY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA231",
+        "DT077",
+        "AoA252"
+      ],
+      "id": 244
+    },
+    {
+      "key": "AoA253",
+      "type": "artifact",
+      "title": "eye of judgment",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/eye_of_judgment.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Purge a creature from a discard pile.\nThose with nothing to hide have nothing to fear.",
+      "ability": [
+        "purgeO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM162",
+        "AoA253"
+      ],
+      "id": 245
+    },
+    {
+      "key": "AoA254",
+      "type": "creature",
+      "title": "lord golgotha",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lord_golgotha.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 5,
+      "armor": 2,
+      "traits": [
+        "Knight",
+        "Spirit"
+      ],
+      "effect": [
+        "Before Fight"
+      ],
+      "effectDescription": "Before Fight: Deal 3Damage icon to each neighbor of the creature Lord Golgotha fights.\n“Enlightened” does not mean “peaceful.”",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA252",
+        "MM166",
+        "DT081",
+        "DT081",
+        "AoA254"
+      ],
+      "id": 246
+    },
+    {
+      "key": "AoA255",
+      "type": "action",
+      "title": "martyr’s end",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/martyr’s_end.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy any number of friendly creatures. Gain 1Aember icon for each creature destroyed this way.",
+      "ability": [
+        "aemberGainY",
+        "destroyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE185",
+        "AoA255"
+      ],
+      "id": 247
+    },
+    {
+      "key": "AoA256",
+      "type": "action",
+      "title": "mighty lance",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mighty_lance.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 3Damage icon to a creature and 3Damage icon to a neighbor of that creature.",
+      "ability": [
+        "damageO",
+        "splashO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Winds of Exchange",
+        "Winds of Exchange",
+        "Winds of Exchange",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA221",
+        "MM170",
+        "DT083",
+        "DT083",
+        "WoE186",
+        "WoE186",
+        "WoE186",
+        "WoE186",
+        "AoA256"
+      ],
+      "id": 248
+    },
+    {
+      "key": "AoA257",
+      "type": "creature",
+      "title": "mother northelle",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mother_northelle.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Monk"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nReap: Move 1Aember icon from a friendly creature to your pool.",
+      "ability": [
+        "aemberGainY",
+        "elusiveY",
+        "moveAemberY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA257"
+      ],
+      "id": 249
+    },
+    {
+      "key": "AoA258",
+      "type": "action",
+      "title": "oath of poverty",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/oath_of_poverty.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each of your artifacts. Gain 2Aember icon for each artifact destroyed this way.",
+      "ability": [
+        "aemberGainY",
+        "artifactRemovalY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA222",
+        "AoA258"
+      ],
+      "id": 250
+    },
+    {
+      "key": "AoA259",
+      "type": "action",
+      "title": "one stood against many",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/one_stood_against_many.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Ready and fight with a friendly creature 3 times, each time against a different enemy creature. Resolve these fights one at a time.",
+      "ability": [
+        "readyY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Winds of Exchange",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA223",
+        "MM171",
+        "WoE188",
+        "WoE188",
+        "AoA259"
+      ],
+      "id": 251
+    },
+    {
+      "key": "AoA260",
+      "type": "creature",
+      "title": "opal knight",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/opal_knight.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Knight",
+        "Spirit"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each creature with even power.\n“I will not yield.”",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM172",
+        "AoA260"
+      ],
+      "id": 252
+    },
+    {
+      "key": "AoA261",
+      "type": "artifact",
+      "title": "proclamation 346e",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/proclamation_346e.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Law"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "While your opponent does not control creatures from 3 different houses, their keys cost +2Aember icon.\n“I’m particularly fond of paragraph 2, subsection C.” -Jehu the Bureaucrat",
+      "ability": [
+        "keyCostAddO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WoE189",
+        "AoA261"
+      ],
+      "id": 253
+    },
+    {
+      "key": "AoA262",
+      "type": "creature",
+      "title": "sanctum guardian",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sanctum_guardian.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 6,
+      "armor": 1,
+      "traits": [
+        "Knight",
+        "Spirit"
+      ],
+      "effect": [
+        "After Fight/After Reap"
+      ],
+      "effectDescription": "Taunt. (This creature’s neighbors cannot be attacked unless they have taunt.)\nAfter Fight/After Reap: Swap Sanctum Guardian with another friendly creature in your battleline.",
+      "ability": [
+        "swapY",
+        "tauntY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Winds of Exchange",
+        "Winds of Exchange",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA256",
+        "DT087",
+        "WoE191",
+        "WoE191",
+        "AoA262"
+      ],
+      "id": 254
+    },
+    {
+      "key": "AoA263",
+      "type": "upgrade",
+      "title": "seraphic armor",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/seraphic_armor.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "This creature gets +1 armor.\nPlay: Fully heal this creature.",
+      "ability": [
+        "armorGainY",
+        "healY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM175",
+        "DT088",
+        "AoA263"
+      ],
+      "id": 255
+    },
+    {
+      "key": "AoA264",
+      "type": "artifact",
+      "title": "shard of hope",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shard_of_hope.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item",
+        "Shard"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: A friendly creature captures 1Aember icon for each friendly Shard.\nForged from confidence.",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA264"
+      ],
+      "id": 256
+    },
+    {
+      "key": "AoA265",
+      "type": "creature",
+      "title": "the vaultkeeper",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/the_vaultkeeper.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 1,
+      "traits": [
+        "Knight",
+        "Spirit"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Your Aember icon cannot be stolen.\nFew but the Archons possess the ability to detect the Vaults. Few but the Sanctum would presume to dictate which Archons are worthy.",
+      "ability": [
+        "unableStealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA261",
+        "MM176",
+        "DT091",
+        "DT091",
+        "AoA265"
+      ],
+      "id": 257
+    },
+    {
+      "key": "AoA266",
+      "type": "creature",
+      "title": "veemos lightbringer",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/veemos_lightbringer.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Angel",
+        "Spirit"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each elusive creature.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA262",
+        "MM177",
+        "AoA266"
+      ],
+      "id": 258
+    },
+    {
+      "key": "AoA267",
+      "type": "creature",
+      "title": "bad penny",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bad_penny.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Thief"
+      ],
+      "effect": [
+        "Destroyed"
+      ],
+      "effectDescription": "Destroyed: Return Bad Penny to your hand.\nA Bad Penny saved is a Bad Penny earned.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA296",
+        "WC236",
+        "AoA267"
+      ],
+      "id": 259
+    },
+    {
+      "key": "AoA268",
+      "type": "action",
+      "title": "dusk chronicles",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/dusk_chronicles.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If your opponent has more Aember icon than you, draw a card. If you have more Aember icon than your opponent, archive a card.\n”I know it was right here… right before the Midnight Chronicles.”",
+      "ability": [
+        "archiveY",
+        "drawY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA268"
+      ],
+      "id": 260
+    },
+    {
+      "key": "AoA269",
+      "type": "action",
+      "title": "furtive investors",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/furtive_investors.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If your opponent has more Aember icon than you, gain 1Aember icon for each key your opponent has forged.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA269"
+      ],
+      "id": 261
+    },
+    {
+      "key": "AoA270",
+      "type": "creature",
+      "title": "gamgee",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gamgee.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nReap: If your opponent has more Aember icon than you, steal 1Aember icon.",
+      "ability": [
+        "elusiveY",
+        "stealO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM249",
+        "AoA270"
+      ],
+      "id": 262
+    },
+    {
+      "key": "AoA271",
+      "type": "creature",
+      "title": "knuckles bolton",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/knuckles_bolton.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nSkirmish. (When you use this creature to fight, it is dealt no damage in return.)\n\n“I love the knife life in this city!”",
+      "ability": [
+        "elusiveY",
+        "skirmishY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA271"
+      ],
+      "id": 263
+    },
+    {
+      "key": "AoA272",
+      "type": "creature",
+      "title": "lamindra",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lamindra.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Deploy. (This creature can enter play anywhere in your battleline.)\nElusive. (The first time this creature is attacked each turn, no damage is dealt.)\n\nLamindra’s neighbors gain elusive.",
+      "ability": [
+        "deployY",
+        "elusiveY"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA272"
+      ],
+      "id": 264
+    },
+    {
+      "key": "AoA273",
+      "type": "action",
+      "title": "life for a life",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/life_for_a_life.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Sacrifice a creature to deal 6 Damage icon to a creature.\n\n“It’s a fair trade, boss. I don’t mind.”",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 6,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA273"
+      ],
+      "id": 265
+    },
+    {
+      "key": "AoA274",
+      "type": "action",
+      "title": "miasma",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/miasma.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Play: Your opponent skips the “forge a key” step on their next turn.",
+      "ability": [
+        "restrictForgeKeyO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA275",
+        "AoA274"
+      ],
+      "id": 266
+    },
+    {
+      "key": "AoA275",
+      "type": "action",
+      "title": "nerve blast",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/nerve_blast.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Steal 1Aember icon. If you do, deal 2Damage icon to a creature.\n“Don’t look so shocked to see me!”",
+      "ability": [
+        "damageO",
+        "stealO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA276",
+        "AoA275"
+      ],
+      "id": 267
+    },
+    {
+      "key": "AoA276",
+      "type": "creature",
+      "title": "ronnie wristclocks",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ronnie_wristclocks.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Steal 1Aember icon. If your opponent has 7Aember icon or more, steal 2Aember icon instead.\n“You look like an Archon with discriminating tastes.”",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC246",
+        "AoA276"
+      ],
+      "id": 268
+    },
+    {
+      "key": "AoA277",
+      "type": "action",
+      "title": "sucker punch",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sucker_punch.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha. (You can only play this card before doing anything else this step.)\nPlay: Deal 2Damage icon to an enemy creature. If that creature is destroyed by this effect, archive Sucker Punch.",
+      "ability": [
+        "alphaY",
+        "archiveY",
+        "damageO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA277"
+      ],
+      "id": 269
+    },
+    {
+      "key": "AoA278",
+      "type": "action",
+      "title": "swindle",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/swindle.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha. (You can only play this card before doing anything else this step.)\nOmega. (After you play this card, end this step.)\n\nPlay: Steal 3Aember icon.",
+      "ability": [
+        "alphaY",
+        "omegaY",
+        "stealO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA278"
+      ],
+      "id": 270
+    },
+    {
+      "key": "AoA279",
+      "type": "action",
+      "title": "throwing stars",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/throwing_stars.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 1Damage icon to up to 3 creatures. Gain 1Aember icon for each creature destroyed this way.",
+      "ability": [
+        "aemberGainY",
+        "damageO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA279"
+      ],
+      "id": 271
+    },
+    {
+      "key": "AoA280",
+      "type": "creature",
+      "title": "umbra",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/umbra.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Fight"
+      ],
+      "effectDescription": "Skirmish. (When you use this creature to fight, it is dealt no damage in return.)\nFight: Steal 1Aember icon.\n\n“When the fightin’s done, the real work begins.”",
+      "ability": [
+        "skirmishY",
+        "stealO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA314",
+        "WC249",
+        "AoA280"
+      ],
+      "id": 272
+    },
+    {
+      "key": "AoA281",
+      "type": "action",
+      "title": "whistling darts",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/whistling_darts.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 1Damage icon to each enemy creature.\nDo, Rei, Mi, AHHH!",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA281"
+      ],
+      "id": 273
+    },
+    {
+      "key": "AoA282",
+      "type": "creature",
+      "title": "yantzee gang",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/yantzee_gang.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Steal 1Aember icon.\n“This hand’s not gonna fill itself.”\n“It might, though.”\n\n“Stow it Clyde; I’m working a bit here!”",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC250",
+        "AoA282"
+      ],
+      "id": 274
+    },
+    {
+      "key": "AoA283",
+      "type": "upgrade",
+      "title": "bonerot venom",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bonerot_venom.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "After this creature is used, deal 2Damage icon to it.\n“Oh no! My bones!” – Quixo the “Adventurer”",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM261",
+        "AoA283"
+      ],
+      "id": 275
+    },
+    {
+      "key": "AoA284",
+      "type": "creature",
+      "title": "brend the fanatic",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/brend_the_fanatic.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Destroyed",
+        "Play"
+      ],
+      "effectDescription": "Skirmish.\nPlay: Your opponent gains 1Aember icon.\n\nDestroyed: Steal 3Aember icon.\n\n“Here, hold this.”",
+      "ability": [
+        "aemberGainO",
+        "skirmishY",
+        "stealO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC251",
+        "DT214",
+        "AoA284"
+      ],
+      "id": 276
+    },
+    {
+      "key": "AoA285",
+      "type": "upgrade",
+      "title": "duskrunner",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/duskrunner.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "This creature gains, “Reap: Steal 1Aember icon.”\n“Call me Night-Haunter and Duskrunner, call me Who-Goes-There? and Just-The-Wind.” – ‘The First Thief’, a Shadows children’s tale",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA316",
+        "WC253",
+        "AoA285"
+      ],
+      "id": 277
+    },
+    {
+      "key": "AoA286",
+      "type": "action",
+      "title": "hidden stash",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hidden_stash.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Archive a card.\n“Now where did you put that…”",
+      "ability": [
+        "archiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA271",
+        "WC255",
+        "AoA286"
+      ],
+      "id": 278
+    },
+    {
+      "key": "AoA287",
+      "type": "artifact",
+      "title": "hideaway hole",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/hideaway_hole.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Hideaway Hole. Creatures you control gain elusive until the start of your next turn.",
+      "ability": [
+        "elusiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA287"
+      ],
+      "id": 279
+    },
+    {
+      "key": "AoA288",
+      "type": "action",
+      "title": "lights out",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lights_out.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Return 2 enemy creatures to their owner’s hand.",
+      "ability": [
+        "returnO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA274",
+        "MM266",
+        "AoA288"
+      ],
+      "id": 280
+    },
+    {
+      "key": "AoA289",
+      "type": "creature",
+      "title": "little niff",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/little_niff.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Omega. Deploy. Elusive.\n\nAfter a neighbor of Little Niff is used to fight, steal 1Aember icon.",
+      "ability": [
+        "deployY",
+        "elusiveY",
+        "omegaY",
+        "stealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "DT217",
+        "AoA289"
+      ],
+      "id": 281
+    },
+    {
+      "key": "AoA290",
+      "type": "creature",
+      "title": "murkens",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/murkens.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a random card in your opponent’s archives or the top card of your opponent’s deck. Play that card as if it were yours.",
+      "ability": [
+        "playCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA290"
+      ],
+      "id": 282
+    },
+    {
+      "key": "AoA291",
+      "type": "action",
+      "title": "nightforge",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/nightforge.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If you have not forged a key this turn, you may forge a key at +4Aember icon current cost.",
+      "ability": [
+        "forgeKeyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA291"
+      ],
+      "id": 283
+    },
+    {
+      "key": "AoA292",
+      "type": "action",
+      "title": "oubliette",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/oubliette.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Purge a creature with power 3 or lower.\n“I forgot we had this down here!”",
+      "ability": [
+        "purgeC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA278",
+        "WC258",
+        "AoA292"
+      ],
+      "id": 284
+    },
+    {
+      "key": "AoA293",
+      "type": "action",
+      "title": "perplexing sophistry",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/perplexing_sophistry.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If you have more Aember icon than your opponent, they discard a random card from their hand and you draw a card.",
+      "ability": [
+        "discardO",
+        "drawY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM271",
+        "AoA293"
+      ],
+      "id": 285
+    },
+    {
+      "key": "AoA294",
+      "type": "creature",
+      "title": "redlock",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/redlock.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Skirmish. (When you use this creature to fight, it is dealt no damage in return.)\nAt the end of your turn, if you did not play any creatures this turn, gain 1Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "skirmishY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA294"
+      ],
+      "id": 286
+    },
+    {
+      "key": "AoA295",
+      "type": "artifact",
+      "title": "skeleton key",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/skeleton_key.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: A friendly creature captures 1Aember icon.\nSkeleton sold separately.",
+      "ability": [
+        "captureY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA291",
+        "WC259",
+        "AoA295"
+      ],
+      "id": 287
+    },
+    {
+      "key": "AoA296",
+      "type": "artifact",
+      "title": "special delivery",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/special_delivery.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Special Delivery. Deal 3Damage icon to a flank creature. If this damage destroys that creature, purge it.",
+      "ability": [
+        "damageY",
+        "purgeY"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA292",
+        "WC260",
+        "AoA296"
+      ],
+      "id": 288
+    },
+    {
+      "key": "AoA297",
+      "type": "artifact",
+      "title": "subtle maul",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/subtle_maul.png",
+      "house": "Sanctum",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Weapon"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Your opponent discards a random card from their hand.",
+      "ability": [
+        "discardO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA294",
+        "WC263",
+        "AoA297"
+      ],
+      "id": 289
+    },
+    {
+      "key": "AoA298",
+      "type": "action",
+      "title": "too much to protect",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/too_much_to_protect.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Steal all but 6 of your opponent’s Aember icon.\nNot taking it would be the real crime.",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA283",
+        "WC264",
+        "AoA298"
+      ],
+      "id": 290
+    },
+    {
+      "key": "AoA299",
+      "type": "creature",
+      "title": "bulleteye",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bulleteye.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nReap: Destroy a flank creature.",
+      "ability": [
+        "destroyC",
+        "elusiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA297",
+        "AoA299"
+      ],
+      "id": 291
+    },
+    {
+      "key": "AoA300",
+      "type": "artifact",
+      "title": "customs office",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/customs_office.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Your opponent must pay you 1Aember icon in order to play an artifact.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA285",
+        "WC266",
+        "AoA300"
+      ],
+      "id": 292
+    },
+    {
+      "key": "AoA301",
+      "type": "creature",
+      "title": "deipno spymaster",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/deipno_spymaster.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nOmni: Choose a friendly creature. You may use that creature this turn.",
+      "ability": [
+        "elusiveY",
+        "useCardY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA299",
+        "DT194",
+        "AoA301"
+      ],
+      "id": 293
+    },
+    {
+      "key": "AoA302",
+      "type": "artifact",
+      "title": "guard disguise",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/guard_disguise.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Sacrifice Guard Disguise. If your opponent has 3Aember icon or fewer, steal 3Aember icon.\n“Why hello, fellow guards!”",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA302"
+      ],
+      "id": 294
+    },
+    {
+      "key": "AoA303",
+      "type": "action",
+      "title": "heist night",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/heist_night.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha. (You can only play this card before doing anything else this step.)\nPlay: Steal 1Aember icon for each friendly Thief creature.\n\nWhy steal ‘from’ the bank…",
+      "ability": [
+        "alphaY",
+        "stealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM281",
+        "AoA303"
+      ],
+      "id": 295
+    },
+    {
+      "key": "AoA304",
+      "type": "action",
+      "title": "key of darkness",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/key_of_darkness.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Forge a key at +6Aember icon current cost. If your opponent has no Aember icon, forge a key at +2Aember icon current cost instead.",
+      "ability": [
+        "forgeKeyY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA273",
+        "WC270",
+        "AoA304"
+      ],
+      "id": 296
+    },
+    {
+      "key": "AoA305",
+      "type": "action",
+      "title": "lethal distraction",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lethal_distraction.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a creature. For the remainder of the turn, whenever this creature takes damage, it takes an additional 2Damage icon.\n“Again? Ya’ kiddin’ me?”",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC272",
+        "AoA305"
+      ],
+      "id": 297
+    },
+    {
+      "key": "AoA306",
+      "type": "artifact",
+      "title": "longfused mines",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/longfused_mines.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Weapon"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Longfused Mines. Deal 3Damage icon to each enemy creature not on a flank.",
+      "ability": [
+        "damageB"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA287",
+        "WC273",
+        "AoA306"
+      ],
+      "id": 298
+    },
+    {
+      "key": "AoA307",
+      "type": "creature",
+      "title": "mack the knife",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mack_the_knife.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Elusive.\nYou may use Mack the Knife as if it belonged to the active house.\n\nAction: Deal 1Damage icon to a creature. If this damage destroys that creature, gain 1Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "damageC",
+        "elusiveY",
+        "useCardY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA302",
+        "WC274",
+        "DT199",
+        "DT199",
+        "AoA307"
+      ],
+      "id": 299
+    },
+    {
+      "key": "AoA308",
+      "type": "creature",
+      "title": "plague rat",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/plague_rat.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Rat"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\nPlay: Each non-Rat creature is dealt 1Damage icon for each Rat creature in play.",
+      "ability": [
+        "damageB",
+        "elusiveY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA308"
+      ],
+      "id": 300
+    },
+    {
+      "key": "AoA309",
+      "type": "action",
+      "title": "rigged lottery",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/rigged_lottery.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Each player discards the top 5 cards of their deck. For each Shadows card discarded, its owner gains 1Aember icon.\n“And the winner is…Old Bruno. Again.”",
+      "ability": [
+        "aemberGainB",
+        "discardB"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC276",
+        "AoA309"
+      ],
+      "id": 301
+    },
+    {
+      "key": "AoA310",
+      "type": "upgrade",
+      "title": "ring of invisibility",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/ring_of_invisibility.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "This creature gains elusive and skirmish.\n“I put it down for just a second...”",
+      "ability": [
+        "elusiveC",
+        "skirmishC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA317",
+        "WC277",
+        "DT204",
+        "DT204",
+        "AoA310"
+      ],
+      "id": 302
+    },
+    {
+      "key": "AoA311",
+      "type": "action",
+      "title": "routine job",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/routine_job.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Steal 1Aember icon. Then, steal 1Aember icon for each copy of Routine Job in your discard pile.",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA282",
+        "AoA311"
+      ],
+      "id": 303
+    },
+    {
+      "key": "AoA312",
+      "type": "action",
+      "title": "sack of coins",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sack_of_coins.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 1Damage icon to a creature for each Aember icon in your pool.\n\n“The Svarr are masters of improvised weaponry.” – Toothless Jakk",
+      "ability": [
+        "damageC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC278",
+        "MM290",
+        "DT205",
+        "DT205",
+        "AoA312"
+      ],
+      "id": 304
+    },
+    {
+      "key": "AoA313",
+      "type": "creature",
+      "title": "scowly caper",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/scowly_caper.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Skirmish. Scowly Caper enters play under your opponent's control and can be used as if it belonged to any house.\n\nAt the end of your turn, destroy one of Scowly Caper's neighbors.",
+      "ability": [
+        "controlCardO",
+        "destroyO",
+        "skirmishO"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Worlds Collide",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC279",
+        "DT206",
+        "AoA313"
+      ],
+      "id": 305
+    },
+    {
+      "key": "AoA314",
+      "type": "creature",
+      "title": "selwyn the fence",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/selwyn_the_fence.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Fight/Reap"
+      ],
+      "effectDescription": "Fight/Reap: Move 1Aember icon from one of your cards to your pool.",
+      "ability": [
+        "moveAemberY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA309",
+        "WC280",
+        "AoA314"
+      ],
+      "id": 306
+    },
+    {
+      "key": "AoA315",
+      "type": "artifact",
+      "title": "shard of greed",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shard_of_greed.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item",
+        "Shard"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Gain 1Aember icon for each friendly Shard.\nForged from courage.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA315"
+      ],
+      "id": 307
+    },
+    {
+      "key": "AoA316",
+      "type": "creature",
+      "title": "sneklifter",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/sneklifter.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Thief"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Take control of an enemy artifact. While under your control, if it does not belong to one of your three houses, it is considered to be of house Shadows.",
+      "ability": [
+        "controlCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA313",
+        "WC281",
+        "AoA316"
+      ],
+      "id": 308
+    },
+    {
+      "key": "AoA317",
+      "type": "artifact",
+      "title": "the sting",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/the_sting.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Vehicle"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Skip your “forge a key” step.\n\nYou get all Aember icon spent by your opponent when forging keys.\n\nAction: Sacrifice The Sting.",
+      "ability": [
+        "aemberGainY",
+        "restrictForgeKeyY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA295",
+        "MM296",
+        "AoA317"
+      ],
+      "id": 309
+    },
+    {
+      "key": "AoA318",
+      "type": "action",
+      "title": "treasure map",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/treasure_map.png",
+      "house": "Shadows",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If you have not played any other cards this turn, gain 3Aember icon. For the remainder of the turn, you cannot play cards.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA284",
+        "WC284",
+        "AoA318"
+      ],
+      "id": 310
+    },
+    {
+      "key": "AoA319",
+      "type": "creature",
+      "title": "dharna",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/dharna.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Elf",
+        "Witch"
+      ],
+      "effect": [
+        "Play",
+        "Reap"
+      ],
+      "effectDescription": "Play: Gain 1Aember icon for each damaged friendly creature.\nReap: Heal 2 damage from a friendly creature.",
+      "ability": [
+        "aemberGainY",
+        "healY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA319"
+      ],
+      "id": 311
+    },
+    {
+      "key": "AoA320",
+      "type": "creature",
+      "title": "duskwitch",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/duskwitch.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Witch"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Omega. (After you play this card, end this step.)\n\nElusive. (The first time this creature is attacked each turn, no damage is dealt.)\n\nYour creatures enter play ready.",
+      "ability": [
+        "elusiveY",
+        "omegaY",
+        "readyY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023366",
+        "AoA320"
+      ],
+      "id": 312
+    },
+    {
+      "key": "AoA321",
+      "type": "creature",
+      "title": "fanghouse",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/fanghouse.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Assault 3. (Before this creature attacks, deal 3Damage icon to the attacked enemy.)\nHazardous 3. (Before this creature is attacked, deal 3Damage icon to the attacking enemy.)",
+      "ability": [
+        "assaultY",
+        "hazardessY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA321"
+      ],
+      "id": 313
+    },
+    {
+      "key": "AoA322",
+      "type": "action",
+      "title": "full moon",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/full_moon.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: For the remainder of the turn, gain 1Aember icon each time you play a creature.\n”Mathematically, a moon orbiting the Crucible is impossible.”\n”Then what is that?!”",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA32",
+        "AoA322"
+      ],
+      "id": 314
+    },
+    {
+      "key": "AoA323",
+      "type": "creature",
+      "title": "glimmer",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/glimmer.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Faerie"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha. (You can only play this card before doing anything else this step.)\nPlay: Return a card from your discard pile to your hand.",
+      "ability": [
+        "alphaY",
+        "returnY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023369",
+        "AoA323"
+      ],
+      "id": 315
+    },
+    {
+      "key": "AoA324",
+      "type": "creature",
+      "title": "grovekeeper",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/grovekeeper.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Witch"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "At the end of your turn, give each neighboring creature a +1 power counter.",
+      "ability": [
+        "powerGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA324"
+      ],
+      "id": 316
+    },
+    {
+      "key": "AoA325",
+      "type": "action",
+      "title": "key charge",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/key_charge.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Lose 1Aember icon. If you do, you may forge a key at current cost.\n“You might call it madness, but for all we know madness is a key ingredient.” – Inka the Spider",
+      "ability": [
+        "aemberLossY",
+        "forgeKeyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA325",
+        "WC359",
+        "AoA325"
+      ],
+      "id": 317
+    },
+    {
+      "key": "AoA326",
+      "type": "creature",
+      "title": "knoxx",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/knoxx.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Knoxx gets +3 power for each neighbor it has.\n“The hypnopotamus is the deadliest animal on three known planets.” – Science Officer Wu",
+      "ability": [
+        "powerGainY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023372",
+        "AoA326"
+      ],
+      "id": 318
+    },
+    {
+      "key": "AoA327",
+      "type": "creature",
+      "title": "marmo swarm",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/marmo_swarm.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Marmo Swarm gets +1 power for each Aember icon in your pool.",
+      "ability": [
+        "powerGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA327"
+      ],
+      "id": 319
+    },
+    {
+      "key": "AoA328",
+      "type": "action",
+      "title": "persistence hunting",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/persistence_hunting.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Choose a house. Exhaust each enemy creature of the chosen house.",
+      "ability": [
+        "exhaustO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "DT42",
+        "AoA328"
+      ],
+      "id": 320
+    },
+    {
+      "key": "AoA329",
+      "type": "action",
+      "title": "regrowth",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/regrowth.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Return a creature from your discard pile to your hand.\n“Deep in the heart of every bear, one can find…another bear.” - Dr. Escotera",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA332",
+        "WC362",
+        "AoA329"
+      ],
+      "id": 321
+    },
+    {
+      "key": "AoA330",
+      "type": "creature",
+      "title": "rustgnawer",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/rustgnawer.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Insect"
+      ],
+      "effect": [
+        "Fight"
+      ],
+      "effectDescription": "Fight: Destroy an artifact. If that artifact had an Æmber bonus, you gain that much Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "artifactRemovalC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC363",
+        "VM2023376",
+        "AoA330"
+      ],
+      "id": 322
+    },
+    {
+      "key": "AoA331",
+      "type": "action",
+      "title": "save the pack",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/save_the_pack.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each damaged creature. Gain 1 chain.",
+      "ability": [
+        "destroyB",
+        "gainChainsY"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA333",
+        "AoA331"
+      ],
+      "id": 323
+    },
+    {
+      "key": "AoA332",
+      "type": "action",
+      "title": "song of spring",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/song_of_spring.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Shuffle any number of friendly Untamed creatures from your hand, discard pile, or battleline back into your deck.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA332"
+      ],
+      "id": 324
+    },
+    {
+      "key": "AoA333",
+      "type": "creature",
+      "title": "tantadlin",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/tantadlin.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 9,
+      "armor": 0,
+      "traits": [
+        "Tree"
+      ],
+      "effect": [
+        "Fight"
+      ],
+      "effectDescription": "Tantadlin only deals 2Damage icon when fighting.\nFight: Discard a random card from your opponent’s archives.\n\n“Were you gonna eat that?”",
+      "ability": [
+        "discardO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC365",
+        "AoA333"
+      ],
+      "id": 325
+    },
+    {
+      "key": "AoA334",
+      "type": "action",
+      "title": "they’re everywhere!",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/they’re_everywhere!.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 2Damage icon to each enemy flank creature. Deal 1Damage icon to each enemy creature not on a flank.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023378",
+        "AoA334"
+      ],
+      "id": 326
+    },
+    {
+      "key": "AoA335",
+      "type": "creature",
+      "title": "æmberspine mongrel",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/æmberspine_mongrel.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Hazardous 3. (Before this creature is attacked, deal 3Damage icon to the attacking enemy.)\n\nAfter your opponent uses a creature to reap, gain 1Aember icon.",
+      "ability": [
+        "aemberGainY",
+        "hazardessY"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Mass Mutations",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM378",
+        "VM2023348",
+        "AoA335"
+      ],
+      "id": 327
+    },
+    {
+      "key": "AoA336",
+      "type": "creature",
+      "title": "bumblebird",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/bumblebird.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Insect"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Alpha. (You can only play this card before doing anything else this step.)\n\nPlay: Put two +1 power counters on each other friendly Untamed creature.",
+      "ability": [
+        "alphaY",
+        "powerGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM379",
+        "DT399",
+        "AoA336"
+      ],
+      "id": 328
+    },
+    {
+      "key": "AoA337",
+      "type": "upgrade",
+      "title": "camouflage",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/camouflage.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Creatures not on a flank cannot fight this creature.\n“We found it while searching through the Kurnois Bog for a superior duck.” – Dr. Escotera",
+      "ability": [
+        "unableFightO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC369",
+        "AoA337"
+      ],
+      "id": 329
+    },
+    {
+      "key": "AoA338",
+      "type": "creature",
+      "title": "chota hazri",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/chota_hazri.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Witch"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Lose 1Aember icon. If you do, you may forge a key at current cost.\n“Plenty of machines in the wild. Some of ‘em’s even alive.”",
+      "ability": [
+        "aemberLossY",
+        "forgeKeyY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA349",
+        "AoA338"
+      ],
+      "id": 330
+    },
+    {
+      "key": "AoA339",
+      "type": "creature",
+      "title": "flaxia",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/flaxia.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Faerie"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Gain 2Aember icon if you control more creatures than your opponent.",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA352",
+        "WC371",
+        "AoA339"
+      ],
+      "id": 331
+    },
+    {
+      "key": "AoA340",
+      "type": "action",
+      "title": "fogbank",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/fogbank.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Your opponent cannot use creatures to fight on their next turn.",
+      "ability": [
+        "unableFightO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA322",
+        "WC372",
+        "VM2023351",
+        "AoA340"
+      ],
+      "id": 332
+    },
+    {
+      "key": "AoA341",
+      "type": "action",
+      "title": "grasping vines",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/grasping_vines.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Return up to 3 artifacts to their owners’ hands.",
+      "ability": [
+        "artifactRemovalC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA324",
+        "WC374",
+        "AoA341"
+      ],
+      "id": 333
+    },
+    {
+      "key": "AoA342",
+      "type": "action",
+      "title": "lifeweb",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lifeweb.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: If your opponent played 3 or more creatures on their previous turn, steal 2Aember icon.",
+      "ability": [
+        "stealO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA326",
+        "VM2023353",
+        "AoA342"
+      ],
+      "id": 334
+    },
+    {
+      "key": "AoA343",
+      "type": "action",
+      "title": "mimicry",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mimicry.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "When you play this card, treat it as a copy of an action card in your opponent’s discard pile.\nIt is said that if you travel far enough across the Crucible, you will eventually meet yourself.",
+      "ability": [
+        "useCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA328",
+        "WC379",
+        "AoA343"
+      ],
+      "id": 335
+    },
+    {
+      "key": "AoA344",
+      "type": "action",
+      "title": "nature’s call",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/nature’s_call.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Return up to 3 creatures to their owners’ hands.\n“Gotta go, gotta go, gotta go...”",
+      "ability": [
+        "returnC"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA329",
+        "WC380",
+        "VM2023355",
+        "VM2023355",
+        "AoA344"
+      ],
+      "id": 336
+    },
+    {
+      "key": "AoA345",
+      "type": "artifact",
+      "title": "nepenthe seed",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/nepenthe_seed.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Item"
+      ],
+      "effect": [
+        "Omni"
+      ],
+      "effectDescription": "Omni: Sacrifice Nepenthe Seed. Return a card from your discard pile to your hand.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA341",
+        "VM2023356",
+        "AoA345"
+      ],
+      "id": 337
+    },
+    {
+      "key": "AoA346",
+      "type": "artifact",
+      "title": "niffle grounds",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/niffle_grounds.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Choose a creature. For the remainder of the turn, that creature loses taunt and elusive.\n“Welp, we’re niffled.” – Captain Val Jericho",
+      "ability": [
+        "elusiveLossC",
+        "tauntLossC"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM387",
+        "AoA346"
+      ],
+      "id": 338
+    },
+    {
+      "key": "AoA347",
+      "type": "creature",
+      "title": "panpaca, anga",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/panpaca,_anga.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Creatures to the right of Panpaca, Anga in the battleline get +2 power.\n“Dark wolf, black as night, always pounces to the right.” – from “Panpaca”, children’s game",
+      "ability": [
+        "powerGainY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC381",
+        "VM2023357",
+        "AoA347"
+      ],
+      "id": 339
+    },
+    {
+      "key": "AoA348",
+      "type": "creature",
+      "title": "panpaca, jaga",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/panpaca,_jaga.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Skirmish.\nCreatures to the left of Panpaca, Jaga in the battleline gain skirmish.\n\n“Light wolf, stole a hen, to the left and start again.” – from “Panpaca”, children’s game",
+      "ability": [
+        "skirmishY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC382",
+        "VM2023358",
+        "AoA348"
+      ],
+      "id": 340
+    },
+    {
+      "key": "AoA349",
+      "type": "action",
+      "title": "soldiers to flowers",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/soldiers_to_flowers.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Purge each Untamed creature from each player’s discard pile. For each card purged this way, its owner gains 1Aember icon.",
+      "ability": [
+        "aemberGainB",
+        "purgeB"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "VM2023360",
+        "AoA349"
+      ],
+      "id": 341
+    },
+    {
+      "key": "AoA350",
+      "type": "upgrade",
+      "title": "way of the porcupine",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/way_of_the_porcupine.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "uncommon",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "This creature gains Hazardous 3. (Before this creature is attacked, deal 3Damage icon to the attacking enemy.)\n“How do you put it on?”\n”Very carefully.”",
+      "ability": [
+        "hazardessC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA350"
+      ],
+      "id": 342
+    },
+    {
+      "key": "AoA351",
+      "type": "action",
+      "title": "curiosity",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/curiosity.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each Scientist creature.\n“It started with Schrödinger’s cat and just kept going from there.” – Quixo the “Adventurer”",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA320",
+        "WC387",
+        "AoA351"
+      ],
+      "id": 343
+    },
+    {
+      "key": "AoA352",
+      "type": "upgrade",
+      "title": "earthbind",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/earthbind.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "This creature cannot be used unless its controller has discarded a card this turn.",
+      "ability": [
+        "discardC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "MM398",
+        "AoA352"
+      ],
+      "id": 344
+    },
+    {
+      "key": "AoA353",
+      "type": "creature",
+      "title": "fuzzy gruen",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/fuzzy_gruen.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 2,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 5,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Your opponent gains 1Aember icon.",
+      "ability": [
+        "aemberGainO"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA353",
+        "WC389",
+        "DT385",
+        "DT385",
+        "VM2023335",
+        "VM2023335",
+        "VM2023335",
+        "VM2023335",
+        "AoA353"
+      ],
+      "id": 345
+    },
+    {
+      "key": "AoA354",
+      "type": "action",
+      "title": "gravid cycle",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/gravid_cycle.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Omega. (After you play this card, end this step.)\nPlay: Return a card from your discard pile to your hand.",
+      "ability": [
+        "omegaY",
+        "returnY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC391",
+        "VM2023336",
+        "AoA354"
+      ],
+      "id": 346
+    },
+    {
+      "key": "AoA355",
+      "type": "artifact",
+      "title": "heart of the forest",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/heart_of_the_forest.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Each player cannot forge keys while they have more forged keys than their opponent.",
+      "ability": [
+        "restrictForgeKeyB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA355"
+      ],
+      "id": 347
+    },
+    {
+      "key": "AoA356",
+      "type": "creature",
+      "title": "inka the spider",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/inka_the_spider.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Play/Reap"
+      ],
+      "effectDescription": "Poison. (Any damage dealt by this creature’s power during a fight destroys the damaged creature.)\nPlay/Reap: Stun a creature.\n\n“Let me weave you a tale.”",
+      "ability": [
+        "poisonY",
+        "stunO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA356",
+        "WC392",
+        "AoA356"
+      ],
+      "id": 348
+    },
+    {
+      "key": "AoA357",
+      "type": "creature",
+      "title": "kindrith longshot",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/kindrith_longshot.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Ranger"
+      ],
+      "effect": [
+        "Reap"
+      ],
+      "effectDescription": "Elusive. Skirmish.\nReap: Deal 2Damage icon to a creature.",
+      "ability": [
+        "damageC",
+        "elusiveY",
+        "skirmishY"
+      ],
+      "abilityQty": 3,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA357",
+        "AoA357"
+      ],
+      "id": 349
+    },
+    {
+      "key": "AoA358",
+      "type": "creature",
+      "title": "lupo the scarred",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/lupo_the_scarred.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Skirmish. (When you use this creature to fight, it is dealt no damage in return.)\nPlay: Deal 2Damage icon to an enemy creature.\n\n“Nothing that big should be able to move that silently.” – Lost Lukas Lawrence",
+      "ability": [
+        "damageO",
+        "skirmishY"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA359",
+        "DT386",
+        "VM2023337",
+        "VM2023337",
+        "AoA358"
+      ],
+      "id": 350
+    },
+    {
+      "key": "AoA359",
+      "type": "creature",
+      "title": "mighty tiger",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/mighty_tiger.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 4Damage icon to an enemy creature.",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 4,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA360",
+        "AoA359"
+      ],
+      "id": 351
+    },
+    {
+      "key": "AoA360",
+      "type": "action",
+      "title": "perilous wild",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/perilous_wild.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy each elusive creature.\nThe Architects took great pains to make the Crucible inhabitable for creatures from worlds across the galaxy. But they didn’t make it safe.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 999,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA331",
+        "WC395",
+        "VM2023339",
+        "VM2023339",
+        "AoA360"
+      ],
+      "id": 352
+    },
+    {
+      "key": "AoA361",
+      "type": "creature",
+      "title": "piranha monkeys",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/piranha_monkeys.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 2,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Play/Reap"
+      ],
+      "effectDescription": "Play/Reap: Deal 2Damage icon to each other creature.\nThey can skeletonize a snufflegator in two minutes flat.",
+      "ability": [
+        "damageB"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA365",
+        "WC396",
+        "DT388",
+        "DT388",
+        "AoA361"
+      ],
+      "id": 353
+    },
+    {
+      "key": "AoA362",
+      "type": "creature",
+      "title": "po’s pixies",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/po’s_pixies.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 1,
+      "armor": 0,
+      "traits": [
+        "Faerie"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\n\nAember icon stolen or captured from your pool is taken from the common supply instead.",
+      "ability": [
+        "elusiveY",
+        "unableStealO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC397",
+        "MM404",
+        "AoA362"
+      ],
+      "id": 354
+    },
+    {
+      "key": "AoA363",
+      "type": "action",
+      "title": "punctuated equilibrium",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/punctuated_equilibrium.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Each player discards their hand, then refills their hand as if it were the end of their turn.",
+      "ability": [
+        "discardB",
+        "drawB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Dark Tidings",
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC398",
+        "MM405",
+        "DT390",
+        "DT390",
+        "VM2023340",
+        "VM2023340",
+        "VM2023340",
+        "VM2023340",
+        "AoA363"
+      ],
+      "id": 355
+    },
+    {
+      "key": "AoA364",
+      "type": "action",
+      "title": "quicksand",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/quicksand.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Destroy the most powerful creature controlled by each player who does not control a ready Untamed creature.",
+      "ability": [
+        "destroyB"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Worlds Collide",
+        "Mass Mutations",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC399",
+        "MM406",
+        "AoA364"
+      ],
+      "id": 356
+    },
+    {
+      "key": "AoA365",
+      "type": "creature",
+      "title": "roxador",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/roxador.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Beast"
+      ],
+      "effect": [
+        "Fight"
+      ],
+      "effectDescription": "Skirmish. (When you use this creature to fight, it is dealt no damage in return.)\nRoxador only deals 2Damage icon when fighting.\n\nFight: Stun the attacked creature.",
+      "ability": [
+        "skirmishY",
+        "stunO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "WC400",
+        "AoA365"
+      ],
+      "id": 357
+    },
+    {
+      "key": "AoA366",
+      "type": "artifact",
+      "title": "shard of life",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/shard_of_life.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Item",
+        "Shard"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Shuffle a card from your discard pile into your deck for each friendly Shard.\nForged from instinct.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Age of Ascension"
+      ],
+      "setId": [
+        "AoA366"
+      ],
+      "id": 358
+    },
+    {
+      "key": "AoA367",
+      "type": "creature",
+      "title": "teliga",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/teliga.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 3,
+      "armor": 0,
+      "traits": [
+        "Human",
+        "Witch"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Each time your opponent plays a creature, gain 1Aember icon.\n“Don’t try to change the Crucible to suit your needs. Let it change you.”",
+      "ability": [
+        "aemberGainY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA366",
+        "WC401",
+        "VM2023344",
+        "VM2023344",
+        "AoA367"
+      ],
+      "id": 359
+    },
+    {
+      "key": "AoA368",
+      "type": "action",
+      "title": "the common cold",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/the_common_cold.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 1,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "effect": [
+        "Play"
+      ],
+      "effectDescription": "Play: Deal 1Damage icon to each creature. You may destroy all Mars creatures.\n“As it turns out, it’s a weaker version of the uncommon cold.” – Dr. Escotera",
+      "ability": [
+        "damageC",
+        "destroyC"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA336",
+        "AoA368"
+      ],
+      "id": 360
+    },
+    {
+      "key": "AoA369",
+      "type": "creature",
+      "title": "witch of the wilds",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/witch_of_the_wilds.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "power": 4,
+      "armor": 0,
+      "traits": [
+        "Beast",
+        "Witch"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "During each turn in which Untamed is not your active house, you may play one Untamed card.",
+      "ability": [
+        "playCardY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Worlds Collide",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA347",
+        "WC403",
+        "AoA369"
+      ],
+      "id": 361
+    },
+    {
+      "key": "AoA370",
+      "type": "artifact",
+      "title": "world tree",
+      "imageUri": "src/assets/keyforge-cards/age_of_ascension/world_tree.png",
+      "house": "Untamed",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "rare",
+      "traits": [
+        "Location"
+      ],
+      "effect": [
+        "Action"
+      ],
+      "effectDescription": "Action: Return a creature from your discard pile to the top of your deck.",
+      "ability": [
+        "returnY"
+      ],
+      "abilityQty": 1,
+      "set": [
+        "Call to The Archons",
+        "Dark Tidings",
+        "Vault Masters 2023",
+        "Vault Masters 2023",
+        "Age of Ascension"
+      ],
+      "setId": [
+        "CotA344",
+        "DT396",
+        "VM2023347",
+        "VM2023347",
+        "AoA370"
+      ],
+      "id": 362
+    },
+    {
+      "key": "CotA029",
+      "type": "creature",
+      "title": "valdr",
+      "imageUri": "src/assets/keyforge-cards/call_to_the_archons/valdr.png",
+      "house": "Brobnar",
+      "bonusIcons": {
+        "aember": 0,
+        "damage": 0,
+        "draw": 0,
+        "capture": 0
+      },
+      "rarity": "common",
+      "power": 6,
+      "armor": 0,
+      "traits": [
+        "Giant"
+      ],
+      "effect": [
+        "Neutral"
+      ],
+      "effectDescription": "Valdr deals +2Damage icon while attacking an enemy creature on the flank.\n“Gather that Æmber! And you’re welcome.”",
+      "ability": [
+        "damageO"
+      ],
+      "abilityQty": 2,
+      "set": [
+        "Call to The Archons"
+      ],
+      "setId": [
+        "CotA029"
+      ],
+      "id": 368
     }
   ]
 }

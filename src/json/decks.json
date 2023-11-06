@@ -31,5 +31,60 @@
          "AoA267", "AoA269", "AoA269", "AoA272", "AoA273", "AoA277", "AoA279", "AoA280", "AoA281", "AoA290", "AoA306", "AoA314"
       ],
       "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD4",
+      "name": "Overwhelmingly Unstoppable Stigandi",
+      "houses": ["Brobnar", "Mars", "Shadows"],
+      "cards": [
+         "AoA009", "AoA009", "AoA012", "AoA012", "AoA014", "AoA014", "AoA023", "AoA026", "AoA026", "AoA030", "AoA041", "AoA045",
+         "AoA161", "AoA162", "AoA166", "AoA168", "AoA169", "AoA171", "AoA172", "AoA174", "AoA179", "AoA181", "AoA187", "AoA198",
+         "AoA273", "AoA275", "AoA275", "AoA277", "AoA277", "AoA282", "AoA282", "AoA286", "AoA289", "AoA295", "AoA295", "AoA309"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD5",
+      "name": "Hyram, Haven Bully",
+      "houses": ["Dis", "Mars", "Untamed"],
+      "cards": [
+         "AoA054", "AoA054", "AoA059", "AoA063", "AoA064", "AoA067", "AoA068", "AoA073", "AoA076", "AoA077", "AoA086", "AoA104",
+         "AoA162", "AoA164", "AoA166", "AoA166", "AoA166", "AoA168", "AoA168", "AoA169", "AoA177", "AoA177", "AoA185", "AoA205",
+         "AoA319", "AoA321", "AoA322", "AoA322", "AoA323", "AoA326", "AoA328", "AoA328", "AoA329", "AoA333", "AoA334", "AoA337"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD6",
+      "name": "The Automatic Critic Servant of Cloudstairs",
+      "houses": ["Dis", "Logos", "Untamed"],
+      "cards": [
+         "AoA055", "AoA056", "AoA056", "AoA057", "AoA058", "AoA060", "AoA066", "AoA067", "AoA068", "AoA068", "AoA073", "AoA104",
+         "AoA112", "AoA115", "AoA117", "AoA118", "AoA119", "AoA123", "AoA127", "AoA129", "AoA135", "AoA136", "AoA137", "AoA155",
+         "AoA321", "AoA326", "AoA330", "AoA332", "AoA333", "AoA336", "AoA339", "AoA344", "AoA350", "AoA350", "AoA350", "AoA366"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD7",
+      "name": "Snowelf of the Understudy's Slum",
+      "houses": ["Logos", "Shadows", "Untamed"],
+      "cards": [
+         "AoA108", "AoA109", "AoA110", "AoA113", "AoA115", "AoA116", "AoA118", "AoA120", "AoA122", "AoA132", "AoA133", "AoA135",
+         "AoA267", "AoA268", "AoA269", "AoA269", "AoA275", "AoA278", "AoA282", "AoA282", "AoA282", "AoA282", "AoA293", "AoA307",
+         "AoA319", "AoA321", "AoA323", "AoA323", "AoA324", "AoA325", "AoA326", "AoA330", "AoA332", "AoA332", "AoA347", "AoA362"
+      ],
+      "set": "Age of Ascension"
+   },
+   {
+      "key": "AoAD8",
+      "name": "Twitch D. Yesubillow, the Third",
+      "houses": ["Dis", "Sanctum", "Shadows"],
+      "cards": [
+         "AoA054", "AoA054", "AoA058", "AoA064", "AoA065", "AoA074", "AoA078", "AoA084", "AoA084", "AoA085", "AoA085", "AoA094", 
+         "AoA217", "AoA218", "AoA218", "AoA223", "AoA224", "AoA225", "AoA225", "AoA228", "AoA236", "AoA239", "AoA241","AoA260",
+         "AoA269", "AoA270", "AoA271", "AoA275", "AoA282", "AoA286", "AoA288", "AoA289", "AoA290", "AoA291", "AoA293", "AoA298"
+      ],
+      "set": "Age of Ascension"
    }
 ]

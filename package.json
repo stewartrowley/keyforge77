@@ -16,6 +16,7 @@
     "jsonfile": "^6.1.0",
     "make-dir": "^4.0.0",
     "pinia": "^2.1.6",
+    "tesseract.js": "^5.0.3",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
     "vuetify": "^3.3.19",

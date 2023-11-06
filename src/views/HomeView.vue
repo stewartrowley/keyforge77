@@ -1,6 +1,5 @@
 <template>
   <div class="home-container">
-/
     <CardForm />
   </div>
 </template>
@@ -19,7 +18,7 @@ export default {
     console.log(this.cardStore.AoACards);
   },
   components: {
-    CardForm
+    CardForm,
 }
 }
 </script>
