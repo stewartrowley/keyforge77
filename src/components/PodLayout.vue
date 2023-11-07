@@ -1,4 +1,5 @@
 <template>
+    <PodChart />
     <div v-for="pod, index in podDetails" :key="index">
         <div class="pod-bar">
             <div>
@@ -21,6 +22,7 @@
 import { usePodStore } from '../stores/podStore';
 import { useSetStore } from '../stores/setStore';
 import CardLayout from './CardLayout.vue';
+import PodChart from './PodChart.vue';
 export default {
     computed: {
         podDetails() {
@@ -60,8 +62,9 @@ export default {
         }
     },
     components: {
-        CardLayout
-    }
+    CardLayout,
+    PodChart
+}
 }
 </script>
 <style scoped>
